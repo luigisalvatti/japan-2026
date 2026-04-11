@@ -297,13 +297,13 @@ const TRIP = {
               note: ""
             },
             {
-              name: "Soba artesanal — jantar de chegada",
+              name: "Jantar — Fuji no Mori Soba",
               time: "19:00",
               emoji: "🍜",
               tags: ["food"],
               duration: "1h30",
-              detail: "Primeiro jantar no Japão. Soba local com sake.",
-              note: "Togakushi style — a especialidade de Nagano"
+              detail: "Perto da estação JR Nagano, centro. ¥1.000–1.800 (~$9 USD). Primeiro jantar no Japão — soba quente + sake local.",
+              note: "Soba Togakushi style — a especialidade de Nagano. Sem reserva."
             }
           ]
         },
@@ -322,13 +322,13 @@ const TRIP = {
               note: "A pé ou taxi 5 min do hotel"
             },
             {
-              name: "Café + soba matinal",
+              name: "Café + soba — Fuji no Mori",
               time: "08:00",
               emoji: "☕",
               tags: ["food"],
               duration: "45 min",
-              detail: "Café da manhã com soba quente",
-              note: ""
+              detail: "Perto da estação JR Nagano. ¥1.000–1.800 (~$9 USD). Soba quente + café.",
+              note: "Sem reserva"
             },
             {
               name: "Bus para Jigokudani",
@@ -358,13 +358,13 @@ const TRIP = {
               note: "Experiência única — macacos tomando banho quente nas montanhas"
             },
             {
-              name: "Almoço — Togakushi soba",
+              name: "Almoço — Soba Uzuraya",
               time: "13:30",
               emoji: "🍜",
               tags: ["food"],
               duration: "1h",
-              detail: "Soba artesanal estilo Togakushi",
-              note: ""
+              detail: "Togakushi, Nagano. ¥1.200–2.000 (~$10 USD). A soba mais famosa da região.",
+              note: "30 min de bus do centro. Sem reserva."
             },
             {
               name: "Tarde livre",
@@ -410,22 +410,22 @@ const TRIP = {
               note: ""
             },
             {
-              name: "Soba artesanal",
+              name: "Almoço — Kobayashi Soba",
               time: "14:30",
               emoji: "🍜",
               tags: ["food"],
               duration: "1h",
-              detail: "Soba local em Matsumoto",
-              note: ""
+              detail: "Nawate-dori, Matsumoto. ¥1.000–1.800 (~$9 USD). Soba artesanal com vista pro rio.",
+              note: "Sem reserva"
             },
             {
-              name: "Sake em Matsumoto",
+              name: "Sake — Brewery Zenkoji",
               time: "16:00",
               emoji: "🍶",
               tags: ["food", "night"],
               duration: "1h",
-              detail: "Provar sake das breweries locais",
-              note: ""
+              detail: "Nakamachi, Matsumoto. Degustação de sake local nas breweries do bairro histórico.",
+              note: "Várias opções na mesma rua"
             },
             {
               name: "Trem de volta",
@@ -526,12 +526,12 @@ const TRIP = {
               note: ""
             },
             {
-              name: "Almoço — Hida Beef",
+              name: "Almoço — Maruaki Hida Beef",
               time: "13:00",
               emoji: "🥩",
               tags: ["food"],
               duration: "1h",
-              detail: "Primeiro Hida beef no Sanmachi Suji",
+              detail: "6 Kamisannomachi, Sanmachi Suji, Takayama. ¥5.000–12.000 (~$55 USD). Wagyu Hida grelhado no carvão.",
               note: "A carne wagyu local — intensidade e marmoreio"
             },
             {
@@ -544,13 +544,13 @@ const TRIP = {
               note: "Uma das ruas mais preservadas do Japão — era Edo pura"
             },
             {
-              name: "Sake breweries — degustação",
+              name: "Funasaka Sake Brewery — degustação",
               time: "16:30",
               emoji: "🍶",
               tags: ["food", "night"],
               duration: "1h",
-              detail: "Degustação nas breweries do Sanmachi Suji",
-              note: ""
+              detail: "Sanmachi Suji, Kamisan-no-machi, Takayama. Grátis–¥500 (~$3 USD). Degustação de sake artesanal. Visite também Harada Sake Brewery na mesma rua.",
+              note: "Funasaka tem 15+ variedades pra provar. Cash only."
             },
             {
               name: "Rio Miyagawa ao entardecer",
@@ -562,13 +562,13 @@ const TRIP = {
               note: ""
             },
             {
-              name: "Jantar — ramen + sake",
+              name: "Jantar — Masagosoba Ramen",
               time: "19:00",
               emoji: "🍜",
               tags: ["food", "night"],
               duration: "1h30",
-              detail: "Ramen shoyu estilo Takayama + sake local",
-              note: ""
+              detail: "Centro de Takayama, perto do rio Miyagawa. ¥900–1.300 (~$7 USD). Ramen shoyu estilo Takayama + sake local.",
+              note: "Sem reserva"
             }
           ]
         },
@@ -596,13 +596,13 @@ const TRIP = {
               note: "Shiroyama Viewpoint — foto panorâmica obrigatória"
             },
             {
-              name: "Almoço em Shirakawa-go",
+              name: "Almoço — Soba Dokoro Noraku",
               time: "13:00",
               emoji: "🍜",
               tags: ["food"],
               duration: "1h",
-              detail: "Soba local na aldeia",
-              note: ""
+              detail: "Ogimachi, Shirakawa-go. ¥1.000–1.500 (~$8 USD). Soba artesanal feito à mão dentro de uma casa gassho-zukuri.",
+              note: "Fica perto do Wada House. Sem reserva, chega cedo."
             },
             {
               name: "Bus de volta",
@@ -623,13 +623,13 @@ const TRIP = {
               note: ""
             },
             {
-              name: "Jantar — Hida Beef segunda vez",
+              name: "Jantar — Jakurin (Hida Beef)",
               time: "19:00",
               emoji: "🥩",
               tags: ["food"],
               duration: "1h30",
-              detail: "Porque Hida beef merece repetir",
-              note: "Desta vez tente um corte diferente"
+              detail: "2-84 Kamichinomachi, Takayama. ¥5.000–10.000 (~$49 USD). Hida beef grelhado no carvão estilo yakiniku. Cortes premium A5.",
+              note: "Diferente do Maruaki — aqui é yakiniku, você grelha na mesa. Sem reserva."
             }
           ]
         }
@@ -695,13 +695,13 @@ const TRIP = {
               note: ""
             },
             {
-              name: "Almoço — Omicho Market",
+              name: "Almoço — Yamasan Sushi (Omicho)",
               time: "13:00",
               emoji: "🦀",
               tags: ["food"],
               duration: "1h30",
-              detail: "Frutos do mar frescos. Bluefin, uni, king crab no mercado.",
-              note: "O melhor mercado de frutos do mar fora de Tokyo"
+              detail: "50-1 Omicho, Kanazawa. ¥2.000–5.000 (~$23 USD). Sushi no balcão dentro do mercado. Bluefin, uni, king crab frescos.",
+              note: "Sem reserva. O melhor mercado de frutos do mar fora de Tokyo."
             },
             {
               name: "Higashi Chaya District",
@@ -722,13 +722,13 @@ const TRIP = {
               note: ""
             },
             {
-              name: "Katamachi — jantar + sake",
+              name: "Jantar — Itaru Honten (Katamachi)",
               time: "19:00",
               emoji: "🍶",
               tags: ["food", "night"],
               duration: "2h",
-              detail: "Distrito de entretenimento de Kanazawa",
-              note: ""
+              detail: "2-7 Katamachi, Kanazawa. ¥4.000–8.000 (~$39 USD). Izakaya famosa com frutos do mar do Mar do Japão + sake local.",
+              note: "Reserva recomendada. Fila comum sem reserva."
             }
           ]
         },
@@ -765,13 +765,13 @@ const TRIP = {
               note: ""
             },
             {
-              name: "Almoço — sushi omakase",
+              name: "Almoço — Sushi Kobashi",
               time: "12:00",
               emoji: "🍣",
               tags: ["food"],
               duration: "2h",
-              detail: "Omakase local. Pedir indicação no Soki.",
-              note: "Kanazawa = frutos do mar do Mar do Japão, qualidade extrema"
+              detail: "Katamachi, Kanazawa. ¥15.000–25.000 (~$130 USD). Omakase com frutos do Mar do Japão.",
+              note: "Reserva recomendada. Pedir indicação no Soki."
             },
             {
               name: "Nishi Chaya District",
@@ -792,12 +792,12 @@ const TRIP = {
               note: ""
             },
             {
-              name: "Jantar — kaiseki ou frutos do mar",
+              name: "Jantar — Tamazushi (Katamachi)",
               time: "19:00",
               emoji: "🍽️",
               tags: ["food"],
               duration: "2h",
-              detail: "Jantar especial — kaiseki ou frutos do mar premium",
+              detail: "Katamachi, Kanazawa. ¥8.000–15.000 (~$75 USD). Frutos do mar premium do Mar do Japão.",
               note: ""
             }
           ]
@@ -835,12 +835,12 @@ const TRIP = {
               note: "Artesanato de Kanazawa é dos mais refinados do Japão"
             },
             {
-              name: "Jantar — ouriço e bluefin",
+              name: "Jantar — Itaru Honten (uni + bluefin)",
               time: "19:00",
               emoji: "🍣",
               tags: ["food"],
               duration: "2h",
-              detail: "Uni e bluefin de Kanazawa — última oportunidade nesta cidade",
+              detail: "2-7 Katamachi, Kanazawa. ¥5.000–10.000 (~$49 USD). Uni e bluefin frescos do Mar do Japão.",
               note: ""
             }
           ]
@@ -870,13 +870,13 @@ const TRIP = {
               note: "Duas visitas, duas luzes diferentes"
             },
             {
-              name: "Sake bars em Katamachi",
+              name: "Sake Bar Fukumitsuya — Katamachi",
               time: "Flex",
               emoji: "🍶",
               tags: ["night"],
               duration: "Flex",
-              detail: "Explorar os bares de sake do distrito",
-              note: ""
+              detail: "2-3-29 Katamachi, Kanazawa. ¥2.000–5.000 (~$23 USD). Sake brewery desde 1625, bar de degustação no local. Também: Bar Mitsuya na mesma rua.",
+              note: "Fukumitsuya é a brewery mais antiga de Kanazawa"
             }
           ]
         }
@@ -942,13 +942,13 @@ const TRIP = {
               note: ""
             },
             {
-              name: "Almoço — frutos do mar no porto",
+              name: "Almoço — Fisherman's Market (porto)",
               time: "12:00",
               emoji: "🦐",
               tags: ["food"],
               duration: "1h",
-              detail: "A pé do hotel, frutos do mar frescos no porto",
-              note: ""
+              detail: "Meriken Park / Harborland, Kobe. ¥2.000–4.000 (~$20 USD). Frutos do mar frescos no porto. Também: Kobe Totoan na mesma zona.",
+              note: "5 minutos a pé do hotel. Sem reserva."
             },
             {
               name: "Nada Sake District",
@@ -960,13 +960,13 @@ const TRIP = {
               note: "Nada é o maior distrito de sake do Japão — produz 1/3 de todo sake"
             },
             {
-              name: "Jantar — Wagyu Kobe",
+              name: "Jantar — Mouriya Honten (Wagyu Kobe)",
               time: "19:00",
               emoji: "🥩",
               tags: ["food"],
               duration: "2h",
-              detail: "O VERDADEIRO Wagyu Kobe. Reserva obrigatória! | Taxi 10 min",
-              note: "Mouriya Honten recomendado — RESERVAR COM ANTECEDÊNCIA",
+              detail: "2-1-17 Shimoyamatedori, Chuo-ku, Kobe. ¥15.000–30.000 (~$146 USD). O VERDADEIRO Wagyu Kobe A5 grelhado na sua frente. Reserva obrigatória! | Taxi 10 min",
+              note: "Mouriya é referência desde 1885. RESERVAR COM ANTECEDÊNCIA pelo site.",
               reserved: "pending"
             }
           ]
@@ -995,13 +995,13 @@ const TRIP = {
               note: ""
             },
             {
-              name: "Nankinmachi (Chinatown) — almoço",
+              name: "Nankinmachi — Roshoki (Chinatown)",
               time: "13:00",
               emoji: "🥟",
               tags: ["food"],
               duration: "1h",
-              detail: "Chinatown de Kobe. Street food. | Taxi 10 min",
-              note: ""
+              detail: "Nankinmachi-dori, Chuo-ku, Kobe. ¥1.000–2.500 (~$11 USD). Nikuman (pão de carne) gigante + gyoza frito na rua. Street food + Roshoki pra sentar. | Taxi 10 min",
+              note: "Roshoki é famoso pelo butaman (pão de porco). Sem reserva."
             },
             {
               name: "Arima Onsen",
@@ -1013,13 +1013,13 @@ const TRIP = {
               note: "Kinsen (água dourada) — experiência única. Trazer toalha."
             },
             {
-              name: "Jantar — frutos do mar no porto",
+              name: "Jantar — Ganko Kobe (frutos do mar)",
               time: "20:00",
               emoji: "🦐",
               tags: ["food", "night"],
               duration: "2h",
-              detail: "Última noite em Kobe. Frutos do mar frescos.",
-              note: ""
+              detail: "1-8-2 Higashikawasakicho, Chuo-ku, Kobe (Harborland). ¥4.000–8.000 (~$39 USD). Frutos do mar + sushi + tempura. Última noite em Kobe.",
+              note: "No complexo Harborland, vista do porto. Sem reserva necessária."
             }
           ]
         }
@@ -1402,13 +1402,13 @@ const TRIP = {
               note: ""
             },
             {
-              name: "Porto — frutos do mar frescos",
+              name: "Almoço — Shirasuya (shirasu de Kamakura)",
               time: "12:00",
               emoji: "🐟",
               tags: ["food"],
               duration: "1h30",
-              detail: "Frutos do mar direto do mar em Kamakura",
-              note: ""
+              detail: "2-22-28 Hase, Kamakura. ¥1.500–2.500 (~$13 USD). Shirasu-don (peixinho branco fresco) — especialidade de Kamakura. Perto do Hasedera.",
+              note: "Shirasu fresco só tem em Kamakura. Fila no almoço, chega às 11:30."
             },
             {
               name: "Engaku-ji",
@@ -1472,13 +1472,13 @@ const TRIP = {
               note: ""
             },
             {
-              name: "Almoço — katsudon",
+              name: "Almoço — Sometaro (okonomiyaki em Asakusa)",
               time: "12:00",
               emoji: "🍖",
               tags: ["food"],
               duration: "1h",
-              detail: "Katsudon local em Asakusa",
-              note: ""
+              detail: "2-2-2 Nishi-Asakusa, Taito-ku, Tokyo. ¥1.000–2.000 (~$10 USD). Okonomiyaki e monjayaki numa casa antiga de 1937. Você cozinha na mesa.",
+              note: "Atmosfera incrível — casa de madeira original. Sem reserva, cash only."
             },
             {
               name: "Yanaka — cemitério, becos, gatos",
