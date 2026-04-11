@@ -230,6 +230,7 @@ const TRIP = {
   cities: [
     {
       id: "nagano",
+      name: "Nagano",
       kanji: "長野",
       emoji: "🏔️",
       dates: "15/04 — 19/04",
@@ -453,6 +454,7 @@ const TRIP = {
     },
     {
       id: "takayama",
+      name: "Takayama",
       kanji: "高山",
       emoji: "🏡",
       dates: "19/04 — 21/04",
@@ -621,6 +623,7 @@ const TRIP = {
     },
     {
       id: "kanazawa",
+      name: "Kanazawa",
       kanji: "金沢",
       emoji: "✨",
       dates: "21/04 — 25/04",
@@ -867,6 +870,7 @@ const TRIP = {
     },
     {
       id: "kobe",
+      name: "Kobe",
       kanji: "神戸",
       emoji: "🥩",
       dates: "25/04 — 27/04",
@@ -1009,6 +1013,7 @@ const TRIP = {
     },
     {
       id: "tokyo",
+      name: "Tokyo",
       kanji: "東京",
       emoji: "🗼",
       dates: "27/04 — 04/05",
