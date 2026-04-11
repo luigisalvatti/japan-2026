@@ -36,143 +36,143 @@ const RESTAURANT_GUIDE = {
     {
       name: "Tsukiji",
       restaurants: [
-        { name: "Itadori Bekkan", type: "Casual Sushi", address: "1F, 4-10-16 Tsukiji, Chuo-ku", price: "¥¥", tip: "Escondido atrás das barracas. Fatty tuna set e uni são obrigatórios. Sem reserva.", must: false }
+        { name: "Itadori Bekkan", type: "Casual Sushi", address: "1F, 4-10-16 Tsukiji, Chuo-ku", price: "¥¥", avg: "¥2.000–4.000", reservation: "nao", tip: "Escondido atrás de lojas. Sushi simples, sem frescura, peixe de altíssima qualidade. Atum gordo e uni obrigatórios.", must: false }
       ]
     },
     {
       name: "Shibuya",
       restaurants: [
-        { name: "Narukiyo", type: "Izakaya", address: "VORT Aoyama B1, 2-7-14 Shibuya", price: "¥¥", tip: "Tatami ou balcão. Menu em scroll japonês. Peça omakase com budget. Reservar!", must: true },
-        { name: "Katsudon-ya Zuicho", type: "Tonkatsu", address: "41-26 Udagawacho, Shibuya-ku", price: "¥", tip: "8 lugares, 1 item no menu. Fila e cash only.", must: false },
-        { name: "Kotaro", type: "Izakaya", address: "2-28-2 Sakuragaokacho, Shibuya-ku", price: "¥¥¥", tip: "Sem menu fixo, tudo sazonal. Muito difícil reservar — tentar com antecedência.", must: true },
-        { name: "Ryan Soba", type: "Soba", address: "1F, 1-4-13 Shibuya", price: "¥¥", tip: "Cozinha aberta, soba artesanal. Boa lista de sake. Bom para grupos.", must: false },
-        { name: "Uogashi Dogenzaka", type: "Standing Sushi", address: "2-9-1 Dogenzaka, Shibuya-ku", price: "¥", tip: "Sushi em pé, preço ótimo. Filiais em toda Tokyo.", must: false },
-        { name: "Tori Chataro", type: "Yakitori", address: "1F, 7-12 Uguisudanicho, Shibuya-ku", price: "¥¥", tip: "Yakitori omakase. Pato e frango suculento. Reserva obrigatória.", must: false },
-        { name: "Tofu Sorano", type: "Casual Kaiseki", address: "Cherry Garden 4F, 4-17 Sakuragaokacho", price: "¥¥", tip: "Tudo é tofu — até a sobremesa. Tapas pra dividir. Difícil de achar.", must: false },
-        { name: "Ryukyu Chinese Tama", type: "Izakaya", address: "2-3 Shibuya", price: "¥¥", tip: "Culinária chinesa + Okinawa. Chef's counter criativo.", must: false },
-        { name: "Morimoto", type: "Yakitori", address: "2-7-4 Dogenzaka, Shibuya-ku", price: "¥¥", tip: "Minúsculo. Balcão + omakase.", must: false }
+        { name: "Narukiyo", type: "Izakaya / Gastropub", address: "VORT Aoyama B1, 2-7-14 Shibuya", price: "¥¥", avg: "¥5.000–8.000", reservation: "recomendada", tip: "Izakaya animado, caótico e divertido. Menu japonês do dia. Melhor sentar no balcão e pedir omakase.", must: true },
+        { name: "Katsudon-ya Zuicho", type: "Tonkatsu", address: "41-26 Udagawacho, Shibuya-ku", price: "¥", avg: "¥1.500–2.000", reservation: "nao", tip: "Só 8 lugares, uma opção no menu. Sempre fila. Cash only.", must: false },
+        { name: "Kotaro", type: "Izakaya", address: "2-28-2 Sakuragaokacho, Shibuya-ku", price: "¥¥¥", avg: "¥8.000–15.000", reservation: "muito dificil", tip: "Sem menu fixo, tudo sazonal. Izakaya sofisticado. Meses de espera pra reservar.", must: true },
+        { name: "Ryan Soba", type: "Soba", address: "1F, 1-4-13 Shibuya", price: "¥¥", avg: "¥1.500–3.000", reservation: "nao", tip: "Soba artesanal moderno. Cozinha aberta. Bom pra almoço e jantar.", must: false },
+        { name: "Uogashi Dogenzaka", type: "Standing Sushi", address: "2-9-1 Dogenzaka, Shibuya-ku", price: "¥", avg: "¥1.000–2.500", reservation: "nao", tip: "Sushi em pé. Barato e bom. Várias unidades em Tokyo.", must: false },
+        { name: "Tori Chataro", type: "Yakitori", address: "1F, 7-12 Uguisudanicho, Shibuya-ku", price: "¥¥", avg: "¥4.000–7.000", reservation: "obrigatoria", tip: "Yakitori omakase. Carne de altíssima qualidade.", must: false },
+        { name: "Tofu Sorano", type: "Casual Kaiseki", address: "Cherry Garden 4F, 4-17 Sakuragaokacho", price: "¥¥", avg: "¥3.000–5.000", reservation: "nao", tip: "Menu inteiro baseado em tofu (criativo). Pratos pequenos pra compartilhar.", must: false },
+        { name: "Ryukyu Chinese Tama", type: "Izakaya", address: "2-3 Shibuya", price: "¥¥", avg: "¥4.000–6.000", reservation: "nao", tip: "Mistura China + Okinawa. Experiência diferente, chef's counter criativo.", must: false },
+        { name: "Morimoto", type: "Yakitori", address: "2-7-4 Dogenzaka, Shibuya-ku", price: "¥¥", avg: "¥4.000–6.000", reservation: "nao", tip: "Minúsculo, intenso, estilo omakase no balcão.", must: false }
       ]
     },
     {
       name: "Azabujuban",
       restaurants: [
-        { name: "Savoy", type: "Pizza", address: "2-20-12 Azabujuban, Minato-ku", price: "¥¥", tip: "Pizza napolitana pelo chef 'Bun'. Tuna pizza com wasabi é surreal. Set de almoço ótimo.", must: true },
-        { name: "Tempura Takiya", type: "Tempura", address: "2F Labell, 2-8-6 Azabujuban", price: "¥¥¥", tip: "Tempura luxuoso com wagyu. Muito high-end.", must: false }
+        { name: "Savoy", type: "Pizza", address: "2-20-12 Azabujuban, Minato-ku", price: "¥¥", avg: "¥2.000–3.500", reservation: "recomendada", tip: "Pizza napolitana nível altíssimo. Destaque: pizza de atum com wasabi e marinara.", must: true },
+        { name: "Tempura Takiya", type: "Tempura", address: "2F Labell, 2-8-6 Azabujuban", price: "¥¥¥", avg: "¥15.000–25.000", reservation: "obrigatoria", tip: "Tempura high-end com ingredientes premium.", must: false }
       ]
     },
     {
       name: "Roppongi",
       restaurants: [
-        { name: "Iruca Tokyo", type: "Ramen", address: "4-12-12 Roppongi, Minato-ku", price: "¥", tip: "Porcini yuzu ramen. Fila enorme mas vale. Pedir Tamago Kake Gohan de acompanhamento.", must: true },
-        { name: "PST Roppongi", type: "Pizza", address: "7-6-2 Roppongi", price: "¥¥", tip: "Arrabbiata, margherita, bismarck. Difícil reservar.", must: false },
-        { name: "Sougo", type: "Vegetariano Budista", address: "Roppongi Green Building 3F, 6-1-8 Roppongi", price: "¥¥¥", tip: "Shojin ryori kaiseki. Vegano, minimalista, refinado.", must: false }
+        { name: "Iruca Tokyo", type: "Ramen", address: "4-12-12 Roppongi, Minato-ku", price: "¥", avg: "¥1.200–1.800", reservation: "nao", tip: "Um dos melhores ramen de Tokyo. Famoso pelo porcini + yuzu. Sempre com fila, vale a espera.", must: true },
+        { name: "PST Roppongi", type: "Pizza", address: "7-6-2 Roppongi", price: "¥¥", avg: "¥2.500–4.000", reservation: "recomendada", tip: "Uma das melhores pizzas da cidade. Difícil reserva.", must: false },
+        { name: "Sougo", type: "Vegan Kaiseki", address: "Roppongi Green Building 3F, 6-1-8 Roppongi", price: "¥¥¥", avg: "¥10.000–15.000", reservation: "obrigatoria", tip: "Alta cozinha vegetariana japonesa. Shojin ryori refinado.", must: false }
       ]
     },
     {
       name: "Nakameguro",
       restaurants: [
-        { name: "Schmatz", type: "Izakaya/Cervejaria", address: "Ekimae Building, 1-22-4 Kamimeguro", price: "¥¥", tip: "Melhor cerveja artesanal de Tokyo + comida alemã-japonesa.", must: false },
-        { name: "Udatsu Sushi", type: "High-End Sushi", address: "2-48-10 Kamimeguro", price: "¥¥¥", tip: "Michelin star. Chef Hisashi Udatsu. Omakase perfeito. JÁ RESERVADO!", must: true },
-        { name: "Seirinkan Pizza", type: "Pizza", address: "2-6-4 Kamimeguro", price: "¥¥", tip: "Só margherita e marinara. Decoração Beatles/steampunk. Qualidade extrema.", must: true },
-        { name: "Kushiwakamaru", type: "Yakitori", address: "1-19-2 Kamimeguro", price: "¥¥", tip: "Yakitori top. Lemon sour + highball. Reservar ou esperar na fila.", must: false },
-        { name: "Akamaru Curry", type: "Japanese Curry", address: "Yamashita Building 1F, 3-16-4 Kamimeguro", price: "¥", tip: "Curry de carne slow-cook. Cheiro te puxa mesmo de porta fechada.", must: false },
-        { name: "Yakumo", type: "Ramen (Wonton)", address: "3-5-? Higashiyama, Meguro-ku", price: "¥", tip: "Melhor wonton noodle de Tokyo. Chegar cedo. Shio ou shoyu.", must: false },
-        { name: "Warito Ramen", type: "Tsukemen", address: "Cross One, 3-7-10 Aobadai", price: "¥", tip: "Tsukemen lendário. Sem fotos. Pedir pedra quente pra reaquecer.", must: false },
-        { name: "Beef Kitchen", type: "Yakiniku", address: "3-4-? Kamimeguro", price: "¥¥", tip: "Wagyu na mesa. Espaço subterrâneo com hip-hop.", must: false },
-        { name: "Yuzuha", type: "Casual Kaiseki", address: "3F, 1-16-11 Aobadai", price: "¥¥¥", tip: "Kaiseki moderno no rio Meguro. Wagyu em monaka. Tasting menu.", must: false }
+        { name: "Schmatz", type: "Izakaya / Cervejaria", address: "Ekimae Building, 1-22-4 Kamimeguro", price: "¥¥", avg: "¥3.000–5.000", reservation: "nao", tip: "Cerveja artesanal alemã + comida japonesa moderna. Ambiente jovem e descontraído.", must: false },
+        { name: "Udatsu Sushi", type: "High-End Sushi", address: "2-48-10 Kamimeguro", price: "¥¥¥", avg: "¥13.200/pessoa", reservation: "obrigatoria", tip: "Sushi Michelin com clima mais relaxado. Excelente omakase. Tem opção vegetariana. JÁ RESERVADO!", must: true },
+        { name: "Seirinkan", type: "Pizza", address: "2-6-4 Kamimeguro", price: "¥¥", avg: "¥1.800–3.000", reservation: "nao", tip: "Pizza napolitana cult. Só margarita e marinara. Ambiente Beatles/industrial.", must: true },
+        { name: "Kushiwakamaru", type: "Yakitori", address: "1-19-2 Kamimeguro", price: "¥¥", avg: "¥3.000–5.000", reservation: "recomendada", tip: "Yakitori top com clima animado. Ótimo com highball. Pode ter fila.", must: false },
+        { name: "Akamaru Curry", type: "Japanese Curry", address: "Yamashita Building 1F, 3-16-4 Kamimeguro", price: "¥", avg: "¥1.000–1.500", reservation: "nao", tip: "Curry clássico japonês muito bem feito. Cheiro já te puxa pra dentro.", must: false },
+        { name: "Yakumo", type: "Ramen (Wonton)", address: "3-5 Higashiyama, Meguro-ku", price: "¥", avg: "¥1.000–1.500", reservation: "nao", tip: "Ramen de wonton top. Chegue cedo.", must: false },
+        { name: "Warito Ramen", type: "Tsukemen", address: "Cross One, 3-7-10 Aobadai", price: "¥", avg: "¥1.000–1.500", reservation: "nao", tip: "Tsukemen famoso. Sem fotos. Fila comum.", must: false },
+        { name: "Beef Kitchen", type: "Yakiniku", address: "Kamimeguro", price: "¥¥", avg: "¥5.000–8.000", reservation: "nao", tip: "Carne premium com vibe moderna.", must: false },
+        { name: "Yuzuha", type: "Kaiseki", address: "3F, 1-16-11 Aobadai", price: "¥¥¥", avg: "¥10.000–15.000", reservation: "recomendada", tip: "Kaiseki moderno. Menu degustação recomendado.", must: false }
       ]
     },
     {
       name: "Daikanyama",
       restaurants: [
-        { name: "Tatemichiya", type: "Izakaya", address: "30-8 Sarugakucho, Shibuya-ku", price: "¥¥", tip: "Punk rock izakaya! 20+ anos. Arte do Yoshitomo Nara. Avocado steak. Reservar!", must: true }
+        { name: "Tatemichiya", type: "Izakaya", address: "30-8 Sarugakucho, Shibuya-ku", price: "¥¥", avg: "¥3.000–5.000", reservation: "recomendada", tip: "Izakaya punk rock clássico. Pequeno, barato e muito autêntico.", must: true }
       ]
     },
     {
       name: "Toranomon",
       restaurants: [
-        { name: "Teppanyaki Sazanka", type: "Teppanyaki", address: "Okura Tokyo 41F, 2-10-4 Toranomon", price: "¥¥¥¥", tip: "Gold standard. Vista 41o andar. Whisky Suntory exclusivo no bar Starlight ao lado.", must: true }
+        { name: "Teppanyaki Sazanka", type: "Teppanyaki", address: "Okura Tokyo 41F, 2-10-4 Toranomon", price: "¥¥¥¥", avg: "¥25.000–40.000", reservation: "obrigatoria", tip: "Teppanyaki de alto nível com vista incrível da cidade. Ingredientes premium. Experiência completa.", must: true }
       ]
     },
     {
       name: "Ginza",
       restaurants: [
-        { name: "Tempura Kondo", type: "Tempura", address: "Sakaguchi Building 9F, 5-5-13 Ginza", price: "¥¥¥", tip: "2 Michelin stars. Farinha especial, fritura leve. Cenoura e batata-doce top.", must: true },
-        { name: "Nemuro Hanamaru", type: "Conveyor Belt Sushi", address: "Tokyo Plaza Ginza 10F, 5-2-1 Ginza", price: "¥", tip: "Melhor custo-benefício sushi de esteira.", must: false },
-        { name: "Tempura Ginza Onodera", type: "Tempura", address: "Sunlit Ginza Building 11F", price: "¥¥¥", tip: "High-end tempura. Reservar.", must: false },
-        { name: "Ginza Kappou Ukai", type: "Casual Kaiseki", address: "Jewel Box Ginza B1", price: "¥¥¥", tip: "Kaiseki refinado com twist moderno.", must: false }
+        { name: "Tempura Kondo", type: "Tempura", address: "Sakaguchi Building 9F, 5-5-13 Ginza", price: "¥¥¥", avg: "¥15.000–25.000", reservation: "muito dificil", tip: "2 estrelas Michelin. Tempura extremamente leve. Destaques: cenoura e batata-doce.", must: true },
+        { name: "Nemuro Hanamaru", type: "Sushi Esteira", address: "Tokyo Plaza Ginza 10F, 5-2-1 Ginza", price: "¥", avg: "¥2.000–4.000", reservation: "nao", tip: "Melhor custo-benefício de sushi. Fila mas roda rápido.", must: false },
+        { name: "Tempura Onodera", type: "Tempura", address: "Sunlit Ginza Building 11F", price: "¥¥¥", avg: "¥12.000–20.000", reservation: "obrigatoria", tip: "Tempura refinado, precisa reserva.", must: false },
+        { name: "Ginza Kappou Ukai", type: "Kaiseki", address: "Jewel Box Ginza B1", price: "¥¥¥", avg: "¥10.000–18.000", reservation: "recomendada", tip: "Kaiseki moderno elegante.", must: false }
       ]
     },
     {
       name: "Nishi-Azabu",
       restaurants: [
-        { name: "Sushi Yuu", type: "High-End Sushi", address: "1-4-15 Nishiazabu", price: "¥¥¥", tip: "Omakase fun e animado. Chef explica cada peça.", must: false },
-        { name: "Sushi Shin", type: "High-End Sushi", address: "4-18-20 Nishiazabu", price: "¥¥¥", tip: "Edomae + técnica Michelin. Chef Shintaro Suzuki.", must: false },
-        { name: "Butagumi", type: "Tonkatsu", address: "2-24-9 Nishiazabu", price: "¥¥", tip: "Casa residencial virou templo do tonkatsu. Ir cedo.", must: true }
+        { name: "Sushi Yuu", type: "High-End Sushi", address: "1-4-15 Nishiazabu", price: "¥¥¥", avg: "¥15.000–25.000", reservation: "obrigatoria", tip: "Omakase moderno, ambiente animado.", must: false },
+        { name: "Sushi Shin", type: "High-End Sushi", address: "4-18-20 Nishiazabu", price: "¥¥¥", avg: "¥20.000–30.000", reservation: "obrigatoria", tip: "Sushi tradicional com técnica Michelin.", must: false },
+        { name: "Butagumi", type: "Tonkatsu", address: "2-24-9 Nishiazabu", price: "¥¥", avg: "¥2.500–4.000", reservation: "nao", tip: "Casa pequena especializada em tonkatsu. Vá cedo.", must: true }
       ]
     },
     {
       name: "Ebisu",
       restaurants: [
-        { name: "Gem by Moto", type: "Sake Bar", address: "1-30-9 Ebisu", price: "¥¥¥", tip: "Sake educativo + gastronômico. A experiência sake da viagem. RESERVAR!", must: true },
-        { name: "Sowado", type: "Izakaya", address: "1-12-15 Hiroo, Shibuya-ku", price: "¥¥", tip: "Izakaya escondida, energia boa. Ótimo pra grupo.", must: false },
-        { name: "Udon Yamacho", type: "Udon", address: "Ebisu Oak Building 1F", price: "¥", tip: "Simples, barato e muito bom.", must: false }
+        { name: "Gem by Moto", type: "Sake Bar / Izakaya", address: "1-30-9 Ebisu", price: "¥¥¥", avg: "¥8.000–15.000", reservation: "obrigatoria", tip: "Focado em sake premium. Educativo, íntimo, produtor direto. A experiência sake da viagem.", must: true },
+        { name: "Sowado", type: "Izakaya", address: "1-12-15 Hiroo, Shibuya-ku", price: "¥¥", avg: "¥4.000–6.000", reservation: "nao", tip: "Izakaya escondido, bom pra grupo.", must: false },
+        { name: "Udon Yamacho", type: "Udon", address: "Ebisu Oak Building 1F", price: "¥", avg: "¥800–1.200", reservation: "nao", tip: "Simples, barato e muito bom.", must: false }
       ]
     },
     {
-      name: "Omotesando / Harajuku",
+      name: "Omotesando",
       restaurants: [
-        { name: "Aoyama Kawakami", type: "Soba", address: "3-14-1 Minamiaoyama", price: "¥¥", tip: "Soba tratada com respeito. Menu muda entre almoço e jantar.", must: false }
+        { name: "Aoyama Kawakami", type: "Soba", address: "3-14-1 Minamiaoyama", price: "¥¥", avg: "¥1.500–3.000", reservation: "nao", tip: "Soba tradicional em ambiente mais relaxado.", must: false }
       ]
     },
     {
       name: "Ueno",
       restaurants: [
-        { name: "Jambo Hanare", type: "Yakiniku", address: "3-27-? Hongo, Bunkyo-ku", price: "¥¥", tip: "Fora de mão mas vale. Pedir arroz com carne e manteiga. Reservar.", must: false }
+        { name: "Jambo Hanare", type: "Yakiniku", address: "Hongo, Bunkyo-ku", price: "¥¥", avg: "¥5.000–8.000", reservation: "obrigatoria", tip: "Yakiniku top. Peça arroz com carne e manteiga.", must: false }
       ]
     },
     {
       name: "Yotsuya",
       restaurants: [
-        { name: "Sumibi Yakiniku Nakahara", type: "Yakiniku", address: "GEMS Ichigaya 9F, 4-3 Rokubancho", price: "¥¥¥", tip: "Melhor yakiniku de Tokyo. Chef Nakahara, raça Tamura, corte especial.", must: true }
+        { name: "Sumibi Yakiniku Nakahara", type: "Yakiniku", address: "GEMS Ichigaya 9F, 4-3 Rokubancho", price: "¥¥¥", avg: "¥12.000–20.000", reservation: "obrigatoria", tip: "Um dos melhores yakiniku de Tokyo. Wagyu selecionado com precisão absurda.", must: true }
       ]
     },
     {
       name: "Nihonbashi",
       restaurants: [
-        { name: "Hiyama", type: "Sukiyaki", address: "2-5-1 Nihonbashi Ningyocho", price: "¥¥¥", tip: "Açougue desde 1912, restaurante desde 1935. Michelin star sukiyaki.", must: false }
+        { name: "Hiyama", type: "Sukiyaki", address: "2-5-1 Nihonbashi Ningyocho", price: "¥¥¥", avg: "¥10.000–18.000", reservation: "recomendada", tip: "Restaurante Michelin de sukiyaki. Carne nível absurdo. Açougue desde 1912.", must: false }
       ]
     },
     {
       name: "Meguro",
       restaurants: [
-        { name: "Land", type: "Japanese Curry", address: "2F, 2-21-28 Shinomeguro", price: "¥¥", tip: "Chef Naito faz um dos curries mais complexos de Tokyo. Imperdível.", must: true },
-        { name: "Katsu Midori", type: "Conveyor Belt Sushi", address: "Meguro Atré 2", price: "¥", tip: "Ótimo custo-benefício. Filas longas.", must: false },
-        { name: "Men-ya Ichizu", type: "Ramen", address: "2-17-30 Koyama, Shinagawa-ku", price: "¥", tip: "Ramen estilo francês/japonês. Equilibrado.", must: false }
+        { name: "Land", type: "Japanese Curry", address: "2F, 2-21-28 Shinomeguro", price: "¥¥", avg: "¥1.500–2.500", reservation: "nao", tip: "Curry autoral extremamente complexo. Imperdível.", must: true },
+        { name: "Katsu Midori", type: "Sushi Esteira", address: "Meguro Atré 2", price: "¥", avg: "¥2.000–4.000", reservation: "nao", tip: "Ótimo custo-benefício, filas grandes.", must: false },
+        { name: "Men-ya Ichizu", type: "Ramen", address: "2-17-30 Koyama, Shinagawa-ku", price: "¥", avg: "¥1.000–1.500", reservation: "nao", tip: "Ramen com influência francesa.", must: false }
       ]
     },
     {
       name: "Shimokitazawa",
       restaurants: [
-        { name: "Shirubee", type: "Izakaya", address: "2-18-2 Kitazawa, Setagaya-ku", price: "¥", tip: "Izakaya autêntica e aconchegante. Tirar sapatos na entrada.", must: false }
+        { name: "Shirubee", type: "Izakaya", address: "2-18-2 Kitazawa, Setagaya-ku", price: "¥", avg: "¥2.000–4.000", reservation: "nao", tip: "Izakaya clássico japonês. Tire o sapato.", must: false }
       ]
     },
     {
       name: "Shinjuku",
       restaurants: [
-        { name: "Katsukura Shinjuku", type: "Tonkatsu", address: "Takashimaya Times Square 14F", price: "¥¥", tip: "Katsu estilo Kyoto. Alta qualidade, crocante e leve.", must: false }
+        { name: "Katsukura", type: "Tonkatsu", address: "Takashimaya Times Square 14F", price: "¥¥", avg: "¥2.000–3.500", reservation: "nao", tip: "Katsu estilo Kyoto, leve e crocante.", must: false }
       ]
     },
     {
       name: "Jimbocho",
       restaurants: [
-        { name: "Curry Bondy", type: "Japanese Curry", address: "Kanda Koso Center 2F", price: "¥", tip: "Um dos curries mais famosos de Tokyo. Vale a fila.", must: false }
+        { name: "Curry Bondy", type: "Japanese Curry", address: "Kanda Koso Center 2F", price: "¥", avg: "¥1.000–1.500", reservation: "nao", tip: "Clássico curry japonês famoso.", must: false }
       ]
     },
     {
       name: "Kanda",
       restaurants: [
-        { name: "Kikanbo", type: "Ramen Picante", address: "2-10-9 Kajicho", price: "¥", tip: "Ramen miso picante. Escolher nível de pimenta.", must: false }
+        { name: "Kikanbo", type: "Ramen Picante", address: "2-10-9 Kajicho", price: "¥", avg: "¥1.000–1.500", reservation: "nao", tip: "Ramen de miso com nível de pimenta ajustável.", must: false }
       ]
     }
   ],
@@ -184,14 +184,14 @@ const RESTAURANT_GUIDE = {
     { name: "Tokyu Food Show", area: "Shibuya" }
   ],
   nonJapanese: {
-    vietnamese: ["An Di", "Banh Xeo Saigon Ebisu"],
-    chinese: ["Chinese Bar GONI", "Chugoku Hanten", "Fureika"],
-    thai: ["Chao Chao Bamboo", "Kaffir Lime", "Somtum Der"],
-    burger: ["Henry's Burger", "Aldebaran"],
-    french: ["Pignon", "Le Cabaret"],
-    indian: ["Shiva Curry Wara", "Sri Balaji"],
-    korean: ["Kippyo", "Grace"],
-    italian: ["Cignale", "Aurelio"]
+    vietnamese: ["An Di", "Banh Xeo Saigon"],
+    chinese: ["GONI", "Chugoku Hanten"],
+    thai: ["Chao Chao Bamboo", "Kaffir Lime"],
+    burger: ["Henry's Burger"],
+    french: ["Pignon"],
+    indian: ["Shiva Curry"],
+    korean: ["Kippyo"],
+    italian: ["Cignale"]
   }
 };
 
@@ -1824,20 +1824,63 @@ function toggleRestaurantGuide() {
   }
 }
 
+function yenToUsd(avgStr) {
+  // Parse "¥2.000–4.000" or "¥13.200/pessoa" to get average USD
+  const nums = avgStr.match(/[\d.]+/g);
+  if (!nums || nums.length === 0) return '';
+  const parsed = nums.map(n => parseInt(n.replace(/\./g, '')));
+  const avg = parsed.length >= 2 ? (parsed[0] + parsed[1]) / 2 : parsed[0];
+  const usd = Math.round(avg / 154);
+  if (usd < 10) return `~$${usd}`;
+  return `~$${usd}`;
+}
+
+function reservationBadge(res) {
+  const badges = {
+    'nao': { label: 'Sem reserva', cls: 'res-badge-none' },
+    'recomendada': { label: 'Reserva recomendada', cls: 'res-badge-rec' },
+    'obrigatoria': { label: 'Reserva obrigatória', cls: 'res-badge-req' },
+    'muito dificil': { label: 'Muito difícil reservar', cls: 'res-badge-hard' }
+  };
+  const b = badges[res] || badges['nao'];
+  return `<span class="res-badge ${b.cls}">${b.label}</span>`;
+}
+
 function renderRestaurantGuide(filter = 'all') {
   const container = document.getElementById('restaurant-guide-content');
   if (!container) return;
 
   let html = '';
 
+  // Count total restaurants
+  let totalCount = 0;
+  RESTAURANT_GUIDE.neighborhoods.forEach(h => totalCount += h.restaurants.length);
+
+  html += `<div class="guide-stats">${totalCount} restaurantes curados em ${RESTAURANT_GUIDE.neighborhoods.length} bairros de Tokyo</div>`;
+  html += `<div class="guide-rate">Câmbio: $1 USD = ¥154</div>`;
+
   // Filter buttons
   html += '<div class="guide-filters">';
-  const types = ['all', 'must', 'sushi', 'ramen', 'izakaya', 'yakitori', 'pizza', 'curry', 'tempura'];
+  const types = [
+    { key: 'all', label: 'Todos' },
+    { key: 'must', label: '⭐ Top' },
+    { key: 'sushi', label: '🍣 Sushi' },
+    { key: 'ramen', label: '🍜 Ramen' },
+    { key: 'izakaya', label: '🍶 Izakaya' },
+    { key: 'yakitori', label: '🍗 Yakitori' },
+    { key: 'pizza', label: '🍕 Pizza' },
+    { key: 'curry', label: '🍛 Curry' },
+    { key: 'tempura', label: '🍤 Tempura' },
+    { key: 'yakiniku', label: '🥩 Yakiniku' },
+    { key: 'tonkatsu', label: '🐷 Tonkatsu' },
+    { key: 'kaiseki', label: '🍽️ Kaiseki' }
+  ];
   types.forEach(t => {
-    const label = t === 'all' ? 'Todos' : t === 'must' ? '⭐ Obrigatório' : t.charAt(0).toUpperCase() + t.slice(1);
-    html += `<button class="guide-filter-btn ${filter === t ? 'active' : ''}" onclick="renderRestaurantGuide('${t}')">${label}</button>`;
+    html += `<button class="guide-filter-btn ${filter === t.key ? 'active' : ''}" onclick="renderRestaurantGuide('${t.key}')">${t.label}</button>`;
   });
   html += '</div>';
+
+  let visibleCount = 0;
 
   RESTAURANT_GUIDE.neighborhoods.forEach(hood => {
     let filteredRestaurants = hood.restaurants;
@@ -1849,41 +1892,70 @@ function renderRestaurantGuide(filter = 'all') {
     }
 
     if (filteredRestaurants.length === 0) return;
+    visibleCount += filteredRestaurants.length;
 
     html += `<div class="guide-neighborhood">`;
-    html += `<h4>${hood.name}</h4>`;
+    html += `<h4>📍 ${hood.name}</h4>`;
 
     filteredRestaurants.forEach(r => {
       const mapsQuery = encodeURIComponent(`${r.name} ${r.address} Tokyo Japan`);
       const mapsLink = `https://www.google.com/maps/search/?api=1&query=${mapsQuery}`;
+      const usd = yenToUsd(r.avg);
 
       html += `<div class="guide-restaurant ${r.must ? 'guide-must' : ''}">`;
+      // Header row: name + price tier
       html += `<div class="guide-restaurant-header">`;
       html += `<span class="guide-restaurant-name">${r.must ? '⭐ ' : ''}${r.name}</span>`;
       html += `<span class="guide-restaurant-price">${r.price}</span>`;
       html += `</div>`;
-      html += `<span class="guide-restaurant-type">${r.type}</span>`;
+      // Type badge
+      html += `<div class="guide-type-row"><span class="guide-restaurant-type">${r.type}</span></div>`;
+      // Price + reservation row
+      html += `<div class="guide-info-row">`;
+      html += `<span class="guide-avg-price">${r.avg} <span class="guide-usd">(${usd} USD)</span></span>`;
+      html += `</div>`;
+      html += `<div class="guide-info-row">${reservationBadge(r.reservation)}</div>`;
+      // Address
+      html += `<div class="guide-address">📍 ${r.address}</div>`;
+      // Tip
       html += `<p class="guide-restaurant-tip">${r.tip}</p>`;
-      html += `<a href="${mapsLink}" target="_blank" class="guide-maps-link">📍 Ver no Maps</a>`;
+      // Maps link
+      html += `<a href="${mapsLink}" target="_blank" class="guide-maps-link">🗺️ Abrir no Google Maps</a>`;
       html += `</div>`;
     });
 
     html += `</div>`;
   });
 
-  // Depachika section
-  html += '<div class="guide-neighborhood">';
-  html += '<h4>🏬 Depachika (Food Halls)</h4>';
-  RESTAURANT_GUIDE.depachika.forEach(d => {
-    html += `<div class="guide-restaurant"><span class="guide-restaurant-name">${d.name}</span> — ${d.area}</div>`;
-  });
-  html += '</div>';
+  // Non-Japanese favorites
+  if (filter === 'all') {
+    html += '<div class="guide-neighborhood">';
+    html += '<h4>🌍 Não-Japonês (Favoritos)</h4>';
+    const cats = {
+      vietnamese: '🇻🇳 Vietnamita', chinese: '🇨🇳 Chinês', thai: '🇹🇭 Thai',
+      burger: '🍔 Burger', french: '🇫🇷 Francês', indian: '🇮🇳 Indiano',
+      korean: '🇰🇷 Coreano', italian: '🇮🇹 Italiano'
+    };
+    Object.entries(RESTAURANT_GUIDE.nonJapanese).forEach(([key, names]) => {
+      html += `<div class="guide-restaurant"><span class="guide-restaurant-name">${cats[key] || key}</span><p class="guide-restaurant-tip" style="margin-top:4px">${names.join(' · ')}</p></div>`;
+    });
+    html += '</div>';
 
-  // High-end sushi (hard to book)
-  html += '<div class="guide-neighborhood">';
-  html += '<h4>🍣 Sushi High-End (difícil reservar)</h4>';
-  html += '<p style="color: var(--text3); font-size: 0.82rem;">' + RESTAURANT_GUIDE.highEndSushi.join(' • ') + '</p>';
-  html += '</div>';
+    // Depachika section
+    html += '<div class="guide-neighborhood">';
+    html += '<h4>🏬 Depachika (Food Halls)</h4>';
+    html += '<div class="guide-restaurant">';
+    RESTAURANT_GUIDE.depachika.forEach(d => {
+      html += `<div style="display:flex;justify-content:space-between;padding:4px 0;"><span>${d.name}</span><span style="color:var(--text3)">${d.area}</span></div>`;
+    });
+    html += '</div></div>';
+
+    // High-end sushi (hard to book)
+    html += '<div class="guide-neighborhood">';
+    html += '<h4>🍣 Sushi Ultra High-End (meses de espera)</h4>';
+    html += '<div class="guide-restaurant"><p class="guide-restaurant-tip">' + RESTAURANT_GUIDE.highEndSushi.join(' · ') + '</p></div>';
+    html += '</div>';
+  }
 
   container.innerHTML = html;
 }
