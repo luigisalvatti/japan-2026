@@ -1981,7 +1981,7 @@ function renderBottomNav() {
   let html = '';
   TRIP.cities.forEach(city => {
     html += `<button class="nav-btn" onclick="switchCity('${city.id}')" id="nav-${city.id}">
-      ${city.emoji}<br/><small>${city.kanji}</small>
+      ${city.emoji}<br/><small>${city.name}</small>
     </button>`;
   });
   document.getElementById('bottom-nav').innerHTML = html;
@@ -2035,7 +2035,7 @@ function renderCity() {
 
   let html = `
     <div class="city-header">
-      <h2>${city.emoji} ${city.kanji}</h2>
+      <h2>${city.emoji} ${city.name}</h2>
       <p>${city.dates} • ${city.nights} noites</p>
     </div>
   `;
