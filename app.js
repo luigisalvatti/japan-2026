@@ -1700,15 +1700,24 @@ function toggleEssentialInfo() {
   const panel = document.getElementById('essential-info-panel');
   if (panel) {
     panel.classList.toggle('hidden');
+    if (!panel.classList.contains('hidden')) {
+      renderEssentialInfo();
+    }
   }
 }
 
 function renderEssentialInfo() {
-  const container = document.getElementById('essential-info-panel');
-  if (!container) return;
+  // Create content container if it doesn't exist
+  let container = document.getElementById('essential-info-content');
+  if (!container) {
+    const panel = document.getElementById('essential-info-panel');
+    if (!panel) return;
+    container = document.createElement('div');
+    container.id = 'essential-info-content';
+    panel.appendChild(container);
+  }
 
-  let html = '<div class="essential-info-content">';
-  html += '<h3>Informações Essenciais</h3>';
+  let html = '';
 
   // Emergency
   html += '<div class="essential-section">';
@@ -1739,7 +1748,6 @@ function renderEssentialInfo() {
   });
   html += '</div>';
 
-  html += '</div>';
   container.innerHTML = html;
 }
 
@@ -2282,8 +2290,8 @@ function toggleFlights() {
 // RENDER FLIGHTS
 // ============================================
 function renderFlights() {
-  const panel = document.getElementById('flights-panel');
-  if (!panel) return;
+  const container = document.getElementById('flights-content');
+  if (!container) return;
 
   let html = '<div class="flights-list">';
 
@@ -2303,7 +2311,7 @@ function renderFlights() {
   });
 
   html += '</div>';
-  panel.innerHTML = html;
+  container.innerHTML = html;
 }
 
 // ============================================

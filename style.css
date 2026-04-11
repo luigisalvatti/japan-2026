@@ -502,9 +502,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
-  padding-bottom: 12px;
+  margin: -16px -16px 16px;
+  padding: calc(var(--safe-top) + 16px) 16px 12px;
   border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  background: var(--bg);
+  z-index: 10;
 }
 
 .overlay-header h3 {
