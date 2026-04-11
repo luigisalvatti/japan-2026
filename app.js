@@ -242,11 +242,25 @@ const TRIP = {
       },
       gastro: [
         {
-          name: "Soba Togakushi style",
-          price: "¥1.000–2.500",
-          location: "Centro de Nagano",
+          name: "Soba Uzuraya",
+          price: "¥1.200–2.000",
+          location: "Togakushi, Nagano — 30 min de bus do centro",
+          must: true,
+          note: "Soba artesanal Togakushi style. O mais famoso da região."
+        },
+        {
+          name: "Fuji no Mori Soba",
+          price: "¥1.000–1.800",
+          location: "Perto da estação JR Nagano, centro",
           must: false,
-          note: "Sake local — breweries Variado Várias no centro"
+          note: "Soba quente ou frio. Bom pra primeiro jantar em Nagano."
+        },
+        {
+          name: "Nishino-ya Sake Brewery",
+          price: "¥500–2.000",
+          location: "Zenkoji-shita, centro de Nagano",
+          must: false,
+          note: "Degustação de sake local. Várias breweries na mesma rua."
         }
       ],
       days: [
@@ -466,25 +480,25 @@ const TRIP = {
       },
       gastro: [
         {
-          name: "Hida Beef",
+          name: "Maruaki — Hida Beef",
           price: "¥5.000–12.000",
-          location: "Sanmachi Suji",
+          location: "Sanmachi Suji, 6 Kamisannomachi, Takayama",
           must: true,
-          note: ""
+          note: "Wagyu Hida grelhado no carvão. Melhor corte da região."
         },
         {
-          name: "Ramen Takayama style (shoyu)",
-          price: "¥900–1.500",
-          location: "Centro",
+          name: "Masagosoba — Ramen Takayama",
+          price: "¥900–1.300",
+          location: "Centro de Takayama, perto do rio Miyagawa",
           must: false,
-          note: ""
+          note: "Ramen shoyu estilo Takayama. Caldo fino, macarrão enrolado."
         },
         {
-          name: "Sake breweries",
-          price: "Variado",
-          location: "Procurar sugidama (bola de cedro) na porta",
+          name: "Funasaka Sake Brewery",
+          price: "¥300–1.500",
+          location: "Sanmachi Suji — procurar sugidama (bola de cedro) na porta",
           must: false,
-          note: ""
+          note: "Degustação grátis. Várias breweries na mesma rua."
         }
       ],
       days: [
@@ -635,25 +649,25 @@ const TRIP = {
       },
       gastro: [
         {
-          name: "Omicho Market",
-          price: "¥2.000–8.000",
-          location: "50-1 Omicho",
+          name: "Omicho Market — Yamasan Sushi",
+          price: "¥2.000–5.000",
+          location: "50-1 Omicho, Kanazawa — dentro do mercado",
           must: true,
-          note: ""
+          note: "Sushi no balcão dentro do mercado. Bluefin, uni, king crab frescos."
         },
         {
-          name: "Sushi omakase local",
-          price: "¥15.000–30.000",
-          location: "Pedir indicação no Soki",
+          name: "Sushi Kobashi",
+          price: "¥15.000–25.000",
+          location: "Katamachi, Kanazawa — pedir indicação no Soki",
           must: false,
-          note: ""
+          note: "Omakase com frutos do mar do Mar do Japão. Reserva recomendada."
         },
         {
           name: "Fukumitsuya Sake Brewery",
           price: "¥500–2.000",
-          location: "2-2-3 Imaizumi",
+          location: "2-2-3 Imaizumi, Kanazawa",
           must: false,
-          note: ""
+          note: "Brewery mais antiga de Kanazawa. Degustação inclusa."
         }
       ],
       days: [
@@ -882,25 +896,25 @@ const TRIP = {
       },
       gastro: [
         {
-          name: "Mouriya Honten",
+          name: "Mouriya Honten — Wagyu Kobe",
           price: "¥15.000–30.000",
-          location: "2-1-17 Shimoyamatedori",
+          location: "2-1-17 Shimoyamatedori, Chuo-ku, Kobe",
           must: true,
-          note: ""
+          note: "O verdadeiro Kobe beef. Reserva obrigatória. Teppanyaki no balcão."
         },
         {
           name: "Steakland Kobe",
           price: "¥8.000–15.000",
-          location: "1-8-2 Kitanagasadori",
+          location: "1-8-2 Kitanagasadori, Chuo-ku, Kobe",
           must: false,
-          note: ""
+          note: "Wagyu mais acessível. Bom custo-benefício sem reserva."
         },
         {
           name: "Hakutsuru Sake Brewery Museum",
           price: "Grátis",
-          location: "4-5-1 Sumiyoshi Minamimachi",
+          location: "4-5-1 Sumiyoshi Minamimachi, Higashinada-ku, Kobe",
           must: false,
-          note: ""
+          note: "Museu grátis + degustação. Distrito Nada."
         }
       ],
       days: [
@@ -1026,38 +1040,38 @@ const TRIP = {
       gastro: [
         {
           name: "Tempura Kondo",
-          price: "¥¥¥",
-          location: "5-5-13 Ginza 9F",
+          price: "¥15.000–25.000",
+          location: "5-5-13 Ginza 9F, Chuo-ku",
           must: false,
-          note: ""
+          note: "2 estrelas Michelin. Reserva muito difícil."
         },
         {
           name: "Udatsu Sushi",
           price: "¥13.200/pessoa",
-          location: "2-48-10 Kamimeguro",
+          location: "2-48-10 Kamimeguro, Meguro-ku",
           must: true,
-          note: ""
+          note: "JÁ RESERVADO! Omakase Michelin."
         },
         {
           name: "Narukiyo",
-          price: "¥¥",
-          location: "VORT Aoyama B1, 2-7-14 Shibuya",
+          price: "¥5.000–8.000",
+          location: "VORT Aoyama B1, 2-7-14 Shibuya-ku",
           must: true,
-          note: ""
+          note: "Izakaya criativa. Reserva recomendada."
         },
         {
           name: "Butagumi Tonkatsu",
-          price: "¥¥",
-          location: "2-24-9 Nishi-Azabu",
+          price: "¥2.500–4.000",
+          location: "2-24-9 Nishi-Azabu, Minato-ku",
           must: false,
-          note: ""
+          note: "Tonkatsu de porco de raça. Ir cedo."
         },
         {
           name: "Gem by Moto",
-          price: "¥¥¥",
-          location: "1-30-9 Ebisu",
+          price: "¥8.000–15.000",
+          location: "1-30-9 Ebisu, Shibuya-ku",
           must: true,
-          note: ""
+          note: "Sake bar premium. Reserva obrigatória."
         }
       ],
       days: [
@@ -2061,11 +2075,13 @@ function renderCity() {
   if (city.gastro && city.gastro.length > 0) {
     html += '<div class="section gastro-section"><h3>🍽️ Onde Comer</h3>';
     city.gastro.forEach(place => {
+      const usd = yenToUsd(place.price);
       html += `
         <div class="gastro-item">
-          <p><strong>${place.name}</strong> — ${place.price}</p>
-          <p style="font-size: 0.9em; color: #666;">${place.location}</p>
-          ${place.note ? `<p style="font-size: 0.85em; color: #999;">${place.note}</p>` : ''}
+          <p><strong>${place.name}</strong></p>
+          <p style="font-size: 0.88em; color: var(--gold);">${place.price}${usd ? ` <span style="color: var(--text3);">(${usd} USD)</span>` : ''}</p>
+          <p style="font-size: 0.82em; color: var(--text3);">📍 ${place.location}</p>
+          ${place.note ? `<p style="font-size: 0.82em; color: var(--text2); font-style: italic; margin-top: 4px;">${place.note}</p>` : ''}
         </div>
       `;
     });
