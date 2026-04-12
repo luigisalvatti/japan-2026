@@ -196,6 +196,119 @@ const RESTAURANT_GUIDE = {
 };
 
 // ============================================
+// TOKYO GUIDE (LOJAS, DISCOS, ARQUITETURA, ETC)
+// ============================================
+const TOKYO_GUIDE = {
+  categories: [
+    {
+      name: "Fashion / Lojas",
+      tag: "fashion",
+      places: [
+        { name: "Dover Street Market", area: "Ginza", type: "Concept Store", address: "6-9-5 Ginza, Chuo-ku", desc: "Loja criada por Rei Kawakubo (Comme des Garçons). Varejo como experiência artística, reunindo diversas marcas em espaço com design experimental.", highlight: true },
+        { name: "Maison Kitsuné", area: "Daikanyama", type: "Fashion / Café", address: "20-14 Sarugakucho, Shibuya-ku", desc: "Moda, música e café com estética franco-japonesa. Ambiente bonito, vibe tranquila.", highlight: false },
+        { name: "Itoya Stationery", area: "Ginza", type: "Papelaria / Design", address: "2-7-15 Ginza, Chuo-ku", desc: "Loja histórica de papelaria japonesa. Canetas, papéis e objetos de design. 12 andares.", highlight: true },
+        { name: "Y&Son's", area: "Kanda", type: "Kimono Contemporâneo", address: "2-17-2 Sotokanda, Chiyoda-ku", desc: "Kimono com estética contemporânea. O Japão modernizando o tradicional.", highlight: false },
+        { name: "Private Eyes & Trackers", area: "Aoyama", type: "Eyewear", address: "Minamiaoyama, Minato-ku", desc: "Ótica com marcas independentes e curadoria diferenciada. Peças raras.", highlight: false },
+        { name: "Log Road", area: "Daikanyama", type: "Lifestyle / Walk", address: "Daikanyama, Shibuya-ku", desc: "Área com cafés, lojas e espaços ao ar livre. Caminhada agradável com várias paradas.", highlight: false },
+        { name: "Visvim", area: "Nakameguro", type: "Fashion", address: "Meguro-ku", desc: "Marca japonesa de culto. Materiais premium e design minimalista. Loja muito bonita.", highlight: true },
+        { name: "Vendor", area: "Nakameguro", type: "Fashion", address: "Meguro-ku", desc: "Curadoria de roupas minimalistas e objetos. Seleção moderna e ambiente clean.", highlight: false },
+        { name: "Jantiques", area: "Nakameguro", type: "Vintage", address: "Kamimeguro, Meguro-ku", desc: "Boutique vintage com peças selecionadas. Um dos melhores garimpos da cidade.", highlight: true },
+        { name: "Addict Clothes", area: "Shinjuku", type: "Fashion", address: "Yotsuya, Shinjuku-ku", desc: "Roupas inspiradas no universo motociclista clássico. Identidade forte, acabamento premium.", highlight: false },
+        { name: "Neighborhood", area: "Shibuya", type: "Streetwear", address: "Jingumae, Shibuya-ku", desc: "Marca japonesa influente. Estética urbana com inspiração biker/militar. Referência global.", highlight: true },
+        { name: "The Real McCoy's", area: "Shibuya", type: "Fashion", address: "Jingumae, Shibuya-ku", desc: "Recria roupas militares clássicas com altíssimo nível de detalhe. Qualidade absurda.", highlight: true },
+        { name: "Hands", area: "Shibuya", type: "Department Store", address: "Udagawacho, Shibuya-ku", desc: "Loja com tudo: utilidades, design, ferramentas, lifestyle. Literalmente de tudo.", highlight: false }
+      ]
+    },
+    {
+      name: "Livrarias",
+      tag: "livros",
+      places: [
+        { name: "Post Books", area: "Ebisu", type: "Livraria de Arte", address: "Ebisu Minami, Shibuya-ku", desc: "Focada em arte e publicações raras. Curadoria diferenciada.", highlight: false },
+        { name: "Utrecht", area: "Shibuya", type: "Livraria Independente", address: "Jingumae, Shibuya-ku", desc: "Foco em arte contemporânea e zines. Ambiente intimista e criativo.", highlight: true },
+        { name: "Bookmark", area: "Shibuya", type: "Livraria / Café", address: "Shibuya-ku", desc: "Livraria com café, ambiente agradável e seleção variada. Bom pra parar e relaxar.", highlight: false }
+      ]
+    },
+    {
+      name: "Discos",
+      tag: "discos",
+      places: [
+        { name: "Waltz", area: "Nakameguro", type: "Fitas Cassete / Vintage", address: "Nakameguro, Meguro-ku", desc: "Especializada em fitas cassete e música vintage. Diferente de tudo.", highlight: true },
+        { name: "Ella Records", area: "Shibuya", type: "House / Jazz", address: "Shibuya-ku", desc: "Seleção de house, jazz e música underground. Clima de DJ/club.", highlight: true },
+        { name: "Lighthouse Records", area: "Shibuya", type: "Eletrônica / Soul", address: "Shibuya-ku", desc: "Focada em música eletrônica e soul. Referência na cena.", highlight: false },
+        { name: "Banana Records", area: "Osu (Nagoya)", type: "Vinyl", address: "Osu, Naka-ku, Nagoya", desc: "No roteiro de Nagoya — enorme acervo de vinil em vários andares.", highlight: true }
+      ]
+    },
+    {
+      name: "Bairros pra Explorar",
+      tag: "bairros",
+      places: [
+        { name: "Shimokitazawa", area: "Setagaya", type: "Vintage / Cafés / Alternativo", address: "Shimokitazawa, Setagaya-ku", desc: "Lojas vintage, cafés e cultura alternativa. Melhor lugar pra vibe jovem e criativa.", highlight: true },
+        { name: "Nakano Broadway", area: "Nakano", type: "Otaku / Colecionáveis", address: "Nakano, Nakano-ku", desc: "Centro da cultura otaku e colecionáveis. Experiência única no Japão.", highlight: false },
+        { name: "Koenji", area: "Suginami", type: "Bares / Vintage / Underground", address: "Koenji, Suginami-ku", desc: "Bares, vintage e cultura underground. Clima local e autêntico.", highlight: true }
+      ]
+    },
+    {
+      name: "Cozinha / Utensílios",
+      tag: "cozinha",
+      places: [
+        { name: "Kamaasa", area: "Kappabashi", type: "Utensílios artesanais", address: "2-24-1 Matsugaya, Taito-ku", desc: "Ferramentas de cozinha feitas à mão desde 1908. Qualidade japonesa raiz.", highlight: true },
+        { name: "Kamata Hakensha", area: "Kappabashi", type: "Facas", address: "2-12-6 Matsugaya, Taito-ku", desc: "Facas japonesas artesanais. Gravam seu nome na faca. Uma das melhores de Tokyo.", highlight: true }
+      ]
+    },
+    {
+      name: "Câmera",
+      tag: "camera",
+      places: [
+        { name: "Oosawa Camera", area: "Ebisu", type: "Câmeras Analógicas", address: "Ebisu, Shibuya-ku", desc: "Câmeras usadas e analógicas. Tesouro pra quem curte fotografia.", highlight: false }
+      ]
+    },
+    {
+      name: "Templos",
+      tag: "templos",
+      places: [
+        { name: "Reiyukai Shakaden Temple", area: "Azabudai", type: "Templo Moderno", address: "Azabudai, Minato-ku", desc: "Estrutura moderna com arquitetura marcante. Fora do comum.", highlight: false },
+        { name: "Shinjuku Ruriko-in Byakurenge-do", area: "Shinjuku", type: "Templo Contemporâneo", address: "Shinjuku-ku", desc: "Design minimalista. Mistura tradição e modernidade.", highlight: false }
+      ]
+    },
+    {
+      name: "Arquitetura",
+      tag: "arquitetura",
+      places: [
+        { name: "Prada Aoyama", area: "Aoyama", type: "Herzog & de Meuron", address: "Minamiaoyama, Minato-ku", desc: "Fachada geométrica em vidro. Um dos edifícios mais icônicos de Tokyo.", highlight: true },
+        { name: "SunnyHills", area: "Aoyama", type: "Kengo Kuma", address: "Minamiaoyama, Minato-ku", desc: "Estrutura de madeira entrelaçada única. Prove o bolo de abacaxi.", highlight: true },
+        { name: "Shizuoka Press", area: "Ginza", type: "Kenzo Tange", address: "Ginza, Chuo-ku", desc: "Torre brutalista com módulos suspensos. Ícone do metabolismo japonês.", highlight: false },
+        { name: "NOA Building", area: "Azabudai", type: "Edifício Escultural", address: "Azabudai, Minato-ku", desc: "Formas curvas marcantes.", highlight: false },
+        { name: "House NA", area: "Shinjuku", type: "Sou Fujimoto", address: "Shinjuku-ku", desc: "Casa transparente experimental. Residência icônica.", highlight: false },
+        { name: "Sogetsu Headquarters", area: "Aoyama", type: "Kenzo Tange", address: "Akasaka, Minato-ku", desc: "Espaço artístico com design marcante. Sede da escola de ikebana.", highlight: false },
+        { name: "Tokyo International Forum", area: "Marunouchi", type: "Rafael Viñoly", address: "Marunouchi, Chiyoda-ku", desc: "Estrutura de vidro e aço monumental. Foto obrigatória do interior.", highlight: true },
+        { name: "Yoyogi National Gymnasium", area: "Harajuku", type: "Kenzo Tange", address: "Jinnan, Shibuya-ku", desc: "Teto suspenso revolucionário. Obra-prima de 1964.", highlight: false },
+        { name: "Tokyo Opera City", area: "Shinjuku", type: "Torre Cultural", address: "Nishi-Shinjuku, Shinjuku-ku", desc: "Complexo cultural com galeria de arte no 4º andar.", highlight: false }
+      ]
+    },
+    {
+      name: "Arquitetura Comercial (Ginza/Omotesando)",
+      tag: "arq-comercial",
+      places: [
+        { name: "Chanel", area: "Ginza", type: "Peter Marino", address: "Ginza, Chuo-ku", desc: "Fachada monolítica preta.", highlight: false },
+        { name: "Dior", area: "Ginza", type: "Peter Marino", address: "Ginza, Chuo-ku", desc: "Fachada com ondulações em tecido de vidro.", highlight: false },
+        { name: "Hermès", area: "Ginza", type: "Renzo Piano", address: "Ginza, Chuo-ku", desc: "Blocos de vidro translúcidos. Lanterna gigante.", highlight: true },
+        { name: "Louis Vuitton", area: "Omotesando", type: "Jun Aoki", address: "Jingumae, Shibuya-ku", desc: "Fachada em mosaico de vidro irregular.", highlight: false }
+      ]
+    },
+    {
+      name: "Cultura / Experiência",
+      tag: "cultura",
+      places: [
+        { name: "Tokyo Bunka Kaikan", area: "Ueno", type: "Sala de Concertos", address: "Ueno, Taito-ku", desc: "Interior em madeira. Kunio Maekawa, discípulo de Le Corbusier.", highlight: false },
+        { name: "Gallery of Horyuji Treasures", area: "Ueno", type: "Museu", address: "Ueno Park, Taito-ku", desc: "Dentro do Tokyo National Museum. Yoshio Taniguchi. Espaço zen.", highlight: true },
+        { name: "Bunka Yokusen", area: "Sumida", type: "Sento", address: "Sumida-ku", desc: "Banho público tradicional japonês. Experiência autêntica.", highlight: false },
+        { name: "Tokyo Toilet Project", area: "Shibuya", type: "Design Urbano", address: "Vários pontos, Shibuya-ku", desc: "Banheiros públicos com design assinado por arquitetos como Ban, Ando, Fujimoto.", highlight: true }
+      ]
+    }
+  ]
+};
+
+// ============================================
 // STATE & CONFIG
 // ============================================
 let currentCity = "nagano";
@@ -1941,17 +2054,17 @@ function renderRestaurantGuide(filter = 'all') {
   html += '<div class="guide-filters">';
   const types = [
     { key: 'all', label: 'Todos' },
-    { key: 'must', label: '⭐ Top' },
-    { key: 'sushi', label: '🍣 Sushi' },
-    { key: 'ramen', label: '🍜 Ramen' },
-    { key: 'izakaya', label: '🍶 Izakaya' },
-    { key: 'yakitori', label: '🍗 Yakitori' },
-    { key: 'pizza', label: '🍕 Pizza' },
-    { key: 'curry', label: '🍛 Curry' },
-    { key: 'tempura', label: '🍤 Tempura' },
-    { key: 'yakiniku', label: '🥩 Yakiniku' },
-    { key: 'tonkatsu', label: '🐷 Tonkatsu' },
-    { key: 'kaiseki', label: '🍽️ Kaiseki' }
+    { key: 'must', label: 'Top' },
+    { key: 'sushi', label: 'Sushi' },
+    { key: 'ramen', label: 'Ramen' },
+    { key: 'izakaya', label: 'Izakaya' },
+    { key: 'yakitori', label: 'Yakitori' },
+    { key: 'pizza', label: 'Pizza' },
+    { key: 'curry', label: 'Curry' },
+    { key: 'tempura', label: 'Tempura' },
+    { key: 'yakiniku', label: 'Yakiniku' },
+    { key: 'tonkatsu', label: 'Tonkatsu' },
+    { key: 'kaiseki', label: 'Kaiseki' }
   ];
   types.forEach(t => {
     html += `<button class="guide-filter-btn ${filter === t.key ? 'active' : ''}" onclick="renderRestaurantGuide('${t.key}')">${t.label}</button>`;
@@ -1973,7 +2086,7 @@ function renderRestaurantGuide(filter = 'all') {
     visibleCount += filteredRestaurants.length;
 
     html += `<div class="guide-neighborhood">`;
-    html += `<h4>📍 ${hood.name}</h4>`;
+    html += `<h4>${hood.name}</h4>`;
 
     filteredRestaurants.forEach(r => {
       const mapsQuery = encodeURIComponent(`${r.name} ${r.address} Tokyo Japan`);
@@ -1983,7 +2096,7 @@ function renderRestaurantGuide(filter = 'all') {
       html += `<div class="guide-restaurant ${r.must ? 'guide-must' : ''}">`;
       // Header row: name + price tier
       html += `<div class="guide-restaurant-header">`;
-      html += `<span class="guide-restaurant-name">${r.must ? '⭐ ' : ''}${r.name}</span>`;
+      html += `<span class="guide-restaurant-name">${r.name}</span>`;
       html += `<span class="guide-restaurant-price">${r.price}</span>`;
       html += `</div>`;
       // Type badge
@@ -1994,11 +2107,11 @@ function renderRestaurantGuide(filter = 'all') {
       html += `</div>`;
       html += `<div class="guide-info-row">${reservationBadge(r.reservation)}</div>`;
       // Address
-      html += `<div class="guide-address">📍 ${r.address}</div>`;
+      html += `<div class="guide-address">${r.address}</div>`;
       // Tip
       html += `<p class="guide-restaurant-tip">${r.tip}</p>`;
       // Maps link
-      html += `<a href="${mapsLink}" target="_blank" class="guide-maps-link">🗺️ Abrir no Google Maps</a>`;
+      html += `<a href="${mapsLink}" target="_blank" class="guide-maps-link">mapa</a>`;
       html += `</div>`;
     });
 
@@ -2008,11 +2121,11 @@ function renderRestaurantGuide(filter = 'all') {
   // Non-Japanese favorites
   if (filter === 'all') {
     html += '<div class="guide-neighborhood">';
-    html += '<h4>🌍 Não-Japonês (Favoritos)</h4>';
+    html += '<h4>Não-Japonês (Favoritos)</h4>';
     const cats = {
-      vietnamese: '🇻🇳 Vietnamita', chinese: '🇨🇳 Chinês', thai: '🇹🇭 Thai',
-      burger: '🍔 Burger', french: '🇫🇷 Francês', indian: '🇮🇳 Indiano',
-      korean: '🇰🇷 Coreano', italian: '🇮🇹 Italiano'
+      vietnamese: 'Vietnamita', chinese: 'Chinês', thai: 'Thai',
+      burger: 'Burger', french: 'Francês', indian: 'Indiano',
+      korean: 'Coreano', italian: 'Italiano'
     };
     Object.entries(RESTAURANT_GUIDE.nonJapanese).forEach(([key, names]) => {
       html += `<div class="guide-restaurant"><span class="guide-restaurant-name">${cats[key] || key}</span><p class="guide-restaurant-tip" style="margin-top:4px">${names.join(' · ')}</p></div>`;
@@ -2021,7 +2134,7 @@ function renderRestaurantGuide(filter = 'all') {
 
     // Depachika section
     html += '<div class="guide-neighborhood">';
-    html += '<h4>🏬 Depachika (Food Halls)</h4>';
+    html += '<h4>Depachika (Food Halls)</h4>';
     html += '<div class="guide-restaurant">';
     RESTAURANT_GUIDE.depachika.forEach(d => {
       html += `<div style="display:flex;justify-content:space-between;padding:4px 0;"><span>${d.name}</span><span style="color:var(--text3)">${d.area}</span></div>`;
@@ -2030,7 +2143,7 @@ function renderRestaurantGuide(filter = 'all') {
 
     // High-end sushi (hard to book)
     html += '<div class="guide-neighborhood">';
-    html += '<h4>🍣 Sushi Ultra High-End (meses de espera)</h4>';
+    html += '<h4>Sushi Ultra High-End (meses de espera)</h4>';
     html += '<div class="guide-restaurant"><p class="guide-restaurant-tip">' + RESTAURANT_GUIDE.highEndSushi.join(' · ') + '</p></div>';
     html += '</div>';
   }
@@ -2040,6 +2153,81 @@ function renderRestaurantGuide(filter = 'all') {
 
 function filterRestaurants() {
   // Helper function for filtering - currently delegated to renderRestaurantGuide
+}
+
+// ============================================
+// TOGGLE TOKYO GUIDE
+// ============================================
+function toggleTokyoGuide() {
+  const panel = document.getElementById('tokyo-guide-panel');
+  if (panel) {
+    panel.classList.toggle('hidden');
+    if (!panel.classList.contains('hidden')) {
+      renderTokyoGuide();
+    }
+  }
+}
+
+// ============================================
+// RENDER TOKYO GUIDE
+// ============================================
+function renderTokyoGuide(filter = 'all') {
+  const container = document.getElementById('tokyo-guide-content');
+  if (!container) return;
+
+  let html = '';
+
+  // Count total places
+  let totalCount = 0;
+  TOKYO_GUIDE.categories.forEach(cat => totalCount += cat.places.length);
+
+  html += `<div class="guide-stats">${totalCount} lugares curados em ${TOKYO_GUIDE.categories.length} categorias</div>`;
+
+  // Filter buttons
+  html += '<div class="guide-filters">';
+  const filters = [{ key: 'all', label: 'Todos' }, { key: 'highlight', label: 'Top' }];
+  TOKYO_GUIDE.categories.forEach(cat => {
+    filters.push({ key: cat.tag, label: cat.name.split(' /')[0].split(' (')[0] });
+  });
+  filters.forEach(f => {
+    html += `<button class="guide-filter-btn ${filter === f.key ? 'active' : ''}" onclick="renderTokyoGuide('${f.key}')">${f.label}</button>`;
+  });
+  html += '</div>';
+
+  TOKYO_GUIDE.categories.forEach(cat => {
+    let places = cat.places;
+
+    if (filter === 'highlight') {
+      places = cat.places.filter(p => p.highlight);
+    } else if (filter !== 'all') {
+      if (cat.tag !== filter) return;
+    }
+
+    if (places.length === 0) return;
+
+    html += '<div class="guide-neighborhood">';
+    html += `<h4>${cat.name}</h4>`;
+
+    places.forEach(p => {
+      const mapsQuery = encodeURIComponent(`${p.name} ${p.address} Tokyo Japan`);
+      const mapsLink = `https://www.google.com/maps/search/?api=1&query=${mapsQuery}`;
+
+      html += `<div class="guide-restaurant ${p.highlight ? 'guide-must' : ''}">`;
+      html += `<div class="guide-restaurant-header">`;
+      html += `<span class="guide-restaurant-name">${p.name}</span>`;
+      html += `<span class="guide-restaurant-price" style="color:var(--text3)">${p.area}</span>`;
+      html += `</div>`;
+      html += `<div class="guide-type-row"><span class="guide-restaurant-type">${p.type}</span></div>`;
+      html += `<div class="guide-address">${p.address}</div>`;
+      html += `<p class="guide-restaurant-tip">${p.desc}</p>`;
+      html += `<a href="${mapsLink}" target="_blank" class="guide-maps-link">mapa</a>`;
+      html += `</div>`;
+    });
+
+    html += '</div>';
+  });
+
+  container.innerHTML = html;
 }
 
 // ============================================

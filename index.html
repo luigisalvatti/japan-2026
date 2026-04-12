@@ -37,7 +37,8 @@
       <button class="toolbar-btn" onclick="toggleConverter()">¥</button>
       <button class="toolbar-btn" onclick="toggleNotes()">Notas</button>
       <button class="toolbar-btn" onclick="showReservations()">Reservas</button>
-      <button class="toolbar-btn" onclick="toggleRestaurantGuide()">Guia</button>
+      <button class="toolbar-btn" onclick="toggleRestaurantGuide()">Comida</button>
+      <button class="toolbar-btn" onclick="toggleTokyoGuide()">Tokyo</button>
     </div>
 
     <!-- City content area (rendered by JS) -->
@@ -99,10 +100,19 @@
     <div id="restaurant-guide-content"></div>
   </div>
 
+  <!-- Tokyo Guide Panel (overlay) -->
+  <div id="tokyo-guide-panel" class="overlay-panel hidden">
+    <div class="overlay-header">
+      <h3>Guia Tokyo — Lojas, Discos, Arquitetura</h3>
+      <button class="close-btn" onclick="toggleTokyoGuide()">×</button>
+    </div>
+    <div id="tokyo-guide-content"></div>
+  </div>
+
   <!-- Reservations Modal -->
   <div id="reservations-modal" class="modal-overlay" style="display:none;" onclick="if(event.target===this)closeReservations()">
   </div>
 
-  <script src="app.js?v=4"></script>
+  <script src="app.js?v=5"></script>
 </body>
 </html>
