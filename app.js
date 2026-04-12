@@ -644,8 +644,8 @@ const TRIP = {
       nights: 4,
       hotel: {
         name: "Soki Kanazawa",
-        detail: "Design hotel japonês",
-        note: "Ishikawa Prefecture"
+        detail: "2-1 Kanazawa, Ishikawa | Moderate King Room",
+        note: "Confirmado | Ref: DV5PE3JR"
       },
       gastro: [
         {
@@ -883,143 +883,194 @@ const TRIP = {
       ]
     },
     {
-      id: "kobe",
-      name: "Kobe",
-      kanji: "神戸",
-      emoji: "🥩",
+      id: "nagoya",
+      name: "Nagoya",
+      kanji: "名古屋",
+      emoji: "🏯",
       dates: "25/04 — 27/04",
       nights: 2,
       hotel: {
-        name: "Meriken Park Oriental Hotel",
-        detail: "2-chome Hatoba-cho, Chuo-ku | Na beira do porto",
-        note: ""
+        name: "Nagoya Marriott Associa Hotel",
+        detail: "1-1-4 Meieki, Nakamura-ku | Conectado à estação",
+        note: "Ref: 17156360699 | Confirmado"
       },
       gastro: [
         {
-          name: "Mouriya Honten — Wagyu Kobe",
-          price: "¥15.000–30.000",
-          location: "2-1-17 Shimoyamatedori, Chuo-ku, Kobe",
+          name: "Hitsumabushi (unagi grelhado)",
+          price: "¥3.000–5.000",
+          location: "Atsuta Horaiken ou Bincho",
           must: true,
-          note: "O verdadeiro Kobe beef. Reserva obrigatória. Teppanyaki no balcão."
+          note: "O prato mais famoso de Nagoya — comer em 3 etapas: puro, com condimentos, com dashi"
         },
         {
-          name: "Steakland Kobe",
-          price: "¥8.000–15.000",
-          location: "1-8-2 Kitanagasadori, Chuo-ku, Kobe",
-          must: false,
-          note: "Wagyu mais acessível. Bom custo-benefício sem reserva."
+          name: "Miso katsu (Yabaton)",
+          price: "¥1.500–2.500",
+          location: "3-6-18 Osu, Naka-ku",
+          must: true,
+          note: "O miso vermelho de Nagoya é mais intenso e doce — diferente de qualquer outro"
         },
         {
-          name: "Hakutsuru Sake Brewery Museum",
-          price: "Grátis",
-          location: "4-5-1 Sumiyoshi Minamimachi, Higashinada-ku, Kobe",
+          name: "Tebasaki (Sekai no Yamachan)",
+          price: "¥1.000–2.000",
+          location: "Várias filiais",
           must: false,
-          note: "Museu grátis + degustação. Distrito Nada."
+          note: "Asas de frango crocantes estilo Nagoya"
+        },
+        {
+          name: "Kishimen (udon achatado)",
+          price: "¥800–1.500",
+          location: "Estação Nagoya",
+          must: false,
+          note: "Textura diferente do udon normal — mais leve e sedoso"
         }
       ],
       days: [
         {
           date: "25/04",
-          dayOfWeek: "Sex",
-          theme: "Chegada + Nada Sake",
+          dayOfWeek: "Sab",
+          theme: "Chegada + Atsuta + Osu",
           activities: [
             {
-              name: "Transfer Kanazawa → Kobe",
+              name: "Transfer Kanazawa → Nagoya",
               time: "09:00",
               emoji: "🚅",
               tags: ["transport"],
-              duration: "~1h30",
+              duration: "~2h30",
               detail: "Shinkansen | JR Pass",
               note: ""
             },
             {
-              name: "Check-in Meriken Park",
-              time: "11:00",
+              name: "Check-in Marriott Associa",
+              time: "12:00",
               emoji: "🏨",
               tags: ["transport"],
               duration: "",
-              detail: "Meriken Park Oriental Hotel, beira do porto",
+              detail: "Nagoya Marriott Associa Hotel, conectado à estação JR",
               note: ""
             },
             {
-              name: "Almoço — Fisherman's Market (porto)",
-              time: "12:00",
-              emoji: "🦐",
+              name: "Almoço — Hitsumabushi",
+              time: "12:30",
+              emoji: "🐟",
               tags: ["food"],
               duration: "1h",
-              detail: "Meriken Park / Harborland, Kobe. ¥2.000–4.000 (~$20 USD). Frutos do mar frescos no porto. Também: Kobe Totoan na mesma zona.",
-              note: "5 minutos a pé do hotel. Sem reserva."
+              detail: "Unagi grelhado estilo Nagoya. Atsuta Horaiken ou Bincho perto da estação.",
+              note: "O prato mais famoso de Nagoya — comer em 3 etapas: puro, com condimentos, com dashi"
             },
             {
-              name: "Nada Sake District",
+              name: "Atsuta Jingu",
               time: "14:00",
-              emoji: "🍶",
-              tags: ["food", "culture"],
-              duration: "2h30",
-              detail: "Hakutsuru + Kikumasamune — ir nos dois. Metro ~15 min.",
-              note: "Nada é o maior distrito de sake do Japão — produz 1/3 de todo sake"
+              emoji: "⛩️",
+              tags: ["culture", "photo"],
+              duration: "1h30",
+              detail: "Um dos santuários mais sagrados do Japão. 2.000+ anos. Metro Jingu-Nishi.",
+              note: "Guarda a espada Kusanagi — um dos 3 tesouros imperiais. Floresta densa."
             },
             {
-              name: "Jantar — Mouriya Honten (Wagyu Kobe)",
-              time: "19:00",
-              emoji: "🥩",
-              tags: ["food"],
+              name: "Osu Kannon + Osu Shopping Street",
+              time: "16:00",
+              emoji: "🏘️",
+              tags: ["culture", "shop", "photo"],
               duration: "2h",
-              detail: "2-1-17 Shimoyamatedori, Chuo-ku, Kobe. ¥15.000–30.000 (~$146 USD). O VERDADEIRO Wagyu Kobe A5 grelhado na sua frente. Reserva obrigatória! | Taxi 10 min",
-              note: "Mouriya é referência desde 1885. RESERVAR COM ANTECEDÊNCIA pelo site.",
-              reserved: "pending"
+              detail: "Templo budista + shotengai vibrante. Vintage, street food, eletrônicos.",
+              note: "Mistura Akihabara com Shimokitazawa — energia única"
+            },
+            {
+              name: "Banana Records Osu",
+              time: "17:30",
+              emoji: "🎵",
+              tags: ["shop"],
+              duration: "45 min",
+              detail: "Loja de vinyl gigante no shotengai de Osu",
+              note: "Acervo enorme de vinyl japonês e importado"
+            },
+            {
+              name: "Jantar — Miso katsu (Yabaton)",
+              time: "19:00",
+              emoji: "🐷",
+              tags: ["food"],
+              duration: "1h30",
+              detail: "3-6-18 Osu, Naka-ku. Tonkatsu com miso de Nagoya.",
+              note: "O miso vermelho de Nagoya é mais intenso e doce — diferente de qualquer outro"
+            },
+            {
+              name: "Sakae — drinks",
+              time: "21:00",
+              emoji: "🍶",
+              tags: ["night"],
+              duration: "Flex",
+              detail: "Distrito de entretenimento de Nagoya. Bares e sake.",
+              note: "Mais tranquilo que Shibuya — bom pra fechar o dia"
             }
           ]
         },
         {
           date: "26/04",
-          dayOfWeek: "Sab",
-          theme: "Kitano + Arima Onsen",
+          dayOfWeek: "Dom",
+          theme: "Castle + Noritake + Artesanato",
           activities: [
             {
-              name: "Kitano District",
+              name: "Nagoya Castle + Honmaru Palace",
               time: "09:00",
-              emoji: "🏘️",
+              emoji: "🏯",
               tags: ["culture", "photo"],
               duration: "2h",
-              detail: "Casas ocidentais do século XIX. Fotografia A7CR. | Taxi 15 min",
-              note: "Arquitetura colonial europeia em contexto japonês"
+              detail: "Castelo + palácio reconstruído com técnicas tradicionais. Fotografia A7CR.",
+              note: "O Honmaru Palace é uma reconstrução fiel — pinturas fusuma impressionantes"
             },
             {
-              name: "Meriken Park",
+              name: "Noritake Garden",
               time: "11:30",
-              emoji: "📷",
-              tags: ["photo"],
-              duration: "1h",
-              detail: "Porto Tower, vista da baía. Fotografia. A pé do hotel.",
-              note: ""
+              emoji: "🎨",
+              tags: ["culture", "shop"],
+              duration: "1h30",
+              detail: "Museu de cerâmica + craft center. Taxi 10 min do castelo.",
+              note: "A Noritake é uma das marcas de porcelana mais importantes do Japão"
             },
             {
-              name: "Nankinmachi — Roshoki (Chinatown)",
+              name: "Almoço — Kishimen",
               time: "13:00",
-              emoji: "🥟",
+              emoji: "🍜",
               tags: ["food"],
               duration: "1h",
-              detail: "Nankinmachi-dori, Chuo-ku, Kobe. ¥1.000–2.500 (~$11 USD). Nikuman (pão de carne) gigante + gyoza frito na rua. Street food + Roshoki pra sentar. | Taxi 10 min",
-              note: "Roshoki é famoso pelo butaman (pão de porco). Sem reserva."
+              detail: "Udon achatado estilo Nagoya. Especialidade local.",
+              note: "Textura diferente do udon normal — mais leve e sedoso"
             },
             {
-              name: "Arima Onsen",
+              name: "Endoji Shotengai",
               time: "14:30",
-              emoji: "♨️",
-              tags: ["nature", "culture"],
-              duration: "3h",
-              detail: "Uma das onsens mais antigas do Japão. Águas douradas. | Taxi 30 min",
-              note: "Kinsen (água dourada) — experiência única. Trazer toalha."
+              emoji: "🏘️",
+              tags: ["culture", "shop", "photo"],
+              duration: "1h30",
+              detail: "Shotengai old school. Comércio local, cafés, artesanato.",
+              note: "Shotengai autêntico sem turismo — o Japão real"
             },
             {
-              name: "Jantar — Ganko Kobe (frutos do mar)",
-              time: "20:00",
-              emoji: "🦐",
+              name: "Toyota Commemorative Museum",
+              time: "16:00",
+              emoji: "🏛️",
+              tags: ["culture"],
+              duration: "1h30",
+              detail: "De teares a carros. Design industrial japonês. A pé da estação.",
+              note: "Opcional — mas impressionante se curte design e engenharia"
+            },
+            {
+              name: "Jantar — Tebasaki + cerveja",
+              time: "19:00",
+              emoji: "🍗",
               tags: ["food", "night"],
-              duration: "2h",
-              detail: "1-8-2 Higashikawasakicho, Chuo-ku, Kobe (Harborland). ¥4.000–8.000 (~$39 USD). Frutos do mar + sushi + tempura. Última noite em Kobe.",
-              note: "No complexo Harborland, vista do porto. Sem reserva necessária."
+              duration: "1h30",
+              detail: "Sekai no Yamachan. Asas de frango crocantes estilo Nagoya.",
+              note: "Pedir com cerveja gelada — combo perfeito"
+            },
+            {
+              name: "Fushimi — sake bars",
+              time: "21:00",
+              emoji: "🍶",
+              tags: ["night"],
+              duration: "Flex",
+              detail: "Distrito de Fushimi, bares de sake e whisky.",
+              note: "Última noite antes de Tokyo — brindar à viagem até aqui"
             }
           ]
         }
@@ -1081,11 +1132,11 @@ const TRIP = {
           theme: "Ginza + Tsukiji",
           activities: [
             {
-              name: "Transfer Kobe → Tokyo",
+              name: "Transfer Nagoya → Tokyo",
               time: "09:00",
               emoji: "🚅",
               tags: ["transport"],
-              duration: "~2h45",
+              duration: "~1h40",
               detail: "Shinkansen | JR Pass",
               note: ""
             },
