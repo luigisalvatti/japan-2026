@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=2">
+  <link rel="stylesheet" href="style.css?v=4">
 </head>
 <body>
 
@@ -32,12 +32,12 @@
 
     <!-- Top toolbar with action buttons -->
     <div class="toolbar">
-      <button class="toolbar-btn" onclick="toggleFlights()" title="Voos">✈️</button>
-      <button class="toolbar-btn" onclick="toggleEssentialInfo()" title="Info Essencial">ℹ️</button>
-      <button class="toolbar-btn" onclick="toggleConverter()" title="Conversor">¥</button>
-      <button class="toolbar-btn" onclick="toggleNotes()" title="Notas">📝</button>
-      <button class="toolbar-btn" onclick="showReservations()" title="Reservas">📋</button>
-      <button class="toolbar-btn" onclick="toggleRestaurantGuide()" title="Guia Restaurantes">🍽️</button>
+      <button class="toolbar-btn" onclick="toggleFlights()">Voos</button>
+      <button class="toolbar-btn" onclick="toggleEssentialInfo()">Info</button>
+      <button class="toolbar-btn" onclick="toggleConverter()">¥</button>
+      <button class="toolbar-btn" onclick="toggleNotes()">Notas</button>
+      <button class="toolbar-btn" onclick="showReservations()">Reservas</button>
+      <button class="toolbar-btn" onclick="toggleRestaurantGuide()">Guia</button>
     </div>
 
     <!-- City content area (rendered by JS) -->
@@ -51,7 +51,7 @@
   <!-- Flights Panel (overlay) -->
   <div id="flights-panel" class="overlay-panel hidden">
     <div class="overlay-header">
-      <h3>✈️ Voos</h3>
+      <h3>Voos</h3>
       <button class="close-btn" onclick="toggleFlights()">×</button>
     </div>
     <div id="flights-content"></div>
@@ -60,7 +60,7 @@
   <!-- Essential Info Panel (overlay) -->
   <div id="essential-info-panel" class="overlay-panel hidden">
     <div class="overlay-header">
-      <h3>ℹ️ Informações Essenciais</h3>
+      <h3>Informações Essenciais</h3>
       <button class="close-btn" onclick="toggleEssentialInfo()">×</button>
     </div>
   </div>
@@ -68,7 +68,7 @@
   <!-- Currency Converter (overlay) -->
   <div id="currency-converter" class="overlay-panel hidden">
     <div class="overlay-header">
-      <h3>💱 Conversor BRL ↔ JPY</h3>
+      <h3>Conversor BRL ↔ JPY</h3>
       <button class="close-btn" onclick="toggleConverter()">×</button>
     </div>
     <div class="converter-body">
@@ -84,7 +84,7 @@
   <!-- Notes Panel (overlay) -->
   <div id="notes-panel" class="overlay-panel hidden">
     <div class="overlay-header">
-      <h3>📝 Notas</h3>
+      <h3>Notas</h3>
       <button class="close-btn" onclick="toggleNotes()">×</button>
     </div>
     <div id="notes-content"></div>
@@ -93,7 +93,7 @@
   <!-- Restaurant Guide Panel (overlay) -->
   <div id="restaurant-guide-panel" class="overlay-panel hidden">
     <div class="overlay-header">
-      <h3>🍽️ Guia de Restaurantes — Tokyo</h3>
+      <h3>Guia de Restaurantes — Tokyo</h3>
       <button class="close-btn" onclick="toggleRestaurantGuide()">×</button>
     </div>
     <div id="restaurant-guide-content"></div>
@@ -103,6 +103,6 @@
   <div id="reservations-modal" class="modal-overlay" style="display:none;" onclick="if(event.target===this)closeReservations()">
   </div>
 
-  <script src="app.js?v=3"></script>
+  <script src="app.js?v=4"></script>
 </body>
 </html>

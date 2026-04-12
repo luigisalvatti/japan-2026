@@ -453,31 +453,23 @@ body {
 
 .nav-btn {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 2px;
-  padding: 6px 12px;
+  justify-content: center;
+  padding: 8px 6px;
   border-radius: var(--radius-sm);
   cursor: pointer;
   transition: all 0.15s;
   border: none;
   background: none;
   color: var(--text3);
-  font-size: 1.2rem;
-  min-width: 56px;
-}
-
-.nav-btn small {
-  font-size: 0.58rem;
+  font-size: 0.7rem;
   font-weight: 500;
   letter-spacing: 0.02em;
+  min-width: 0;
+  flex: 1;
 }
 
 .nav-btn.active {
-  color: var(--accent);
-}
-
-.nav-btn.active small {
   color: var(--accent);
   font-weight: 600;
 }

@@ -1721,7 +1721,7 @@ function renderEssentialInfo() {
 
   // Emergency
   html += '<div class="essential-section">';
-  html += '<h4>🚨 Emergência</h4>';
+  html += '<h4>Emergência</h4>';
   html += `<p>Polícia: ${ESSENTIAL_INFO.emergency.police}</p>`;
   html += `<p>Ambulância: ${ESSENTIAL_INFO.emergency.ambulance}</p>`;
   html += `<p>Embaixada BR: ${ESSENTIAL_INFO.emergency.embassy_br}</p>`;
@@ -1729,20 +1729,20 @@ function renderEssentialInfo() {
 
   // Transport
   html += '<div class="essential-section">';
-  html += '<h4>🚆 Transporte</h4>';
+  html += '<h4>Transporte</h4>';
   html += `<p>JR Pass: ${ESSENTIAL_INFO.transport.jr_pass}</p>`;
   html += `<p>IC Card: ${ESSENTIAL_INFO.transport.ic_card}</p>`;
   html += '</div>';
 
   // Connectivity
   html += '<div class="essential-section">';
-  html += '<h4>📱 Conectividade</h4>';
+  html += '<h4>Conectividade</h4>';
   html += `<p>eSIM: ${ESSENTIAL_INFO.connectivity.sim}</p>`;
   html += '</div>';
 
   // Phrases
   html += '<div class="essential-section">';
-  html += '<h4>🗣️ Frases Úteis</h4>';
+  html += '<h4>Frases Úteis</h4>';
   ESSENTIAL_INFO.phrases.forEach(phrase => {
     html += `<p><strong>${phrase.jp}</strong><br/>${phrase.pt}</p>`;
   });
@@ -2008,7 +2008,7 @@ function renderBottomNav() {
   let html = '';
   TRIP.cities.forEach(city => {
     html += `<button class="nav-btn" onclick="switchCity('${city.id}')" id="nav-${city.id}">
-      ${city.emoji}<br/><small>${city.name}</small>
+      ${city.name}
     </button>`;
   });
   document.getElementById('bottom-nav').innerHTML = html;
@@ -2062,7 +2062,7 @@ function renderCity() {
 
   let html = `
     <div class="city-header">
-      <h2>${city.emoji} ${city.name}</h2>
+      <h2>${city.name}</h2>
       <p>${city.dates} • ${city.nights} noites</p>
     </div>
   `;
@@ -2071,7 +2071,7 @@ function renderCity() {
   if (city.hotel) {
     html += `
       <div class="section hotel-section">
-        <h3>🏨 Hotel</h3>
+        <h3>Hotel</h3>
         <p><strong>${city.hotel.name}</strong></p>
         <p>${city.hotel.detail}</p>
         ${city.hotel.note ? `<p style="font-size: 0.85em; color: #999;">${city.hotel.note}</p>` : ''}
@@ -2081,14 +2081,14 @@ function renderCity() {
 
   // Gastro
   if (city.gastro && city.gastro.length > 0) {
-    html += '<div class="section gastro-section"><h3>🍽️ Onde Comer</h3>';
+    html += '<div class="section gastro-section"><h3>Onde Comer</h3>';
     city.gastro.forEach(place => {
       const usd = yenToUsd(place.price);
       html += `
         <div class="gastro-item">
           <p><strong>${place.name}</strong></p>
           <p style="font-size: 0.88em; color: var(--gold);">${place.price}${usd ? ` <span style="color: var(--text3);">(${usd} USD)</span>` : ''}</p>
-          <p style="font-size: 0.82em; color: var(--text3);">📍 ${place.location}</p>
+          <p style="font-size: 0.82em; color: var(--text3);">${place.location}</p>
           ${place.note ? `<p style="font-size: 0.82em; color: var(--text2); font-style: italic; margin-top: 4px;">${place.note}</p>` : ''}
         </div>
       `;
@@ -2151,10 +2151,10 @@ function renderActivities(day) {
     </div>
     <div class="mood-filter">
       <button onclick="filterMood('all')" class="mood-btn ${currentMood === 'all' ? 'active' : ''}">Todos</button>
-      <button onclick="filterMood('food')" class="mood-btn ${currentMood === 'food' ? 'active' : ''}">🍽️</button>
-      <button onclick="filterMood('culture')" class="mood-btn ${currentMood === 'culture' ? 'active' : ''}">🎎</button>
-      <button onclick="filterMood('photo')" class="mood-btn ${currentMood === 'photo' ? 'active' : ''}">📷</button>
-      <button onclick="filterMood('nature')" class="mood-btn ${currentMood === 'nature' ? 'active' : ''}">🌿</button>
+      <button onclick="filterMood('food')" class="mood-btn ${currentMood === 'food' ? 'active' : ''}">Comida</button>
+      <button onclick="filterMood('culture')" class="mood-btn ${currentMood === 'culture' ? 'active' : ''}">Cultura</button>
+      <button onclick="filterMood('photo')" class="mood-btn ${currentMood === 'photo' ? 'active' : ''}">Foto</button>
+      <button onclick="filterMood('nature')" class="mood-btn ${currentMood === 'nature' ? 'active' : ''}">Natureza</button>
     </div>
     <div class="activities-list">
   `;
@@ -2177,10 +2177,10 @@ function renderActivities(day) {
         <input type="checkbox" onchange="toggleDone(${currentDay}, ${index})" ${isDone ? 'checked' : ''} />
         <div class="activity-content">
           <p class="activity-time">${activity.time}</p>
-          <p class="activity-name">${activity.emoji} ${activity.name}</p>
+          <p class="activity-name">${activity.name}</p>
           ${activity.tags.map(tag => `<span class="tag">${tagLabel(tag)}</span>`).join('')}
           <p class="activity-duration">${activity.duration}</p>
-          <p class="activity-detail">${activity.detail}${googleMapsLink ? ` <a href="${googleMapsLink}" target="_blank">📍</a>` : ''}</p>
+          <p class="activity-detail">${activity.detail}${googleMapsLink ? ` <a href="${googleMapsLink}" target="_blank">mapa</a>` : ''}</p>
           ${activity.note ? `<p class="activity-note">${activity.note}</p>` : ''}
           ${activity.reserved ? `<p class="reserved-status">${activity.reserved.toUpperCase()}</p>` : ''}
         </div>
@@ -2206,13 +2206,13 @@ function extractAddress(detail) {
 // ============================================
 function tagLabel(tag) {
   const labels = {
-    'food': '🍽️',
-    'culture': '🎎',
-    'photo': '📷',
-    'nature': '🌿',
-    'shop': '🛍️',
-    'night': '🌙',
-    'transport': '🚆'
+    'food': 'comida',
+    'culture': 'cultura',
+    'photo': 'foto',
+    'nature': 'natureza',
+    'shop': 'compras',
+    'night': 'noite',
+    'transport': 'transporte'
   };
   return labels[tag] || tag;
 }
