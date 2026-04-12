@@ -2185,7 +2185,11 @@ function renderTokyoGuide(filter = 'all') {
 
   // Filter buttons
   html += '<div class="guide-filters">';
-  const filters = [{ key: 'all', label: 'Todos' }, { key: 'highlight', label: 'Top' }];
+  const filters = [
+    { key: 'all', label: 'Todos' },
+    { key: 'highlight', label: 'Top' },
+    { key: 'bairro', label: 'Por Bairro' }
+  ];
   TOKYO_GUIDE.categories.forEach(cat => {
     filters.push({ key: cat.tag, label: cat.name.split(' /')[0].split(' (')[0] });
   });
@@ -2194,6 +2198,49 @@ function renderTokyoGuide(filter = 'all') {
   });
   html += '</div>';
 
+  // === VIEW: POR BAIRRO ===
+  if (filter === 'bairro') {
+    // Collect all places grouped by area
+    const byArea = {};
+    TOKYO_GUIDE.categories.forEach(cat => {
+      cat.places.forEach(p => {
+        const area = p.area;
+        if (!byArea[area]) byArea[area] = [];
+        byArea[area].push({ ...p, category: cat.name });
+      });
+    });
+
+    // Sort areas by number of places (most first)
+    const sortedAreas = Object.keys(byArea).sort((a, b) => byArea[b].length - byArea[a].length);
+
+    sortedAreas.forEach(area => {
+      const places = byArea[area];
+      html += '<div class="guide-neighborhood">';
+      html += `<h4>${area} <span style="font-weight:400;opacity:0.5">${places.length}</span></h4>`;
+
+      places.forEach(p => {
+        const mapsQuery = encodeURIComponent(`${p.name} ${p.address} Tokyo Japan`);
+        const mapsLink = `https://www.google.com/maps/search/?api=1&query=${mapsQuery}`;
+
+        html += `<div class="guide-restaurant ${p.highlight ? 'guide-must' : ''}">`;
+        html += `<div class="guide-restaurant-header">`;
+        html += `<span class="guide-restaurant-name">${p.name}</span>`;
+        html += `</div>`;
+        html += `<div class="guide-type-row"><span class="guide-restaurant-type">${p.category}</span> <span class="guide-restaurant-type">${p.type}</span></div>`;
+        html += `<div class="guide-address">${p.address}</div>`;
+        html += `<p class="guide-restaurant-tip">${p.desc}</p>`;
+        html += `<a href="${mapsLink}" target="_blank" class="guide-maps-link">mapa</a>`;
+        html += `</div>`;
+      });
+
+      html += '</div>';
+    });
+
+    container.innerHTML = html;
+    return;
+  }
+
+  // === VIEW: POR CATEGORIA (default) ===
   TOKYO_GUIDE.categories.forEach(cat => {
     let places = cat.places;
 
