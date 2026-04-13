@@ -352,8 +352,8 @@ const TRIP = {
       nights: 4,
       hotel: {
         name: "Hotel Metropolitan Nagano",
-        detail: "Conectado à estação JR",
-        note: "A confirmar"
+        detail: "Standard Single Non-Smoking | Conectado à estação JR",
+        note: "CONFIRMADO | Ref: F042640THM / B0426AMQAX | $849.84"
       },
       gastro: [
         {
@@ -383,6 +383,7 @@ const TRIP = {
           date: "15/04",
           dayOfWeek: "Ter",
           theme: "Chegada",
+          synopsis: "Dia leve — chegada + compras. Pouso em Haneda 13:35, Shinkansen ~1h40 pra Nagano. Hotel colado na estação, então sem stress. Compras rápidas de essenciais (Uniqlo, Shiseido, Bose) tudo dentro do shopping da estação. Jantar soba a pé. Quase zero caminhada — corpo vai estar destruído do voo. Dormir cedo.",
           activities: [
             {
               name: "Chegada Haneda",
@@ -403,13 +404,13 @@ const TRIP = {
               note: ""
             },
             {
-              name: "Check-in Hotel",
+              name: "Check-in Hotel Metropolitan",
               time: "~17:00",
-              emoji: "🏨",
+              emoji: "",
               tags: ["transport"],
               duration: "",
-              detail: "Hotel Metropolitan Nagano, conectado à estação",
-              note: ""
+              detail: "Hotel Metropolitan Nagano | Standard Single Non-Smoking | Ref: F042640THM | Conectado à estação JR",
+              note: "CONFIRMADO | $849.84 | 4 noites"
             },
             {
               name: "Compras estação — Uniqlo + Shiseido + Bose",
@@ -435,6 +436,7 @@ const TRIP = {
           date: "16/04",
           dayOfWeek: "Qua",
           theme: "Zenkoji + Macacos",
+          synopsis: "Dia puxado — acordar 5:30, bastante caminhada e transporte. Zenkoji a pé de manhã (ritual budista ao amanhecer), depois bus 45 min pra Jigokudani + trilha de 35 min na floresta até os macacos. Volta de bus, almoço soba em Togakushi (30 min de bus). Tarde livre pra descansar ou sake brewery. Levar casaco — montanha é frio de manhã. Sapato de caminhada obrigatório.",
           activities: [
             {
               name: "Zenkoji — ritual matinal",
@@ -505,6 +507,7 @@ const TRIP = {
           date: "17/04",
           dayOfWeek: "Qui",
           theme: "Matsumoto",
+          synopsis: "Day trip tranquilo — trem 50 min pra Matsumoto, tudo a pé lá. Castelo de manhã (original do século XVI, madeira, não reconstrução). Depois ruas históricas Nawate-dori e Nakamachi com lojas de artesanato e cafés. Soba + sake brewery à tarde. Trem 50 min de volta. Caminhada moderada, cidade plana e compacta. Bom dia pra câmera — castelo refletido no fosso é a melhor foto.",
           activities: [
             {
               name: "Trem Nagano → Matsumoto",
@@ -567,6 +570,7 @@ const TRIP = {
           dayOfWeek: "Sex",
           theme: "Dia Livre",
           free: true,
+          synopsis: "Dia livre — sem programação fixa. Pode repetir o que curtiu, ir pra Obuse (30 min trem, vila de sake e doces) ou simplesmente descansar. Sem caminhada pesada, sem transporte obrigatório. Aproveitar pra organizar malas à noite — amanhã cedo sai pra Takayama (trem 3h).",
           activities: [
             {
               name: "Obuse — day trip opcional",
@@ -599,8 +603,8 @@ const TRIP = {
       nights: 2,
       hotel: {
         name: "Hotel Wood Takayama",
-        detail: "Superior Japanese-Western Room",
-        note: "Gifu Prefecture"
+        detail: "Superior Japanese-Western Room | Gifu Prefecture",
+        note: "CONFIRMADO | Ref: F0426YKZEN / B0426TT4YH | $454.44"
       },
       gastro: [
         {
@@ -630,6 +634,7 @@ const TRIP = {
           date: "19/04",
           dayOfWeek: "Sab",
           theme: "Chegada + Sanmachi",
+          synopsis: "Meio dia — chegada + explorar. Trem 3h de Nagano com vista dos Alpes. Check-in ao meio-dia. Tudo a pé a partir do hotel — Sanmachi Suji (3 ruas históricas da era Edo) + sake breweries + rio ao entardecer. Cidade compacta, caminhada leve e plana. Hida beef no almoço (wagyu local, obrigatório). Ramen à noite. Ritmo calmo de cidade pequena.",
           activities: [
             {
               name: "Transfer Nagano → Takayama",
@@ -643,11 +648,11 @@ const TRIP = {
             {
               name: "Check-in Hotel Wood",
               time: "12:00",
-              emoji: "🏨",
+              emoji: "",
               tags: ["transport"],
               duration: "",
-              detail: "Hotel Wood Takayama",
-              note: ""
+              detail: "Hotel Wood Takayama | Superior Japanese-Western | Ref: F0426YKZEN",
+              note: "CONFIRMADO | $454.44 | 2 noites"
             },
             {
               name: "Almoço — Maruaki Hida Beef",
@@ -700,6 +705,7 @@ const TRIP = {
           date: "20/04",
           dayOfWeek: "Dom",
           theme: "Shirakawa-go",
+          synopsis: "Dia cheio — bus + caminhada. Bus 50 min pra Shirakawa-go (vila UNESCO, casas de telhado de palha). Muita caminhada pela vila, subida ao mirante Shiroyama pra vista panorâmica. Almoço soba dentro de uma casa gassho-zukuri. Bus 50 min de volta, depois Hida Folk Village (taxi 10 min). Yakiniku Hida beef à noite. Levar sapato de caminhada e guarda-chuva — pode chover.",
           activities: [
             {
               name: "Bus para Shirakawa-go",
@@ -768,8 +774,8 @@ const TRIP = {
       nights: 4,
       hotel: {
         name: "Soki Kanazawa",
-        detail: "2-1 Kanazawa, Ishikawa | Moderate King Room",
-        note: "Confirmado | Ref: DV5PE3JR"
+        detail: "Moderate King Room | Kanazawa, Ishikawa",
+        note: "CONFIRMADO | Ref: F0426SEHDL / B0426WUSSE | $363.88"
       },
       gastro: [
         {
@@ -799,6 +805,7 @@ const TRIP = {
           date: "21/04",
           dayOfWeek: "Seg",
           theme: "Chegada + Higashi Chaya",
+          synopsis: "Meio dia — chegada + bairro geisha. Trem 2h30 de Takayama. Check-in no Soki ao meio-dia. Almoço sushi no mercado Omicho (a pé). Depois Higashi Chaya — bairro das gueixas, casas de madeira e lanternas, tudo a pé. Lojas de folha de ouro no caminho. Izakaya à noite em Katamachi. Caminhada moderada, cidade plana. Kanazawa é mais elegante e calma que as outras cidades.",
           activities: [
             {
               name: "Transfer Takayama → Kanazawa",
@@ -812,11 +819,11 @@ const TRIP = {
             {
               name: "Check-in Soki",
               time: "12:00",
-              emoji: "🏨",
+              emoji: "",
               tags: ["transport"],
               duration: "",
-              detail: "Soki Kanazawa",
-              note: ""
+              detail: "Soki Kanazawa | Moderate King Room | Ref: F0426SEHDL",
+              note: "CONFIRMADO | $363.88 | 4 noites"
             },
             {
               name: "Almoço — Yamasan Sushi (Omicho)",
@@ -860,6 +867,7 @@ const TRIP = {
           date: "22/04",
           dayOfWeek: "Ter",
           theme: "Kenroku-en + Omicho",
+          synopsis: "Dia completo — jardim, mercado, sushi, sake. Acordar cedo pro Kenroku-en (7h, vazio). Castelo ao lado, a pé. Omicho Market pra comer frutos do mar no balcão. Almoço omakase no Sushi Kobashi (reservar). Nishi Chaya à tarde (segundo bairro geisha, menor). Sake brewery Fukumitsuya. Tudo a pé ou taxi curto. Caminhada média, sem subida. Dia de templo + comida + cultura — ritmo bom.",
           activities: [
             {
               name: "Kenroku-en ao amanhecer",
@@ -930,6 +938,7 @@ const TRIP = {
           date: "23/04",
           dayOfWeek: "Qua",
           theme: "Ninja-dera + Artesanato",
+          synopsis: "Dia mais leve — templo + artesanato + lojas. Ninja-dera de manhã (templo com armadilhas secretas e passagens ocultas, reservar tour). Volta pra Higashi Chaya pra explorar com calma. Tarde inteira pra artesanato: folha de ouro, cerâmica Kutani, tecidos Kaga Yuzen. Pouca caminhada, ritmo tranquilo. Levar cash — muitas lojas de artesanato só aceitam dinheiro.",
           activities: [
             {
               name: "Ninja-dera (Myoryuji)",
@@ -973,6 +982,7 @@ const TRIP = {
           date: "24/04",
           dayOfWeek: "Qui",
           theme: "Dia Livre",
+          synopsis: "Dia livre — sem obrigação. Pode voltar ao Omicho, revisitar Kenroku-en ao entardecer (luz diferente), ou ir ao Nagamachi (bairro samurai, pouco visitado). Sake bar em Katamachi à noite. Sem transporte, tudo a pé. Dia bom pra comprar presentes. Organizar malas — amanhã Shinkansen 2h30 pra Nagoya.",
           free: true,
           activities: [
             {
@@ -1015,8 +1025,8 @@ const TRIP = {
       nights: 2,
       hotel: {
         name: "Nagoya Marriott Associa Hotel",
-        detail: "1-1-4 Meieki, Nakamura-ku | Conectado à estação",
-        note: "Ref: 17156360699 | Confirmado"
+        detail: "Standard Queen, Guest Room | 1-1-4 Meieki, Nakamura-ku | Conectado à estação",
+        note: "CONFIRMADO | Ref: F0426AW1T1 / B0426FAATK | $490.44"
       },
       gastro: [
         {
@@ -1053,6 +1063,7 @@ const TRIP = {
           date: "25/04",
           dayOfWeek: "Sab",
           theme: "Chegada + Atsuta + Osu",
+          synopsis: "Meio dia — chegada + santuário + bairro vintage. Shinkansen 2h30 de Kanazawa. Hotel colado na estação. Hitsumabushi (unagi grelhado) no almoço — prato mais famoso de Nagoya. Atsuta Shrine (metro), depois Osu Kannon pra street food e lojas vintage (metro). Miso katsu à noite. Dia de metro + caminhada moderada. Cidade mais urbana e industrial que as anteriores.",
           activities: [
             {
               name: "Transfer Kanazawa → Nagoya",
@@ -1066,11 +1077,11 @@ const TRIP = {
             {
               name: "Check-in Marriott Associa",
               time: "12:00",
-              emoji: "🏨",
+              emoji: "",
               tags: ["transport"],
               duration: "",
-              detail: "Nagoya Marriott Associa Hotel, conectado à estação JR",
-              note: ""
+              detail: "Nagoya Marriott Associa Hotel | Standard Queen | Ref: F0426AW1T1 | Conectado à estação JR",
+              note: "CONFIRMADO | $490.44 | 2 noites"
             },
             {
               name: "Almoço — Hitsumabushi",
@@ -1132,6 +1143,7 @@ const TRIP = {
           date: "26/04",
           dayOfWeek: "Dom",
           theme: "Castle + Noritake + Artesanato",
+          synopsis: "Dia cultural tranquilo — castelo + porcelana + artesanato. Castelo de Nagoya de manhã (reconstruído mas imponente). Noritake Garden à tarde — fábrica histórica de porcelana, surpreendentemente bonita, tem outlet com preços bons pra presente. Metro entre os pontos. Caminhada leve. Último jantar em Nagoya. Organizar malas — amanhã Shinkansen 1h40 pra Tokyo.",
           activities: [
             {
               name: "Nagoya Castle + Honmaru Palace",
@@ -1209,8 +1221,8 @@ const TRIP = {
       nights: 7,
       hotel: {
         name: "Hyatt Centric Ginza Tokyo",
-        detail: "6-6-7 Ginza, Chuo-ku | Tel: +81 3-6837-1234",
-        note: "Confirmação #62759457"
+        detail: "Standard Room King | 6-6-7 Ginza, Chuo-ku 104-0061 | Tel: +81 3-6837-1234",
+        note: "CONFIRMADO | #62759457 | 27/04–04/05 (7 noites) | Pontos + ¥ | Check-in 15:00 / Check-out 12:00"
       },
       gastro: [
         {
@@ -1254,6 +1266,7 @@ const TRIP = {
           date: "27/04",
           dayOfWeek: "Seg",
           theme: "Ginza + Tsukiji",
+          synopsis: "Meio dia — chegada em Tokyo + Ginza a pé. Shinkansen 1h40 de Nagoya, check-in Hyatt 15:00. Tsukiji mercado externo a pé (10 min do hotel). Jean Rousseau pra pulseira do Tank. Ginza toda a pé — circuito de arquitetura de grife (Hermès, Tiffany, Wako). Dover Street Market + Itoya. Sushi no jantar em Tsukiji. Tudo walkable a partir do hotel. Caminhada média, cidade plana. Primeiro contato com Tokyo — mais chique e organizada.",
           activities: [
             {
               name: "Transfer Nagoya → Tokyo",
@@ -1267,11 +1280,11 @@ const TRIP = {
             {
               name: "Check-in Hyatt Centric Ginza",
               time: "12:00",
-              emoji: "🏨",
+              emoji: "",
               tags: ["transport"],
               duration: "",
-              detail: "6-6-7 Ginza | Confirmação #62759457",
-              note: ""
+              detail: "6-6-7 Ginza, Chuo-ku 104-0061 | Standard Room King | Confirmação #62759457",
+              note: "CONFIRMADO | 7 noites (27/04–04/05) | 192.500 pts + ¥40.500 | Check-in 15:00 / Check-out 12:00"
             },
             {
               name: "Tsukiji mercado externo",
@@ -1319,13 +1332,13 @@ const TRIP = {
               note: "Paraíso para quem aprecia papelaria japonesa"
             },
             {
-              name: "Jantar — Itadori Bekkan (Tsukiji)",
+              name: "Jantar — Itadori Bekkan sushi (Tsukiji)",
               time: "19:30",
-              emoji: "🍽️",
+              emoji: "",
               tags: ["food"],
               duration: "1h30",
-              detail: "4-10-16 Tsukiji",
-              note: ""
+              detail: "1F, 4-10-16 Tsukiji, Chuo-ku. ¥2.000–4.000 (~$25 USD). Escondido atrás de lojas. Sushi simples, sem frescura, peixe de altíssima qualidade. Atum gordo e uni obrigatórios.",
+              note: "Do guia. Sem reserva. Casual e direto ao ponto."
             },
             {
               name: "Old Imperial Bar",
@@ -1343,33 +1356,43 @@ const TRIP = {
           dayOfWeek: "Ter",
           theme: "Flex — Ginza cont.",
           free: true,
+          synopsis: "Dia flex — Ginza sem pressa. Tudo a pé do hotel. Sushi esteira de manhã no Nemuro Hanamaru (fila rápida). Tempura Kondo 2 Michelin ao meio-dia (se conseguir reserva). Kabuki-za + Tokyo International Forum pra arquitetura. Kaiseki no Ginza Kappou Ukai à noite (5 min do hotel). Quase zero transporte, tudo walkable em Ginza. Caminhada leve. Dia pra curtir sem correr.",
           activities: [
             {
-              name: "Repetir favoritos de Ginza/Tsukiji",
-              time: "Flex",
-              emoji: "🐟",
-              tags: ["food", "photo"],
-              duration: "Flex",
-              detail: "Voltar ao que mais gostou do dia anterior",
-              note: ""
+              name: "Nemuro Hanamaru — sushi esteira",
+              time: "10:00",
+              emoji: "",
+              tags: ["food"],
+              duration: "1h",
+              detail: "Tokyo Plaza Ginza 10F, 5-2-1 Ginza. ¥2.000–4.000 (~$20 USD). Melhor custo-benefício de sushi em Tokyo. Fila mas roda rápido.",
+              note: "Do guia — sushi de qualidade altíssima por preço acessível"
             },
             {
               name: "Kabuki-za + Tokyo International Forum",
-              time: "Flex",
-              emoji: "🏛️",
+              time: "11:30",
+              emoji: "",
               tags: ["culture", "photo"],
               duration: "1h30",
-              detail: "Arquitetura icônica de Tokyo",
+              detail: "Arquitetura icônica de Tokyo. Rafael Viñoly (Forum) — foto obrigatória do interior.",
               note: ""
             },
             {
               name: "Tempura Kondo",
               time: "12:30",
-              emoji: "🍤",
+              emoji: "",
               tags: ["food"],
               duration: "1h30",
-              detail: "5-5-13 Ginza 9F. Tempura de referência.",
-              note: "Legendário — se conseguir mesa"
+              detail: "Sakaguchi Building 9F, 5-5-13 Ginza. ¥15.000–25.000 (~$130 USD). 2 estrelas Michelin. Tempura extremamente leve — cenoura e batata-doce são lendários.",
+              note: "Reserva muito difícil — tentar pelo hotel. Do guia."
+            },
+            {
+              name: "Ginza Kappou Ukai — jantar",
+              time: "19:00",
+              emoji: "",
+              tags: ["food"],
+              duration: "2h",
+              detail: "Jewel Box Ginza B1, Ginza. ¥10.000–18.000 (~$91 USD). Kaiseki moderno elegante. Reserva recomendada.",
+              note: "Do guia — kaiseki sofisticado a 5 min do hotel"
             }
           ]
         },
@@ -1377,6 +1400,7 @@ const TRIP = {
           date: "29/04",
           dayOfWeek: "Qua",
           theme: "Omotesando + Harajuku",
+          synopsis: "Dia intenso — lojas + arquitetura + templo. Metro de Ginza até Omotesando (15 min), depois tudo a pé o dia inteiro. Muitas lojas: Curious Curio (pulseira Tank), Byredo, Hoka, CFCL, VISVIM — tudo na mesma rua. Arquitetura de grife em cada esquina. Meiji Jingu (santuário na floresta) no meio. Narukiyo izakaya à noite + Grandfathers record bar. Bastante caminhada, levar sacolas pra compras. Dia mais cheio de lojas da viagem.",
           activities: [
             {
               name: "Koffee Mameya",
@@ -1415,13 +1439,13 @@ const TRIP = {
               note: ""
             },
             {
-              name: "Almoço — Aoyama Kawakamian",
+              name: "Almoço — Aoyama Kawakami soba (Omotesando)",
               time: "13:00",
-              emoji: "🍜",
+              emoji: "",
               tags: ["food"],
               duration: "1h30",
-              detail: "Soba artesanal. 3-14-1 Minamiaoyama",
-              note: ""
+              detail: "3-14-1 Minamiaoyama. ¥1.500–3.000 (~$18 USD). Soba tradicional em ambiente relaxado. Sem reserva.",
+              note: "Do guia. Alternativa: Savoy pizza (Azabujuban, ¥2.000–3.500) — napolitana nível altíssimo."
             },
             {
               name: "Meiji Jingu",
@@ -1460,13 +1484,13 @@ const TRIP = {
               note: ""
             },
             {
-              name: "Jantar — Narukiyo",
+              name: "Jantar — Narukiyo izakaya (Shibuya)",
               time: "19:30",
-              emoji: "🍶",
+              emoji: "",
               tags: ["food", "night"],
               duration: "2h",
-              detail: "VORT Aoyama B1, 2-7-14 Shibuya. Izakaya criativa.",
-              note: "RESERVAR! Atmosfera íntima, ingredientes sazonais",
+              detail: "VORT Aoyama B1, 2-7-14 Shibuya. ¥5.000–8.000 (~$50 USD). Izakaya animado, caótico e divertido. Menu japonês do dia. Melhor sentar no balcão e pedir omakase.",
+              note: "Do guia — TOP. RESERVAR! Alternativa: Kotaro (Sakuragaokacho, ¥8.000–15.000) — sofisticado, meses de espera.",
               reserved: "pending"
             },
             {
@@ -1484,11 +1508,12 @@ const TRIP = {
           date: "30/04",
           dayOfWeek: "Qui",
           theme: "Nakameguro + Daikanyama",
+          synopsis: "Dia completo — café, vinyl, sushi, livraria, pizza, izakaya, sake. Metro de Ginza até Nakameguro (20 min), depois tudo a pé o dia inteiro. Rio Meguro de manhã, Waltz records + VISVIM, Udatsu Sushi omakase ao meio-dia (JÁ RESERVADO). Daikanyama à tarde: T-Site (livraria), Bonjour Records, Seirinkan pizza. Tatemichiya izakaya à noite + Gem by Moto sake bar em Ebisu. Muita caminhada mas plana. Bairro mais cool de Tokyo — ritmo criativo.",
           activities: [
             {
               name: "Onibus Coffee",
               time: "08:30",
-              emoji: "☕",
+              emoji: "",
               tags: ["food"],
               duration: "45 min",
               detail: "2-14-1 Kamimeguro. Specialty coffee. | Metro 20 min",
@@ -1506,20 +1531,20 @@ const TRIP = {
             {
               name: "Waltz record store + VISVIM",
               time: "10:30",
-              emoji: "🎵",
+              emoji: "",
               tags: ["shop"],
               duration: "1h",
               detail: "Vinyl + VISVIM Nakameguro. Curadoria.",
               note: ""
             },
             {
-              name: "UDATSU SUSHI",
+              name: "UDATSU SUSHI — omakase (Nakameguro)",
               time: "12:00",
-              emoji: "🍣",
+              emoji: "",
               tags: ["food"],
               duration: "2h",
-              detail: "2-48-10 Kamimeguro. Omakase premium.",
-              note: "RESERVADO! ID: I-ZL9TCC7N | ¥13.200/pessoa",
+              detail: "2-48-10 Kamimeguro. ¥13.200/pessoa (~$90 USD). Sushi Michelin com clima mais relaxado. Excelente omakase. Tem opção vegetariana.",
+              note: "Do guia — TOP. RESERVADO! ID: I-ZL9TCC7N. A experiência sushi da viagem.",
               reserved: "confirmed"
             },
             {
@@ -1532,9 +1557,18 @@ const TRIP = {
               note: "Projeto Klein Dytham — a livraria mais bonita do mundo"
             },
             {
+              name: "Seirinkan — pizza cult (Nakameguro)",
+              time: "16:00",
+              emoji: "",
+              tags: ["food"],
+              duration: "45 min",
+              detail: "2-6-4 Kamimeguro. ¥1.800–3.000 (~$18 USD). Pizza napolitana cult. Só margarita e marinara. Ambiente Beatles/industrial.",
+              note: "Do guia — TOP. Sem reserva. Alternativa: Land curry (Meguro, ¥1.500–2.500) — curry autoral imperdível."
+            },
+            {
               name: "Bonjour Records",
-              time: "16:30",
-              emoji: "🎵",
+              time: "17:00",
+              emoji: "",
               tags: ["shop"],
               duration: "45 min",
               detail: "24-1 Sarugakucho. Vinyl e música.",
@@ -1542,31 +1576,31 @@ const TRIP = {
             },
             {
               name: "Maison Kitsuné + Log Road",
-              time: "17:30",
-              emoji: "🛍️",
+              time: "18:00",
+              emoji: "",
               tags: ["shop"],
               duration: "45 min",
               detail: "Moda + complexo ao ar livre em Daikanyama",
               note: ""
             },
             {
-              name: "Jantar — Tatemichiya",
+              name: "Jantar — Tatemichiya izakaya (Daikanyama)",
               time: "19:30",
-              emoji: "🍽️",
+              emoji: "",
               tags: ["food"],
               duration: "2h",
-              detail: "30-8 Sarugakucho, Daikanyama",
-              note: "RESERVAR! Cozinha japonesa refinada",
+              detail: "30-8 Sarugakucho, Shibuya-ku. ¥3.000–5.000 (~$30 USD). Izakaya punk rock clássico. Pequeno, barato e muito autêntico.",
+              note: "Do guia — TOP. RESERVAR! Alternativa: Schmatz cervejaria (Nakameguro, ¥3.000–5.000).",
               reserved: "pending"
             },
             {
-              name: "Gem by Moto",
+              name: "Gem by Moto — sake bar (Ebisu)",
               time: "22:00",
-              emoji: "🍶",
+              emoji: "",
               tags: ["night", "food"],
               duration: "1h30",
-              detail: "1-30-9 Ebisu. Sake bar premium.",
-              note: "RESERVAR! Educativo, íntimo, produtor direto. A experiência sake da viagem.",
+              detail: "1-30-9 Ebisu. ¥8.000–15.000 (~$80 USD). Focado em sake premium. Educativo, íntimo, produtor direto. A experiência sake da viagem.",
+              note: "Do guia — TOP. RESERVAR! Reserva obrigatória.",
               reserved: "pending"
             }
           ]
@@ -1575,6 +1609,7 @@ const TRIP = {
           date: "01/05",
           dayOfWeek: "Sex",
           theme: "Kamakura day trip",
+          synopsis: "Day trip — trem + bastante caminhada + escadarias. Trem 1h de Shibuya até Kamakura. Grande Buda (taxi 10 min da estação), floresta de bambu Hokoku-ji, almoço shirasu local, templo Engaku-ji. Tudo a pé entre os pontos (com escadarias nos templos — sapato bom). Trem 1h de volta. Ramen no Iruca em Roppongi + Golden Gai bares em Shinjuku. Dia mais físico em Tokyo — muita caminhada e subida. Levar garrafa d'água e protetor solar.",
           activities: [
             {
               name: "Trem Shibuya → Kamakura",
@@ -1631,13 +1666,22 @@ const TRIP = {
               note: ""
             },
             {
-              name: "Omoide Yokocho ou Golden Gai",
+              name: "Iruca Tokyo — ramen (Roppongi)",
               time: "18:00",
-              emoji: "🍶",
-              tags: ["food", "night"],
+              emoji: "",
+              tags: ["food"],
+              duration: "1h",
+              detail: "4-12-12 Roppongi, Minato-ku. ¥1.200–1.800 (~$10 USD). Um dos melhores ramen de Tokyo — porcini + yuzu. Sempre fila, vale a espera.",
+              note: "Do guia — TOP. Alternativa: Kikanbo (Kanda) ramen picante."
+            },
+            {
+              name: "Golden Gai — bares",
+              time: "20:00",
+              emoji: "",
+              tags: ["night"],
               duration: "2h",
-              detail: "Shinjuku. Becos minúsculos, izakayas, yakitori.",
-              note: "Escolher um: Omoide Yokocho (yakitori) ou Golden Gai (bares)"
+              detail: "Shinjuku. 200+ bares minúsculos em becos. | Metro 15 min de Roppongi.",
+              note: "Cada bar tem 5-8 lugares. Entrar nos que parecerem interessantes."
             }
           ]
         },
@@ -1645,6 +1689,7 @@ const TRIP = {
           date: "02/05",
           dayOfWeek: "Sab",
           theme: "Asakusa + Yanaka",
+          synopsis: "Dia longo — acordar 5:30, muito a pé + metro. Senso-ji às 6h (templo vazio, foto incrível). Kappabashi rua de facas e utensílios (taxi 10 min). Okonomiyaki almoço em casa antiga. Yanaka à tarde — becos, cemitério, gatos, o bairro mais antigo de Tokyo. Ueno Park. Yakiniku Jambo Hanare jantar perto de Ueno. Metro entre os pontos (Asakusa → Kappabashi → Yanaka → Ueno). Bastante caminhada. Dia mais fotogênico de Tokyo — levar câmera carregada.",
           activities: [
             {
               name: "Senso-ji ao amanhecer",
@@ -1676,7 +1721,7 @@ const TRIP = {
             {
               name: "Almoço — Sometaro (okonomiyaki em Asakusa)",
               time: "12:00",
-              emoji: "🍖",
+              emoji: "",
               tags: ["food"],
               duration: "1h",
               detail: "2-2-2 Nishi-Asakusa, Taito-ku, Tokyo. ¥1.000–2.000 (~$10 USD). Okonomiyaki e monjayaki numa casa antiga de 1937. Você cozinha na mesa.",
@@ -1710,13 +1755,13 @@ const TRIP = {
               note: ""
             },
             {
-              name: "Jantar — Ishibashi sukiyaki 1872",
-              time: "19:30",
-              emoji: "🥩",
+              name: "Jantar — Jambo Hanare yakiniku (Ueno)",
+              time: "19:00",
+              emoji: "",
               tags: ["food"],
               duration: "2h",
-              detail: "3-6-1 Sotokanda. Desde 1872.",
-              note: "Sukiyaki da era Meiji — história e carne"
+              detail: "Hongo, Bunkyo-ku. ¥5.000–8.000 (~$40 USD). Yakiniku top perto de Ueno. Peça arroz com carne e manteiga — combinação absurda.",
+              note: "Do guia. Reserva obrigatória. Alternativa: Hiyama sukiyaki Michelin (Nihonbashi, ¥10.000–18.000)."
             }
           ]
         },
@@ -1724,6 +1769,7 @@ const TRIP = {
           date: "03/05",
           dayOfWeek: "Dom",
           theme: "Shibuya + Despedida",
+          synopsis: "Último dia completo — lojas de vinyl + comida + jantar especial. Shibuya de manhã: Shibuya Crossing, Face Records, Lighthouse Records. Metro pra Shinjuku: Disk Union (maior loja de vinyl do mundo, vários andares). Almoço rápido katsudon em Shibuya. Used Camera Box. Butagumi tonkatsu à tarde. Artesanato em Aoyama. Jantar despedida no Teppanyaki Sazanka (Okura 41F, vista de Tokyo). Record bar pra fechar. Metro + caminhada, dia cheio mas divertido. Ir mais arrumado pro jantar.",
           activities: [
             {
               name: "Camelback — espresso + omelete",
@@ -1762,22 +1808,31 @@ const TRIP = {
               note: "Andares inteiros organizados por gênero"
             },
             {
-              name: "Used Camera Box",
+              name: "Almoço rápido — Katsudon-ya Zuicho (Shibuya)",
               time: "13:30",
-              emoji: "📷",
+              emoji: "",
+              tags: ["food"],
+              duration: "45 min",
+              detail: "41-26 Udagawacho, Shibuya-ku. ¥1.500–2.000 (~$12 USD). Só 8 lugares e uma opção no menu. Sempre fila. Cash only.",
+              note: "Do guia. Alternativa: Ryan Soba (1-4-13 Shibuya, ¥1.500–3.000) — soba artesanal moderno."
+            },
+            {
+              name: "Used Camera Box",
+              time: "14:30",
+              emoji: "",
               tags: ["shop"],
               duration: "1h",
               detail: "1-13-7 Nishishinjuku. Cameras vintage.",
               note: "Se achar uma Leica interessante..."
             },
             {
-              name: "Almoço — Butagumi tonkatsu",
-              time: "15:00",
-              emoji: "🐷",
+              name: "Butagumi — tonkatsu premium (Nishi-Azabu)",
+              time: "16:00",
+              emoji: "",
               tags: ["food"],
-              duration: "1h30",
-              detail: "2-24-9 Nishi-Azabu. Tonkatsu premium de porco de raça. | Taxi 15 min",
-              note: "Porco de raça específica — outro nível"
+              duration: "1h",
+              detail: "2-24-9 Nishi-Azabu. ¥2.500–4.000 (~$25 USD). Casa pequena, tonkatsu de porco de raça específica. Sem reserva, vá cedo.",
+              note: "Do guia — TOP. Outro nível de tonkatsu. Taxi 15 min de Shinjuku."
             },
             {
               name: "Japan Traditional Crafts Aoyama Square",
@@ -1798,13 +1853,13 @@ const TRIP = {
               note: "Doces para o imperador — levar de presente"
             },
             {
-              name: "Jantar — Teppanyaki Sazanka",
+              name: "Jantar — Teppanyaki Sazanka (Okura 41F)",
               time: "20:00",
-              emoji: "🥩",
+              emoji: "",
               tags: ["food"],
               duration: "2h30",
-              detail: "Hotel Okura 41F, 2-10-4 Toranomon. Vista + teppanyaki.",
-              note: "RESERVAR! Jantar de despedida com vista de Tokyo",
+              detail: "Okura Tokyo 41F, 2-10-4 Toranomon. ¥25.000–40.000 (~$250 USD). Teppanyaki de alto nível com vista incrível da cidade. Ingredientes premium, experiência completa.",
+              note: "Do guia — TOP. RESERVAR! Jantar de despedida com vista de Tokyo. Reserva obrigatória.",
               reserved: "pending"
             },
             {
@@ -1822,14 +1877,24 @@ const TRIP = {
           date: "04/05",
           dayOfWeek: "Seg",
           theme: "Partida",
+          synopsis: "Dia curto — manhã livre + aeroporto. Sushi no Itadori Bekkan em Tsukiji (8h, 10 min a pé do hotel). Últimas compras Tsukiji/Ginza. Check-out Hyatt 12:00. Keikyu Line direto pro Haneda (30 min, ¥630). Voo 17:45. Sem caminhada pesada, sem metro complicado. Organizar malas na noite anterior. Facas na mala despachada, não no carryon. Lembrar dos recibos de tax-free.",
           activities: [
             {
-              name: "Manhã livre — Tsukiji ou Ginza",
-              time: "Flex",
-              emoji: "🐟",
-              tags: ["food", "shop"],
-              duration: "Flex",
-              detail: "Últimas horas. Voltar ao favorito.",
+              name: "Manhã — Itadori Bekkan sushi (Tsukiji)",
+              time: "08:00",
+              emoji: "",
+              tags: ["food"],
+              duration: "1h",
+              detail: "1F, 4-10-16 Tsukiji, Chuo-ku. ¥2.000–4.000 (~$25 USD). Escondido atrás de lojas. Sushi simples, peixe de altíssima qualidade. Atum gordo e uni obrigatórios.",
+              note: "Do guia. Sem reserva. Alternativa: Nemuro Hanamaru (Ginza, ¥2.000–4.000) — melhor custo-benefício."
+            },
+            {
+              name: "Últimas compras — Tsukiji/Ginza",
+              time: "09:30",
+              emoji: "",
+              tags: ["shop"],
+              duration: "2h",
+              detail: "Últimas horas em Tokyo. Voltar ao favorito ou pegar presentes.",
               note: ""
             },
             {
@@ -2473,6 +2538,7 @@ function renderActivities(day) {
     <div class="activities-header">
       <h3>${day.date} — ${day.theme}</h3>
     </div>
+    ${day.synopsis ? `<div class="day-synopsis"><p>${day.synopsis}</p></div>` : ''}
     <div class="mood-filter">
       <button onclick="filterMood('all')" class="mood-btn ${currentMood === 'all' ? 'active' : ''}">Todos</button>
       <button onclick="filterMood('food')" class="mood-btn ${currentMood === 'food' ? 'active' : ''}">Comida</button>
