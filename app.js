@@ -412,13 +412,13 @@ const TRIP = {
               note: ""
             },
             {
-              name: "Uniqlo — cuecas, meias, calça",
+              name: "Compras estação — Uniqlo + Shiseido + Bose",
               time: "17:30",
               emoji: "",
               tags: ["shop"],
-              duration: "30 min",
-              detail: "MIDORI Shopping, dentro da estação JR Nagano. Uniqlo no 3F. Comprar o básico: cuecas Airism, meias, calça.",
-              note: "Literalmente dentro da estação, do lado do hotel. Aberta até 20h."
+              duration: "1h",
+              detail: "MIDORI Shopping, dentro da estação JR Nagano. Uniqlo 3F (cuecas Airism, meias, calça). Shiseido no drugstore 1F — sabonete rosto + skincare (Matsumoto Kiyoshi ou Tsuruha Drug). Bose Store no Tokyu Hands/eletrônicos — trocar espuma do fone.",
+              note: "Tudo dentro da estação, do lado do hotel. Aberta até 20h. Se não achar Bose em Nagano, tem Bose Store em Tokyo (Ginza Six ou Shibuya)."
             },
             {
               name: "Jantar — Fuji no Mori Soba",
