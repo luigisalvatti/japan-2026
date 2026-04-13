@@ -216,7 +216,9 @@ const TOKYO_GUIDE = {
         { name: "Addict Clothes", area: "Shinjuku", type: "Fashion", address: "Yotsuya, Shinjuku-ku", desc: "Roupas inspiradas no universo motociclista clássico. Identidade forte, acabamento premium.", highlight: false },
         { name: "Neighborhood", area: "Shibuya", type: "Streetwear", address: "Jingumae, Shibuya-ku", desc: "Marca japonesa influente. Estética urbana com inspiração biker/militar. Referência global.", highlight: true },
         { name: "The Real McCoy's", area: "Shibuya", type: "Fashion", address: "Jingumae, Shibuya-ku", desc: "Recria roupas militares clássicas com altíssimo nível de detalhe. Qualidade absurda.", highlight: true },
-        { name: "Hands", area: "Shibuya", type: "Department Store", address: "Udagawacho, Shibuya-ku", desc: "Loja com tudo: utilidades, design, ferramentas, lifestyle. Literalmente de tudo.", highlight: false }
+        { name: "Hands", area: "Shibuya", type: "Department Store", address: "Udagawacho, Shibuya-ku", desc: "Loja com tudo: utilidades, design, ferramentas, lifestyle. Literalmente de tudo.", highlight: false },
+        { name: "Hoka Harajuku", area: "Harajuku", type: "Tênis / Running", address: "6-16-23 Jingumae, Shibuya-ku", desc: "Flagship com modelos exclusivos Japão. Cores e edições que não saem no Brasil.", highlight: true },
+        { name: "Byredo Aoyama", area: "Aoyama", type: "Perfumaria", address: "3-5-29 Kitaaoyama, Minato-ku", desc: "Flagship com toda a linha + exclusivos Japão. Loja bonita.", highlight: true }
       ]
     },
     {
@@ -408,6 +410,15 @@ const TRIP = {
               duration: "",
               detail: "Hotel Metropolitan Nagano, conectado à estação",
               note: ""
+            },
+            {
+              name: "Uniqlo — cuecas, meias, calça",
+              time: "17:30",
+              emoji: "",
+              tags: ["shop"],
+              duration: "30 min",
+              detail: "MIDORI Shopping, dentro da estação JR Nagano. Uniqlo no 3F. Comprar o básico: cuecas Airism, meias, calça.",
+              note: "Literalmente dentro da estação, do lado do hotel. Aberta até 20h."
             },
             {
               name: "Jantar — Fuji no Mori Soba",
@@ -1422,11 +1433,29 @@ const TRIP = {
               note: "Floresta plantada há 100 anos — silêncio no meio de Tokyo"
             },
             {
-              name: "CFCL + F.I.L Tokyo (VISVIM)",
-              time: "17:00",
-              emoji: "🛍️",
+              name: "Byredo — perfume",
+              time: "16:00",
+              emoji: "",
               tags: ["shop"],
-              duration: "1h30",
+              duration: "30 min",
+              detail: "3-5-29 Kitaaoyama, Minato-ku (Aoyama). Flagship linda, toda a linha disponível.",
+              note: "Exclusivos Japão disponíveis. Fica a 5 min do Nezu Museum."
+            },
+            {
+              name: "Hoka — tênis",
+              time: "16:45",
+              emoji: "",
+              tags: ["shop"],
+              duration: "30 min",
+              detail: "Hoka Harajuku, 6-16-23 Jingumae, Shibuya-ku. Modelos exclusivos Japão.",
+              note: "Flagship Harajuku. Pode ter cores que não saem no Brasil."
+            },
+            {
+              name: "CFCL + F.I.L Tokyo (VISVIM)",
+              time: "17:30",
+              emoji: "",
+              tags: ["shop"],
+              duration: "1h",
               detail: "CFCL no Gyre 3F + VISVIM flagship",
               note: ""
             },
