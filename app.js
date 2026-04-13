@@ -1272,6 +1272,15 @@ const TRIP = {
               note: "Não é mais o mercado de atum (esse foi pra Toyosu), mas ainda é incrível"
             },
             {
+              name: "Atelier Jean Rousseau — pulseira Cartier Tank",
+              time: "14:30",
+              emoji: "⌚",
+              tags: ["shop"],
+              duration: "45 min",
+              detail: "Ginza. Atelier francês desde 1954. Pulseiras prontas e sob medida (alligator ~¥45.000+). Seg–Sáb 12h–19h, Dom 12h–18h.",
+              note: "A poucos minutos do Hyatt — pulseiras de luxo prontas na hora"
+            },
+            {
               name: "Ginza — arquitetura a pé",
               time: "15:00",
               emoji: "🏛️",
@@ -1377,13 +1386,13 @@ const TRIP = {
               note: "A avenida é um museu de arquitetura a céu aberto"
             },
             {
-              name: "Curious Curio — Cartier",
+              name: "Curious Curio + Accurate Form — Cartier Tank",
               time: "11:00",
               emoji: "⌚",
               tags: ["shop"],
               duration: "1h",
-              detail: "Correias Cartier. Minamiaoyama",
-              note: "Peças vintage e acessórios para o Tank"
+              detail: "Minamiaoyama. Pulseiras 19/16mm pro Tank. Accurate Form = couro japonês artesanal (marca própria). Qua–Dom 15h–20h.",
+              note: "Se quiser material especial, contato prévio com o dono — prazo ~2 meses"
             },
             {
               name: "Nezu Museum — jardim koi",
