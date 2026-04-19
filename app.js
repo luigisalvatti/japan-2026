@@ -114,7 +114,7 @@ const RESTAURANT_GUIDE = {
     {
       name: "Ebisu",
       restaurants: [
-        { name: "Gem by Moto", type: "Sake Bar / Izakaya", address: "1-30-9 Ebisu", price: "¥¥¥", avg: "¥8.000–15.000", reservation: "obrigatoria", tip: "Focado em sake premium. Educativo, íntimo, produtor direto. A experiência sake da viagem.", must: true },
+        { name: "Mizunotori (ex-Gem by Moto)", type: "Sake Bar / Izakaya", address: "1-30-9 Ebisu, Shibuya-ku", price: "¥¥¥", avg: "¥8.000–15.000", reservation: "obrigatoria", tip: "Foi renomeado em 2025 — mesmo lugar, mesma pegada. Focado em sake premium. Educativo, íntimo, produtor direto. A experiência sake da viagem.", must: true },
         { name: "Sowado", type: "Izakaya", address: "1-12-15 Hiroo, Shibuya-ku", price: "¥¥", avg: "¥4.000–6.000", reservation: "nao", tip: "Izakaya escondido, bom pra grupo.", must: false },
         { name: "Udon Yamacho", type: "Udon", address: "Ebisu Oak Building 1F", price: "¥", avg: "¥800–1.200", reservation: "nao", tip: "Simples, barato e muito bom.", must: false }
       ]
@@ -336,7 +336,7 @@ const TRIP = {
     ],
     pending: [
       { name: "Narukiyo", date: "29/04", city: "Tokyo", priority: "alta", note: "Izakaya em Shibuya, VORT Aoyama B1" },
-      { name: "Gem by Moto", date: "30/04", city: "Tokyo", priority: "critica", note: "Sake bar em Ebisu — educativo, íntimo" },
+      { name: "Mizunotori (ex-Gem by Moto)", date: "30/04", city: "Tokyo", priority: "critica", note: "Sake bar em Ebisu — 1-30-9 Ebisu. Buscar no Google como 'Mizunotori'." },
       { name: "Tatemichiya", date: "30/04", city: "Tokyo", priority: "media", note: "Jantar em Daikanyama" },
       { name: "Teppanyaki Sazanka", date: "03/05", city: "Tokyo", priority: "alta", note: "Hotel Okura 41F — vista cidade" },
       { name: "Kotaro", date: "03/05", city: "Tokyo", priority: "critica", note: "Meses de espera — tentar lista" }
@@ -1526,7 +1526,7 @@ const TRIP = {
           date: "30/04",
           dayOfWeek: "Qui",
           theme: "Nakameguro + Daikanyama",
-          synopsis: "Dia completo — café, vinyl, sushi, livraria, pizza, izakaya, sake. Metro de Ginza até Nakameguro (20 min), depois tudo a pé o dia inteiro. Rio Meguro de manhã, Waltz records + VISVIM, Udatsu Sushi omakase ao meio-dia (JÁ RESERVADO). Daikanyama à tarde: T-Site (livraria), Bonjour Records, Seirinkan pizza. Tatemichiya izakaya à noite + Gem by Moto sake bar em Ebisu. Muita caminhada mas plana. Bairro mais cool de Tokyo — ritmo criativo.",
+          synopsis: "Dia completo — café, vinyl, sushi, livraria, pizza, izakaya, sake. Metro de Ginza até Nakameguro (20 min), depois tudo a pé o dia inteiro. Rio Meguro de manhã, Waltz records + VISVIM, Udatsu Sushi omakase ao meio-dia (JÁ RESERVADO). Daikanyama à tarde: T-Site (livraria), Bonjour Records, Seirinkan pizza. Tatemichiya izakaya à noite + Mizunotori sake bar em Ebisu (ex-Gem by Moto). Muita caminhada mas plana. Bairro mais cool de Tokyo — ritmo criativo.",
           activities: [
             {
               name: "Onibus Coffee",
@@ -1612,13 +1612,13 @@ const TRIP = {
               reserved: "pending"
             },
             {
-              name: "Gem by Moto — sake bar (Ebisu)",
+              name: "Mizunotori (ex-Gem by Moto) — sake bar (Ebisu)",
               time: "22:00",
               emoji: "",
               tags: ["night", "food"],
               duration: "1h30",
-              detail: "1-30-9 Ebisu. ¥8.000–15.000 (~$80 USD). Focado em sake premium. Educativo, íntimo, produtor direto. A experiência sake da viagem.",
-              note: "Do guia — TOP. RESERVAR! Reserva obrigatória.",
+              detail: "1-30-9 Ebisu, Shibuya-ku. ¥8.000–15.000 (~$80 USD). Foi renomeado em 2025 de 'Gem by Moto' — mesmo lugar, mesma proposta. Sake premium, educativo, íntimo.",
+              note: "Do guia — TOP. RESERVAR! Reserva obrigatória. Buscar no Google como 'Mizunotori Ebisu'.",
               reserved: "pending"
             }
           ]
