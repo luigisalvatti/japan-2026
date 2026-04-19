@@ -1356,7 +1356,7 @@ const TRIP = {
           dayOfWeek: "Ter",
           theme: "Flex — Ginza cont.",
           free: true,
-          synopsis: "Dia flex — Ginza sem pressa. Tudo a pé do hotel. Sushi esteira de manhã no Nemuro Hanamaru (fila rápida). Tempura Kondo 2 Michelin ao meio-dia (se conseguir reserva). Kabuki-za + Tokyo International Forum pra arquitetura. Kaiseki no Ginza Kappou Ukai à noite (5 min do hotel). Quase zero transporte, tudo walkable em Ginza. Caminhada leve. Dia pra curtir sem correr.",
+          synopsis: "Dia médio — Ginza + teamLab. Manhã toda a pé em Ginza: sushi esteira Nemuro Hanamaru, Kabuki-za, Tokyo International Forum, almoço Tempura Kondo (2 Michelin). Tarde: metro 15 min pra Azabudai Hills ver o teamLab Borderless (ingresso timed, 2h30) + arquitetura Heatherwick. Volta de metro pra Ginza pro jantar kaiseki Ginza Kappou Ukai. Caminhada média, pouco metro. IMPORTANTE: comprar ingresso teamLab antes — esgota.",
           activities: [
             {
               name: "Nemuro Hanamaru — sushi esteira",
@@ -1384,6 +1384,24 @@ const TRIP = {
               duration: "1h30",
               detail: "Sakaguchi Building 9F, 5-5-13 Ginza. ¥15.000–25.000 (~$130 USD). 2 estrelas Michelin. Tempura extremamente leve — cenoura e batata-doce são lendários.",
               note: "Reserva muito difícil — tentar pelo hotel. Do guia."
+            },
+            {
+              name: "teamLab Borderless (Azabudai Hills)",
+              time: "15:30",
+              emoji: "",
+              tags: ["culture", "photo"],
+              duration: "2h30",
+              detail: "Azabudai Hills Garden Plaza B B1F, 5-8-1 Toranomon, Minato-ku. ¥3.800 (~$26 USD). Museu de arte digital imersiva — salas que mudam com sua presença. Metro 15 min de Ginza (linha Hibiya → Kamiyacho). Reabriu em 2024 no novo complexo Azabudai Hills.",
+              note: "INGRESSO TIMED — comprar ANTES no site oficial teamlab.art/e/borderless. Esgota semanas antes. Slot de 15:30 ideal pra voltar a tempo do jantar."
+            },
+            {
+              name: "Azabudai Hills — arquitetura",
+              time: "18:00",
+              emoji: "",
+              tags: ["culture", "photo"],
+              duration: "45 min",
+              detail: "Complexo Heatherwick Studio + Pelli Clarke. Jardins, praça central, torres. Um dos lançamentos mais ambiciosos de Tokyo.",
+              note: "Logo após o teamLab. Fotografia A7CR. Depois metro de volta a Ginza pro jantar."
             },
             {
               name: "Ginza Kappou Ukai — jantar",
