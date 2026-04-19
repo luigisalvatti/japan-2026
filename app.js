@@ -381,7 +381,7 @@ const TRIP = {
       days: [
         {
           date: "15/04",
-          dayOfWeek: "Ter",
+          dayOfWeek: "Qua",
           theme: "Chegada",
           synopsis: "Dia leve — chegada + compras. Pouso em Haneda 13:35, Shinkansen ~1h40 pra Nagano. Hotel colado na estação, então sem stress. Compras rápidas de essenciais (Uniqlo, Shiseido, Bose) tudo dentro do shopping da estação. Jantar soba a pé. Quase zero caminhada — corpo vai estar destruído do voo. Dormir cedo.",
           activities: [
@@ -434,7 +434,7 @@ const TRIP = {
         },
         {
           date: "16/04",
-          dayOfWeek: "Qua",
+          dayOfWeek: "Qui",
           theme: "Zenkoji + Macacos",
           synopsis: "Dia puxado — acordar 5:30, bastante caminhada e transporte. Zenkoji a pé de manhã (ritual budista ao amanhecer), depois bus 45 min pra Jigokudani + trilha de 35 min na floresta até os macacos. Volta de bus, almoço soba em Togakushi (30 min de bus). Tarde livre pra descansar ou sake brewery. Levar casaco — montanha é frio de manhã. Sapato de caminhada obrigatório.",
           activities: [
@@ -505,7 +505,7 @@ const TRIP = {
         },
         {
           date: "17/04",
-          dayOfWeek: "Qui",
+          dayOfWeek: "Sex",
           theme: "Matsumoto",
           synopsis: "Day trip tranquilo — trem 50 min pra Matsumoto, tudo a pé lá. Castelo de manhã (original do século XVI, madeira, não reconstrução). Depois ruas históricas Nawate-dori e Nakamachi com lojas de artesanato e cafés. Soba + sake brewery à tarde. Trem 50 min de volta. Caminhada moderada, cidade plana e compacta. Bom dia pra câmera — castelo refletido no fosso é a melhor foto.",
           activities: [
@@ -567,7 +567,7 @@ const TRIP = {
         },
         {
           date: "18/04",
-          dayOfWeek: "Sex",
+          dayOfWeek: "Sab",
           theme: "Dia Livre",
           free: true,
           synopsis: "Dia livre — sem programação fixa. Pode repetir o que curtiu, ir pra Obuse (30 min trem, vila de sake e doces) ou simplesmente descansar. Sem caminhada pesada, sem transporte obrigatório. Aproveitar pra organizar malas à noite — amanhã cedo sai pra Takayama (trem 3h).",
@@ -632,7 +632,7 @@ const TRIP = {
       days: [
         {
           date: "19/04",
-          dayOfWeek: "Sab",
+          dayOfWeek: "Dom",
           theme: "Chegada + Sanmachi",
           synopsis: "Meio dia — chegada + explorar. Trem 3h de Nagano com vista dos Alpes. Check-in ao meio-dia. Tudo a pé a partir do hotel — Sanmachi Suji (3 ruas históricas da era Edo) + sake breweries + rio ao entardecer. Cidade compacta, caminhada leve e plana. Hida beef no almoço (wagyu local, obrigatório). Ramen à noite. Ritmo calmo de cidade pequena.",
           activities: [
@@ -703,7 +703,7 @@ const TRIP = {
         },
         {
           date: "20/04",
-          dayOfWeek: "Dom",
+          dayOfWeek: "Seg",
           theme: "Shirakawa-go",
           synopsis: "Dia cheio — bus + caminhada. Bus 50 min pra Shirakawa-go (vila UNESCO, casas de telhado de palha). Muita caminhada pela vila, subida ao mirante Shiroyama pra vista panorâmica. Almoço soba dentro de uma casa gassho-zukuri. Bus 50 min de volta, depois Hida Folk Village (taxi 10 min). Yakiniku Hida beef à noite. Levar sapato de caminhada e guarda-chuva — pode chover.",
           activities: [
@@ -803,7 +803,7 @@ const TRIP = {
       days: [
         {
           date: "21/04",
-          dayOfWeek: "Seg",
+          dayOfWeek: "Ter",
           theme: "Chegada + Higashi Chaya",
           synopsis: "Meio dia — chegada + bairro geisha. Trem 2h30 de Takayama. Check-in no Soki ao meio-dia. Almoço sushi no mercado Omicho (a pé). Depois Higashi Chaya — bairro das gueixas, casas de madeira e lanternas, tudo a pé. Lojas de folha de ouro no caminho. Izakaya à noite em Katamachi. Caminhada moderada, cidade plana. Kanazawa é mais elegante e calma que as outras cidades.",
           activities: [
@@ -865,7 +865,7 @@ const TRIP = {
         },
         {
           date: "22/04",
-          dayOfWeek: "Ter",
+          dayOfWeek: "Qua",
           theme: "Kenroku-en + Omicho",
           synopsis: "Dia completo — jardim, mercado, sushi, sake. Acordar cedo pro Kenroku-en (7h, vazio). Castelo ao lado, a pé. Omicho Market pra comer frutos do mar no balcão. Almoço omakase no Sushi Kobashi (reservar). Nishi Chaya à tarde (segundo bairro geisha, menor). Sake brewery Fukumitsuya. Tudo a pé ou taxi curto. Caminhada média, sem subida. Dia de templo + comida + cultura — ritmo bom.",
           activities: [
@@ -936,7 +936,7 @@ const TRIP = {
         },
         {
           date: "23/04",
-          dayOfWeek: "Qua",
+          dayOfWeek: "Qui",
           theme: "Ninja-dera + Artesanato",
           synopsis: "Dia mais leve — templo + artesanato + lojas. Ninja-dera de manhã (templo com armadilhas secretas e passagens ocultas, reservar tour). Volta pra Higashi Chaya pra explorar com calma. Tarde inteira pra artesanato: folha de ouro, cerâmica Kutani, tecidos Kaga Yuzen. Pouca caminhada, ritmo tranquilo. Levar cash — muitas lojas de artesanato só aceitam dinheiro.",
           activities: [
@@ -980,7 +980,7 @@ const TRIP = {
         },
         {
           date: "24/04",
-          dayOfWeek: "Qui",
+          dayOfWeek: "Sex",
           theme: "Dia Livre",
           synopsis: "Dia livre — sem obrigação. Pode voltar ao Omicho, revisitar Kenroku-en ao entardecer (luz diferente), ou ir ao Nagamachi (bairro samurai, pouco visitado). Sake bar em Katamachi à noite. Sem transporte, tudo a pé. Dia bom pra comprar presentes. Organizar malas — amanhã Shinkansen 2h30 pra Nagoya.",
           free: true,
