@@ -948,30 +948,113 @@ body {
 }
 
 .reservations-content h3 {
-  font-size: 0.8rem;
-  margin-bottom: 10px;
+  font-size: 0.75rem;
+  margin-bottom: 12px;
   color: var(--text3);
-  font-weight: 500;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
 }
 
-.reservations-section { margin-bottom: 20px; }
+.reservations-intro {
+  font-size: 0.85rem;
+  color: var(--text3);
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.reservations-section { margin-bottom: 24px; }
 
 .reservation-item {
   background: var(--card);
   border-radius: var(--radius);
-  padding: 14px;
-  margin-bottom: 8px;
+  padding: 14px 16px;
+  margin-bottom: 10px;
   border-left: 3px solid var(--accent);
 }
 
-.reservation-item.pending {
-  border-left-color: var(--orange);
+.reservation-item.pending { border-left-color: var(--orange); }
+.reservation-item.prio-critica { border-left-color: var(--red); }
+.reservation-item.prio-alta { border-left-color: var(--orange); }
+.reservation-item.prio-media { border-left-color: var(--gold); }
+.reservation-item.prio-baixa { border-left-color: var(--text3); }
+.reservation-item.confirmed { border-left-color: var(--green); }
+
+.res-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
 }
 
-.reservation-item p {
-  font-size: 0.82rem;
-  color: var(--text2);
-  line-height: 1.6;
+.res-priority {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 3px 7px;
+  border-radius: 4px;
+  background: rgba(255,255,255,0.06);
+}
+
+.res-priority.prio-critica { color: var(--red); background: rgba(224,85,85,0.12); }
+.res-priority.prio-alta { color: var(--orange); background: rgba(240,148,61,0.12); }
+.res-priority.prio-media { color: var(--gold); background: rgba(226,179,64,0.12); }
+.res-priority.prio-baixa { color: var(--text3); }
+.res-priority.prio-confirmed { color: var(--green); background: rgba(61,217,160,0.12); }
+
+.res-city {
+  font-size: 0.7rem;
+  color: var(--text3);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.res-name {
+  font-size: 0.95rem !important;
+  font-weight: 600;
+  color: var(--text) !important;
+  margin-bottom: 4px;
+}
+
+.res-when {
+  font-size: 0.82rem !important;
+  color: var(--accent) !important;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.res-how {
+  font-size: 0.78rem !important;
+  color: var(--text2) !important;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+  line-height: 1.5 !important;
+}
+
+.res-how strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.res-note {
+  font-size: 0.75rem !important;
+  color: var(--text3) !important;
+  margin-top: 6px;
+  font-style: italic;
+  line-height: 1.5 !important;
+}
+
+.res-price, .res-id {
+  font-size: 0.78rem !important;
+  color: var(--gold) !important;
+  margin-top: 4px;
+}
+
+.res-id {
+  color: var(--text3) !important;
+  font-family: monospace;
 }
 
 /* ===== SCROLLBAR ===== */

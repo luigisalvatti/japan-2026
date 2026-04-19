@@ -335,11 +335,16 @@ const TRIP = {
       { name: "Udatsu Sushi", date: "30/04", time: "12:00", city: "Tokyo", id: "I-ZL9TCC7N", price: "¥13.200/pessoa", note: "Omakase em Nakameguro" }
     ],
     pending: [
-      { name: "Narukiyo", date: "29/04", city: "Tokyo", priority: "alta", note: "Izakaya em Shibuya, VORT Aoyama B1" },
-      { name: "Mizunotori (ex-Gem by Moto)", date: "30/04", city: "Tokyo", priority: "critica", note: "Sake bar em Ebisu — 1-30-9 Ebisu. Buscar no Google como 'Mizunotori'." },
-      { name: "Tatemichiya", date: "30/04", city: "Tokyo", priority: "media", note: "Jantar em Daikanyama" },
-      { name: "Teppanyaki Sazanka", date: "03/05", city: "Tokyo", priority: "alta", note: "Hotel Okura 41F — vista cidade" },
-      { name: "Kotaro", date: "03/05", city: "Tokyo", priority: "critica", note: "Meses de espera — tentar lista" }
+      { name: "teamLab Borderless", date: "28/04", time: "15:30", city: "Tokyo", priority: "critica", how: "teamlab.art/e/borderless (site oficial — timed entry)", note: "Azabudai Hills, Toranomon. Ingresso ¥3.800. COMPRAR JÁ — esgota semanas antes." },
+      { name: "Mizunotori (ex-Gem by Moto)", date: "30/04", time: "22:00", city: "Tokyo", priority: "critica", how: "Tabelog / Instagram @mizunotori_ebisu / tel via concierge", note: "Sake bar em Ebisu, 1-30-9 Ebisu. Obrigatória. Buscar como 'Mizunotori' (foi renomeado)." },
+      { name: "Teppanyaki Sazanka", date: "03/05", time: "20:00", city: "Tokyo", priority: "critica", how: "okura-nikko.com ou +81 3-3505-6071", note: "Hotel Okura 41F. Jantar despedida com vista de Tokyo. Reserva obrigatória." },
+      { name: "Narukiyo", date: "29/04", time: "19:30", city: "Tokyo", priority: "alta", how: "Pedir pro concierge do Hyatt (telefone japonês)", note: "Izakaya em Shibuya, VORT Aoyama B1. Recomendada." },
+      { name: "Tatemichiya", date: "30/04", time: "19:30", city: "Tokyo", priority: "alta", how: "Pedir pro concierge do Hyatt", note: "Izakaya punk rock em Daikanyama. Recomendada." },
+      { name: "Ginza Kappou Ukai", date: "28/04", time: "19:00", city: "Tokyo", priority: "alta", how: "Pedir pro concierge do Hyatt", note: "Kaiseki, Jewel Box Ginza B1. 5 min do hotel. Recomendada." },
+      { name: "Tempura Onodera (ou Takiya)", date: "28/04", time: "12:30", city: "Tokyo", priority: "alta", how: "Pedir pro concierge do Hyatt", note: "Substituto do Tempura Kondo. Onodera = Sunlit Ginza 11F. Takiya = Azabujuban 2F Labell." },
+      { name: "Sushi Kobashi", date: "22/04", time: "12:00", city: "Kanazawa", priority: "alta", how: "Pedir pro Soki Kanazawa no check-in (21/04)", note: "Omakase em Katamachi. Recomendada." },
+      { name: "Ninja-dera (Myoryuji)", date: "23/04", time: "09:00", city: "Kanazawa", priority: "alta", how: "Pedir pro Soki Kanazawa — reservar com ANTECEDÊNCIA", note: "Tour guiado em japonês. Templo com armadilhas secretas. Obrigatório reservar." },
+      { name: "Kotaro", date: "03/05", city: "Tokyo", priority: "baixa", how: "Concierge Hyatt — meses de espera", note: "Lendário mas quase impossível. Tentar lista de espera." }
     ]
   },
   cities: [
@@ -2765,36 +2770,62 @@ function showReservations() {
   const modal = document.getElementById('reservations-modal');
   if (!modal) return;
 
-  let html = '<div class="reservations-content">';
-  html += '<h2>Reservas</h2>';
+  const priorityOrder = { 'critica': 0, 'alta': 1, 'media': 2, 'baixa': 3 };
+  const priorityLabel = {
+    'critica': { label: 'URGENTE', cls: 'prio-critica' },
+    'alta': { label: 'IMPORTANTE', cls: 'prio-alta' },
+    'media': { label: 'MÉDIA', cls: 'prio-media' },
+    'baixa': { label: 'BAIXA', cls: 'prio-baixa' }
+  };
 
-  // Confirmed
-  if (TRIP.reservations.confirmed.length > 0) {
-    html += '<div class="reservations-section"><h3>✅ Confirmadas</h3>';
-    TRIP.reservations.confirmed.forEach(res => {
+  const sortedPending = [...TRIP.reservations.pending].sort((a, b) => {
+    const pa = priorityOrder[a.priority] ?? 9;
+    const pb = priorityOrder[b.priority] ?? 9;
+    if (pa !== pb) return pa - pb;
+    const [da, ma] = a.date.split('/').map(Number);
+    const [db, mb] = b.date.split('/').map(Number);
+    return (ma * 100 + da) - (mb * 100 + db);
+  });
+
+  let html = '<div class="reservations-content">';
+  html += `<p class="reservations-intro">${sortedPending.length} reservas pendentes + ${TRIP.reservations.confirmed.length} confirmadas</p>`;
+
+  // Pending (mais urgentes primeiro)
+  if (sortedPending.length > 0) {
+    html += '<div class="reservations-section"><h3>Pendentes — fazer agora</h3>';
+    sortedPending.forEach(res => {
+      const prio = priorityLabel[res.priority] || priorityLabel['media'];
       html += `
-        <div class="reservation-item confirmed">
-          <p><strong>${res.name}</strong></p>
-          <p>${res.date} às ${res.time}</p>
-          <p>${res.price}</p>
-          <p style="font-size: 0.85em; color: #666;">ID: ${res.id}</p>
-          <p style="font-size: 0.85em; color: #999;">${res.note}</p>
+        <div class="reservation-item pending ${prio.cls}">
+          <div class="res-header">
+            <span class="res-priority ${prio.cls}">${prio.label}</span>
+            <span class="res-city">${res.city}</span>
+          </div>
+          <p class="res-name">${res.name}</p>
+          <p class="res-when">${res.date}${res.time ? ' às ' + res.time : ''}</p>
+          ${res.how ? `<p class="res-how"><strong>Como reservar:</strong> ${res.how}</p>` : ''}
+          ${res.note ? `<p class="res-note">${res.note}</p>` : ''}
         </div>
       `;
     });
     html += '</div>';
   }
 
-  // Pending
-  if (TRIP.reservations.pending.length > 0) {
-    html += '<div class="reservations-section"><h3>⏳ Pendentes</h3>';
-    TRIP.reservations.pending.forEach(res => {
-      const priority = res.priority === 'critica' ? '🔴' : (res.priority === 'alta' ? '🟠' : '🟡');
+  // Confirmed
+  if (TRIP.reservations.confirmed.length > 0) {
+    html += '<div class="reservations-section"><h3>Confirmadas</h3>';
+    TRIP.reservations.confirmed.forEach(res => {
       html += `
-        <div class="reservation-item pending">
-          <p><strong>${priority} ${res.name}</strong></p>
-          <p>${res.date}</p>
-          <p style="font-size: 0.85em; color: #999;">${res.note}</p>
+        <div class="reservation-item confirmed">
+          <div class="res-header">
+            <span class="res-priority prio-confirmed">CONFIRMADA</span>
+            <span class="res-city">${res.city}</span>
+          </div>
+          <p class="res-name">${res.name}</p>
+          <p class="res-when">${res.date} às ${res.time}</p>
+          ${res.price ? `<p class="res-price">${res.price}</p>` : ''}
+          ${res.id ? `<p class="res-id">ID: ${res.id}</p>` : ''}
+          ${res.note ? `<p class="res-note">${res.note}</p>` : ''}
         </div>
       `;
     });
