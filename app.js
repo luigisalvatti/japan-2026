@@ -332,10 +332,10 @@ const TRIP = {
   ],
   reservations: {
     confirmed: [
-      { name: "Udatsu Sushi", date: "30/04", time: "12:00", city: "Tokyo", id: "I-ZL9TCC7N", price: "¥13.200/pessoa", note: "Omakase em Nakameguro" }
+      { name: "Udatsu Sushi", date: "30/04", time: "12:00", city: "Tokyo", id: "I-ZL9TCC7N", price: "¥13.200/pessoa", note: "Omakase em Nakameguro" },
+      { name: "teamLab Borderless", date: "28/04", time: "15:00–15:30", city: "Tokyo", id: "AYHCTMHPFXKP-0001", price: "¥10.000 (2 adultos)", note: "Azabudai Hills, Toranomon. Entrada 15:00–15:30. Ticket URL no email da teamLab." }
     ],
     pending: [
-      { name: "teamLab Borderless", date: "28/04", time: "15:30", city: "Tokyo", priority: "critica", how: "teamlab.art/e/borderless (site oficial — timed entry)", note: "Azabudai Hills, Toranomon. Ingresso ¥3.800. COMPRAR JÁ — esgota semanas antes." },
       { name: "Mizunotori (ex-Gem by Moto)", date: "30/04", time: "22:00", city: "Tokyo", priority: "critica", how: "Tabelog / Instagram @mizunotori_ebisu / tel via concierge", note: "Sake bar em Ebisu, 1-30-9 Ebisu. Obrigatória. Buscar como 'Mizunotori' (foi renomeado)." },
       { name: "Teppanyaki Sazanka", date: "03/05", time: "20:00", city: "Tokyo", priority: "critica", how: "okura-nikko.com ou +81 3-3505-6071", note: "Hotel Okura 41F. Jantar despedida com vista de Tokyo. Reserva obrigatória." },
       { name: "Narukiyo", date: "29/04", time: "19:30", city: "Tokyo", priority: "alta", how: "Pedir pro concierge do Hyatt (telefone japonês)", note: "Izakaya em Shibuya, VORT Aoyama B1. Recomendada." },
@@ -1392,16 +1392,17 @@ const TRIP = {
             },
             {
               name: "teamLab Borderless (Azabudai Hills)",
-              time: "15:30",
+              time: "15:00",
               emoji: "",
               tags: ["culture", "photo"],
               duration: "2h30",
-              detail: "Azabudai Hills Garden Plaza B B1F, 5-8-1 Toranomon, Minato-ku. ¥3.800 (~$26 USD). Museu de arte digital imersiva — salas que mudam com sua presença. Metro 15 min de Ginza (linha Hibiya → Kamiyacho). Reabriu em 2024 no novo complexo Azabudai Hills.",
-              note: "INGRESSO TIMED — comprar ANTES no site oficial teamlab.art/e/borderless. Esgota semanas antes. Slot de 15:30 ideal pra voltar a tempo do jantar."
+              detail: "Azabudai Hills Garden Plaza B B1F, 5-8-1 Toranomon, Minato-ku. Entrada 15:00–15:30 | 2 adultos ¥10.000. Museu de arte digital imersiva — salas que mudam com sua presença. Metro 15 min de Ginza (linha Hibiya → Kamiyacho).",
+              note: "RESERVADO! Ticket: AYHCTMHPFXKP-0001. URL no email da teamLab. Chegar antes das 15:30 pra não perder o slot.",
+              reserved: "confirmed"
             },
             {
               name: "Azabudai Hills — arquitetura",
-              time: "18:00",
+              time: "17:30",
               emoji: "",
               tags: ["culture", "photo"],
               duration: "45 min",
