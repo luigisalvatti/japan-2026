@@ -338,6 +338,7 @@ const TRIP = {
     pending: [
       { name: "Mizunotori (ex-Gem by Moto)", date: "30/04", time: "22:00", city: "Tokyo", priority: "critica", how: "Tabelog / Instagram @mizunotori_ebisu / tel via concierge", note: "Sake bar em Ebisu, 1-30-9 Ebisu. Obrigatória. Buscar como 'Mizunotori' (foi renomeado)." },
       { name: "Teppanyaki Sazanka", date: "03/05", time: "20:00", city: "Tokyo", priority: "critica", how: "okura-nikko.com ou +81 3-3505-6071", note: "Hotel Okura 41F. Jantar despedida com vista de Tokyo. Reserva obrigatória." },
+      { name: "Parfum Satori (appointment)", date: "28/04", time: "18:00", city: "Tokyo", priority: "alta", how: "Marcar pelo site parfum-satori.com ou email", note: "Perfumaria japonesa artesanal em Roppongi (2F, 3-6-8). Só por appointment. 10 min de Azabudai Hills." },
       { name: "Narukiyo", date: "29/04", time: "19:30", city: "Tokyo", priority: "alta", how: "Pedir pro concierge do Hyatt (telefone japonês)", note: "Izakaya em Shibuya, VORT Aoyama B1. Recomendada." },
       { name: "Tatemichiya", date: "30/04", time: "19:30", city: "Tokyo", priority: "alta", how: "Pedir pro concierge do Hyatt", note: "Izakaya punk rock em Daikanyama. Recomendada." },
       { name: "Ginza Kappou Ukai", date: "28/04", time: "19:00", city: "Tokyo", priority: "alta", how: "Pedir pro concierge do Hyatt", note: "Kaiseki, Jewel Box Ginza B1. 5 min do hotel. Recomendada." },
@@ -1379,7 +1380,7 @@ const TRIP = {
           dayOfWeek: "Ter",
           theme: "Flex — Ginza cont.",
           free: true,
-          synopsis: "Dia médio — Ginza + teamLab. Manhã toda a pé em Ginza: sushi esteira Nemuro Hanamaru, Kabuki-za, Tokyo International Forum, almoço Tempura Kondo (2 Michelin). Tarde: metro 15 min pra Azabudai Hills ver o teamLab Borderless (ingresso timed, 2h30) + arquitetura Heatherwick. Volta de metro pra Ginza pro jantar kaiseki Ginza Kappou Ukai. Caminhada média, pouco metro. IMPORTANTE: comprar ingresso teamLab antes — esgota.",
+          synopsis: "Dia médio — Ginza + teamLab + Roppongi. Manhã toda a pé em Ginza: sushi esteira Nemuro Hanamaru, Kabuki-za, Tokyo International Forum, almoço Tempura Kondo (2 Michelin). Tarde: metro 15 min pra Azabudai Hills — teamLab Borderless (2h30) + arquitetura Heatherwick. Parfum Satori em Roppongi ao entardecer (appointment). Volta de metro pra Ginza pro jantar kaiseki Ginza Kappou Ukai. Caminhada média, pouco metro. CONFIRMADO: teamLab. RESERVAR: Parfum Satori.",
           activities: [
             {
               name: "Nemuro Hanamaru — sushi esteira",
@@ -1423,9 +1424,18 @@ const TRIP = {
               time: "17:30",
               emoji: "",
               tags: ["culture", "photo"],
-              duration: "45 min",
+              duration: "30 min",
               detail: "Complexo Heatherwick Studio + Pelli Clarke. Jardins, praça central, torres. Um dos lançamentos mais ambiciosos de Tokyo.",
-              note: "Logo após o teamLab. Fotografia A7CR. Depois metro de volta a Ginza pro jantar."
+              note: "Logo após o teamLab. Fotografia A7CR."
+            },
+            {
+              name: "Parfum Satori (Roppongi)",
+              time: "18:00",
+              emoji: "",
+              tags: ["shop"],
+              duration: "45 min",
+              detail: "2F, 3-6-8 OURS, Roppongi, Minato-ku. Perfumaria japonesa artesanal da Satori Osawa. 10 min a pé de Azabudai Hills. Fragrâncias inspiradas em conceitos japoneses (incenso, hinoki, yuzu, chá).",
+              note: "ATENÇÃO: normalmente só por APPOINTMENT. Marcar antes pelo site parfum-satori.com. 5 min de Roppongi-Icchome station."
             },
             {
               name: "Ginza Kappou Ukai — jantar",
