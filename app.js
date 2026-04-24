@@ -338,7 +338,6 @@ const TRIP = {
     pending: [
       { name: "Mizunotori (ex-Gem by Moto)", date: "30/04", time: "22:00", city: "Tokyo", priority: "critica", how: "Tabelog / Instagram @mizunotori_ebisu / tel via concierge", note: "Sake bar em Ebisu, 1-30-9 Ebisu. Obrigatória. Buscar como 'Mizunotori' (foi renomeado)." },
       { name: "Teppanyaki Sazanka", date: "03/05", time: "20:00", city: "Tokyo", priority: "critica", how: "okura-nikko.com ou +81 3-3505-6071", note: "Hotel Okura 41F. Jantar despedida com vista de Tokyo. Reserva obrigatória." },
-      { name: "Ginza Hachigou (ramen Michelin)", date: "27/04", time: "12:30", city: "Tokyo", priority: "alta", how: "TableCheck — abre sábados 9h pra semana seguinte. Senão, fila no balcão.", note: "3-14-2 Ginza. 1 estrela Michelin, só almoço. Shoyu ramen com trufa." },
       { name: "Narukiyo", date: "29/04", time: "19:30", city: "Tokyo", priority: "alta", how: "Pedir pro concierge do Hyatt (telefone japonês)", note: "Izakaya em Shibuya, VORT Aoyama B1. Recomendada." },
       { name: "Tatemichiya", date: "30/04", time: "19:30", city: "Tokyo", priority: "alta", how: "Pedir pro concierge do Hyatt", note: "Izakaya punk rock em Daikanyama. Recomendada." },
       { name: "Ginza Kappou Ukai", date: "28/04", time: "19:00", city: "Tokyo", priority: "alta", how: "Pedir pro concierge do Hyatt", note: "Kaiseki, Jewel Box Ginza B1. 5 min do hotel. Recomendada." },
@@ -1272,38 +1271,47 @@ const TRIP = {
           date: "27/04",
           dayOfWeek: "Seg",
           theme: "Ginza + Tsukiji",
-          synopsis: "Meio dia — chegada em Tokyo + Ginza a pé. Shinkansen 1h40 de Nagoya, check-in Hyatt ~12:00. Almoço no Ginza Hachigou (ramen 1 Michelin a 10 min). Tsukiji mercado externo pra snacks/foto. Jean Rousseau pra pulseira do Tank. Ginza toda a pé — circuito de arquitetura de grife (Hermès, Tiffany, Wako). Dover Street Market + Itoya. Sushi no jantar em Tsukiji. Tudo walkable a partir do hotel. Primeiro contato com Tokyo.",
+          synopsis: "Dia de corrida inicial — sair cedo de Nagoya (Shinkansen 08:00) pra pegar fila do Ginza Hachigou (ramen 1 Michelin) às 10:30. Drop malas no Hyatt antes, check-in oficial só às 15:00 mas guardam bagagem. Após o ramen: Tsukiji, Jean Rousseau (Tank), Ginza arquitetura (Hermès/Tiffany/Wako), Dover Street Market, Itoya. Jantar sushi em Tsukiji. Tudo walkable de Ginza. Primeiro contato com Tokyo — ritmo direto.",
           activities: [
             {
-              name: "Transfer Nagoya → Tokyo",
-              time: "09:00",
-              emoji: "🚅",
+              name: "Shinkansen Nagoya → Tokyo",
+              time: "08:00",
+              emoji: "",
               tags: ["transport"],
               duration: "~1h40",
-              detail: "Shinkansen | JR Pass",
-              note: ""
+              detail: "Sair cedo de Nagoya pra dar tempo da fila do Hachigou | JR Pass",
+              note: "Chegada ~09:40 em Tokyo Station"
+            },
+            {
+              name: "Drop malas no Hyatt",
+              time: "10:00",
+              emoji: "",
+              tags: ["transport"],
+              duration: "30 min",
+              detail: "6-6-7 Ginza, Chuo-ku. Taxi/metro de Tokyo Station. Check-in oficial só às 15:00, mas deixam guardar malas.",
+              note: "Não perder tempo — direto na fila do Hachigou"
+            },
+            {
+              name: "FILA Ginza Hachigou (chegar 10:30)",
+              time: "10:30",
+              emoji: "",
+              tags: ["food"],
+              duration: "1h30",
+              detail: "3-14-2 Ginza, Chuo-ku. A pé 8 min do Hyatt. Abre 11:30. Chegar 10:30–11:00 pra pegar primeira seating. ¥1.200–2.000 (~$13 USD). Shoyu ramen com frango e trufa — 1 estrela Michelin.",
+              note: "FILA: ir cedo (10:30). Não aceita reserva no mesmo dia. Só ~10 lugares no balcão — rotação rápida depois que abre."
             },
             {
               name: "Check-in Hyatt Centric Ginza",
-              time: "12:00",
+              time: "13:00",
               emoji: "",
               tags: ["transport"],
               duration: "",
               detail: "6-6-7 Ginza, Chuo-ku 104-0061 | Standard Room King | Confirmação #62759457",
-              note: "CONFIRMADO | 7 noites (27/04–04/05) | 192.500 pts + ¥40.500 | Check-in 15:00 / Check-out 12:00"
-            },
-            {
-              name: "Almoço — Ginza Hachigou (ramen Michelin)",
-              time: "12:30",
-              emoji: "",
-              tags: ["food"],
-              duration: "1h",
-              detail: "3-14-2 Ginza, Chuo-ku. ¥1.200–2.000 (~$13 USD). Chukasoba Ginza Hachigou — 1 estrela Michelin. Shoyu ramen com frango e trufa. A pé 10 min do Hyatt.",
-              note: "RESERVA ONLINE via TableCheck — abre sábados 9h pra semana seguinte. Só funciona no almoço (11:30–14:00). Se não tiver reserva, fila grande."
+              note: "CONFIRMADO | 7 noites (27/04–04/05) | 192.500 pts + ¥40.500 | Check-in oficial 15:00 mas pode dar early"
             },
             {
               name: "Tsukiji mercado externo",
-              time: "14:00",
+              time: "13:30",
               emoji: "",
               tags: ["food", "photo"],
               duration: "1h",
