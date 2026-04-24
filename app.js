@@ -1352,8 +1352,8 @@ const TRIP = {
               emoji: "",
               tags: ["shop"],
               duration: "45 min",
-              detail: "Tokyu Plaza Ginza 5F, 5-2-1 Ginza, Chuo-ku. Melhor curadoria de perfumes nicho do Japão: Kilian, Maison Francis Kurkdjian, Penhaligon's, Diptyque, Matiere Premiere, Creed, By Kilian. 11h–21h.",
-              note: "Ao lado do Dover Street Market. Literalmente no mesmo prédio do Nemuro Hanamaru (10F)."
+              detail: "Tokyu Plaza Ginza 5F, 5-2-1 Ginza, Chuo-ku. Melhor curadoria de perfumes nicho do Japão: Kilian, MFK, Penhaligon's, Diptyque, Matiere Premiere, Creed, Essential Parfums. 11h–21h. Filial Nose também em 3-6-1 Ginza.",
+              note: "Ao lado do Dover Street Market. Mesmo prédio do Nemuro Hanamaru (10F). Essential Parfums disponível aqui."
             },
             {
               name: "Itoya Stationery",
@@ -1429,13 +1429,13 @@ const TRIP = {
               reserved: "confirmed"
             },
             {
-              name: "Azabudai Hills — arquitetura",
+              name: "Azabudai Hills — arquitetura + Essential Parfums",
               time: "17:30",
               emoji: "",
-              tags: ["culture", "photo"],
+              tags: ["culture", "photo", "shop"],
               duration: "30 min",
-              detail: "Complexo Heatherwick Studio + Pelli Clarke. Jardins, praça central, torres. Um dos lançamentos mais ambiciosos de Tokyo.",
-              note: "Logo após o teamLab. Fotografia A7CR."
+              detail: "Complexo Heatherwick Studio + Pelli Clarke. Jardins, praça central, torres. Essential Parfums na Tower Plaza (1-3-1 Azabudai). Um dos lançamentos mais ambiciosos de Tokyo.",
+              note: "Logo após o teamLab. Essential Parfums — marca francesa com fragrâncias limpas e acessíveis. Também tem no Nose Shop (dia 27)."
             },
             {
               name: "Parfum Satori (Roppongi)",
