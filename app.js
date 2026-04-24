@@ -338,6 +338,7 @@ const TRIP = {
     pending: [
       { name: "Mizunotori (ex-Gem by Moto)", date: "30/04", time: "22:00", city: "Tokyo", priority: "critica", how: "Tabelog / Instagram @mizunotori_ebisu / tel via concierge", note: "Sake bar em Ebisu, 1-30-9 Ebisu. Obrigatória. Buscar como 'Mizunotori' (foi renomeado)." },
       { name: "Teppanyaki Sazanka", date: "03/05", time: "20:00", city: "Tokyo", priority: "critica", how: "okura-nikko.com ou +81 3-3505-6071", note: "Hotel Okura 41F. Jantar despedida com vista de Tokyo. Reserva obrigatória." },
+      { name: "Ginza Hachigou (ramen Michelin)", date: "27/04", time: "12:30", city: "Tokyo", priority: "alta", how: "TableCheck — abre sábados 9h pra semana seguinte. Senão, fila no balcão.", note: "3-14-2 Ginza. 1 estrela Michelin, só almoço. Shoyu ramen com trufa." },
       { name: "Narukiyo", date: "29/04", time: "19:30", city: "Tokyo", priority: "alta", how: "Pedir pro concierge do Hyatt (telefone japonês)", note: "Izakaya em Shibuya, VORT Aoyama B1. Recomendada." },
       { name: "Tatemichiya", date: "30/04", time: "19:30", city: "Tokyo", priority: "alta", how: "Pedir pro concierge do Hyatt", note: "Izakaya punk rock em Daikanyama. Recomendada." },
       { name: "Ginza Kappou Ukai", date: "28/04", time: "19:00", city: "Tokyo", priority: "alta", how: "Pedir pro concierge do Hyatt", note: "Kaiseki, Jewel Box Ginza B1. 5 min do hotel. Recomendada." },
@@ -1271,7 +1272,7 @@ const TRIP = {
           date: "27/04",
           dayOfWeek: "Seg",
           theme: "Ginza + Tsukiji",
-          synopsis: "Meio dia — chegada em Tokyo + Ginza a pé. Shinkansen 1h40 de Nagoya, check-in Hyatt 15:00. Tsukiji mercado externo a pé (10 min do hotel). Jean Rousseau pra pulseira do Tank. Ginza toda a pé — circuito de arquitetura de grife (Hermès, Tiffany, Wako). Dover Street Market + Itoya. Sushi no jantar em Tsukiji. Tudo walkable a partir do hotel. Caminhada média, cidade plana. Primeiro contato com Tokyo — mais chique e organizada.",
+          synopsis: "Meio dia — chegada em Tokyo + Ginza a pé. Shinkansen 1h40 de Nagoya, check-in Hyatt ~12:00. Almoço no Ginza Hachigou (ramen 1 Michelin a 10 min). Tsukiji mercado externo pra snacks/foto. Jean Rousseau pra pulseira do Tank. Ginza toda a pé — circuito de arquitetura de grife (Hermès, Tiffany, Wako). Dover Street Market + Itoya. Sushi no jantar em Tsukiji. Tudo walkable a partir do hotel. Primeiro contato com Tokyo.",
           activities: [
             {
               name: "Transfer Nagoya → Tokyo",
@@ -1292,13 +1293,22 @@ const TRIP = {
               note: "CONFIRMADO | 7 noites (27/04–04/05) | 192.500 pts + ¥40.500 | Check-in 15:00 / Check-out 12:00"
             },
             {
+              name: "Almoço — Ginza Hachigou (ramen Michelin)",
+              time: "12:30",
+              emoji: "",
+              tags: ["food"],
+              duration: "1h",
+              detail: "3-14-2 Ginza, Chuo-ku. ¥1.200–2.000 (~$13 USD). Chukasoba Ginza Hachigou — 1 estrela Michelin. Shoyu ramen com frango e trufa. A pé 10 min do Hyatt.",
+              note: "RESERVA ONLINE via TableCheck — abre sábados 9h pra semana seguinte. Só funciona no almoço (11:30–14:00). Se não tiver reserva, fila grande."
+            },
+            {
               name: "Tsukiji mercado externo",
-              time: "13:00",
-              emoji: "🐟",
+              time: "14:00",
+              emoji: "",
               tags: ["food", "photo"],
-              duration: "1h30",
-              detail: "A pé 10 min do hotel. Mercado vibrante, street food.",
-              note: "Não é mais o mercado de atum (esse foi pra Toyosu), mas ainda é incrível"
+              duration: "1h",
+              detail: "A pé 15 min. Mercado vibrante, street food + fotografia.",
+              note: "Não é mais o mercado de atum (foi pra Toyosu), mas ainda é incrível. Snacks pós-ramen."
             },
             {
               name: "Atelier Jean Rousseau — pulseira Cartier Tank",
@@ -1463,13 +1473,13 @@ const TRIP = {
               note: ""
             },
             {
-              name: "Almoço — Aoyama Kawakami soba (Omotesando)",
+              name: "Almoço — Menchirashi (carbonara udon, Harajuku)",
               time: "13:00",
               emoji: "",
               tags: ["food"],
               duration: "1h30",
-              detail: "3-14-1 Minamiaoyama. ¥1.500–3.000 (~$18 USD). Soba tradicional em ambiente relaxado. Sem reserva.",
-              note: "Do guia. Alternativa: Savoy pizza (Azabujuban, ¥2.000–3.500) — napolitana nível altíssimo."
+              detail: "6-13-7 Jingumae, Shibuya-ku, Tokyo. ¥1.500–2.500 (~$17 USD). Udon viral — carbonara com ovo e queijo + menchirashi (udon com carne). Escondido num beco da Cat Street. 11:30–22:00.",
+              note: "Sem reserva, pode ter fila. A 10 min a pé do Meiji Jingu/Omotesando. Alternativa: Aoyama Kawakami soba (3-14-1 Minamiaoyama)."
             },
             {
               name: "Meiji Jingu",
