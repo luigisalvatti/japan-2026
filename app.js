@@ -418,13 +418,13 @@ const TRIP = {
               note: "CONFIRMADO | $849.84 | 4 noites"
             },
             {
-              name: "Compras estação — Uniqlo + Shiseido + Bose",
+              name: "Compras estação — Uniqlo + Shiseido",
               time: "17:30",
               emoji: "",
               tags: ["shop"],
               duration: "1h",
-              detail: "MIDORI Shopping, dentro da estação JR Nagano. Uniqlo 3F (cuecas Airism, meias, calça). Shiseido no drugstore 1F — sabonete rosto + skincare (Matsumoto Kiyoshi ou Tsuruha Drug). Bose Store no Tokyu Hands/eletrônicos — trocar espuma do fone.",
-              note: "Tudo dentro da estação, do lado do hotel. Aberta até 20h. Se não achar Bose em Nagano, tem Bose Store em Tokyo (Ginza Six ou Shibuya)."
+              detail: "MIDORI Shopping, dentro da estação JR Nagano. Uniqlo 3F (cuecas Airism, meias, calça). Shiseido no drugstore 1F — sabonete rosto + skincare (Matsumoto Kiyoshi ou Tsuruha Drug).",
+              note: "Tudo dentro da estação, do lado do hotel. Aberta até 20h. Bose foi pra Tokyo — Omotesando Hills dia 29/04."
             },
             {
               name: "Jantar — Fuji no Mori Soba",
@@ -1442,7 +1442,7 @@ const TRIP = {
           date: "29/04",
           dayOfWeek: "Qua",
           theme: "Omotesando + Harajuku",
-          synopsis: "Dia intenso — lojas + arquitetura + templo. Metro de Ginza até Omotesando (15 min), depois tudo a pé o dia inteiro. Muitas lojas: Curious Curio (pulseira Tank), Byredo, Hoka, CFCL, VISVIM — tudo na mesma rua. Arquitetura de grife em cada esquina. Meiji Jingu (santuário na floresta) no meio. Narukiyo izakaya à noite + Grandfathers record bar. Bastante caminhada, levar sacolas pra compras. Dia mais cheio de lojas da viagem.",
+          synopsis: "Dia intenso — lojas + arquitetura + templo. Metro de Ginza até Omotesando (15 min), depois tudo a pé o dia inteiro. Muitas lojas: Curious Curio (Tank), Mountain Hardwear (outdoor japonês), Bose Omotesando Hills (trocar espuma + capa do fone), Byredo, Hoka, CFCL, VISVIM. Menchirashi udon viral no almoço. Meiji Jingu (santuário na floresta). Narukiyo izakaya + Grandfathers record bar à noite. Bastante caminhada, levar sacolas. Dia mais cheio de lojas da viagem.",
           activities: [
             {
               name: "Koffee Mameya",
@@ -1487,29 +1487,47 @@ const TRIP = {
               tags: ["food"],
               duration: "1h30",
               detail: "6-13-7 Jingumae, Shibuya-ku, Tokyo. ¥1.500–2.500 (~$17 USD). Udon viral — carbonara com ovo e queijo + menchirashi (udon com carne). Escondido num beco da Cat Street. 11:30–22:00.",
-              note: "Sem reserva, pode ter fila. A 10 min a pé do Meiji Jingu/Omotesando. Alternativa: Aoyama Kawakami soba (3-14-1 Minamiaoyama)."
+              note: "Sem reserva, pode ter fila. A 10 min a pé do Meiji Jingu/Omotesando."
+            },
+            {
+              name: "Mountain Hardwear (Harajuku)",
+              time: "14:30",
+              emoji: "",
+              tags: ["shop"],
+              duration: "45 min",
+              detail: "Harajuku Kawana Building 1F, 6-13-11 Jingumae, Shibuya-ku. Único street-level store do Japão (2 andares). Meiji Dori. 11:00–20:00.",
+              note: "Literalmente na mesma quadra do Menchirashi. Coleções exclusivas Japão — jaquetas, fleece, mochilas."
             },
             {
               name: "Meiji Jingu",
-              time: "15:00",
-              emoji: "⛩️",
+              time: "15:30",
+              emoji: "",
               tags: ["culture", "nature", "photo"],
-              duration: "1h30",
-              detail: "Santuário no meio da floresta. Metro Harajuku.",
+              duration: "1h",
+              detail: "Santuário no meio da floresta. A pé 10 min do Mountain Hardwear.",
               note: "Floresta plantada há 100 anos — silêncio no meio de Tokyo"
             },
             {
+              name: "Bose Direct Store (Omotesando Hills)",
+              time: "16:45",
+              emoji: "",
+              tags: ["shop"],
+              duration: "45 min",
+              detail: "Omotesando Hills, 4-12-10 Jingumae, Shibuya-ku. Loja oficial Bose — trocar espuma (earpads) do seu fone + comprar capa nova. Atendimento técnico no local. 11:00–21:00.",
+              note: "Confirmar se o modelo do fone tem peças em estoque. Se for QC35/45/Ultra, geralmente tem. Caso contrário, encomendar."
+            },
+            {
               name: "Byredo — perfume",
-              time: "16:00",
+              time: "17:45",
               emoji: "",
               tags: ["shop"],
               duration: "30 min",
               detail: "3-5-29 Kitaaoyama, Minato-ku (Aoyama). Flagship linda, toda a linha disponível.",
-              note: "Exclusivos Japão disponíveis. Fica a 5 min do Nezu Museum."
+              note: "Exclusivos Japão disponíveis. 5 min a pé de Omotesando Hills."
             },
             {
               name: "Hoka — tênis",
-              time: "16:45",
+              time: "18:15",
               emoji: "",
               tags: ["shop"],
               duration: "30 min",
@@ -1518,12 +1536,12 @@ const TRIP = {
             },
             {
               name: "CFCL + F.I.L Tokyo (VISVIM)",
-              time: "17:30",
+              time: "18:45",
               emoji: "",
               tags: ["shop"],
-              duration: "1h",
-              detail: "CFCL no Gyre 3F + VISVIM flagship",
-              note: ""
+              duration: "45 min",
+              detail: "CFCL no Gyre 3F + VISVIM flagship (se der tempo antes do jantar).",
+              note: "Se apertar, priorizar CFCL (mais único)."
             },
             {
               name: "Jantar — Narukiyo izakaya (Shibuya)",
