@@ -1442,7 +1442,7 @@ const TRIP = {
           date: "29/04",
           dayOfWeek: "Qua",
           theme: "Omotesando + Harajuku",
-          synopsis: "Dia intenso — lojas + arquitetura + templo. Metro de Ginza até Omotesando (15 min), depois tudo a pé o dia inteiro. Muitas lojas: Curious Curio (Tank), Mountain Hardwear (outdoor japonês), Bose Omotesando Hills (trocar espuma + capa do fone), Byredo, Hoka, CFCL, VISVIM. Menchirashi udon viral no almoço. Meiji Jingu (santuário na floresta). Narukiyo izakaya + Grandfathers record bar à noite. Bastante caminhada, levar sacolas. Dia mais cheio de lojas da viagem.",
+          synopsis: "Dia intenso — lojas + arquitetura + templo. Metro de Ginza até Omotesando (15 min), depois tudo a pé o dia inteiro. Muitas lojas: Curious Curio (Tank), Mountain Hardwear (outdoor japonês), Bose Omotesando Hills (trocar espuma + capa do fone), Byredo, Moscot (óculos NY), CFCL, VISVIM. Menchirashi udon viral no almoço. Meiji Jingu (santuário na floresta). Narukiyo izakaya + Grandfathers record bar à noite. Bastante caminhada, levar sacolas. Dia mais cheio de lojas da viagem.",
           activities: [
             {
               name: "Koffee Mameya",
@@ -1526,13 +1526,13 @@ const TRIP = {
               note: "Exclusivos Japão disponíveis. 5 min a pé de Omotesando Hills."
             },
             {
-              name: "Hoka — tênis",
+              name: "Moscot (Aoyama flagship)",
               time: "18:15",
               emoji: "",
               tags: ["shop"],
               duration: "30 min",
-              detail: "Hoka Harajuku, 6-16-23 Jingumae, Shibuya-ku. Modelos exclusivos Japão.",
-              note: "Flagship Harajuku. Pode ter cores que não saem no Brasil."
+              detail: "102 Dai-2 Kuyo Bldg., 5-10-2 Minami-Aoyama, Minato-ku. Flagship asiático da NY. 12h–20h, fechado Terças. Tel +81 3-6434-1070.",
+              note: "5 min a pé do Byredo. Linha completa Lemtosh, Zev, Miltzen."
             },
             {
               name: "CFCL + F.I.L Tokyo (VISVIM)",
