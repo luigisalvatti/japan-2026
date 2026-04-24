@@ -1272,7 +1272,7 @@ const TRIP = {
           date: "27/04",
           dayOfWeek: "Seg",
           theme: "Ginza + Tsukiji",
-          synopsis: "Dia de corrida inicial — sair cedo de Nagoya (Shinkansen 08:00) pra pegar fila do Ginza Hachigou (ramen 1 Michelin) às 10:30. Drop malas no Hyatt antes, check-in oficial só às 15:00 mas guardam bagagem. Após o ramen: Tsukiji, Jean Rousseau (Tank), Ginza arquitetura (Hermès/Tiffany/Wako), Dover Street Market, Itoya. Jantar sushi em Tsukiji. Tudo walkable de Ginza. Primeiro contato com Tokyo — ritmo direto.",
+          synopsis: "Dia de corrida inicial — sair cedo de Nagoya (Shinkansen 08:00) pra pegar fila do Ginza Hachigou (ramen 1 Michelin) às 10:30. Drop malas no Hyatt antes, check-in oficial só às 15:00 mas guardam bagagem. Após o ramen: Tsukiji, Jean Rousseau (Tank), Ginza arquitetura (Hermès/Tiffany/Wako), Dover Street Market, Nose Shop (perfumes nicho), Itoya. Jantar sushi em Tsukiji. Tudo walkable de Ginza. Primeiro contato com Tokyo — ritmo direto.",
           activities: [
             {
               name: "Shinkansen Nagoya → Tokyo",
@@ -1347,17 +1347,26 @@ const TRIP = {
               note: ""
             },
             {
-              name: "Itoya Stationery",
+              name: "Nose Shop (perfumaria nicho)",
               time: "18:30",
-              emoji: "✏️",
+              emoji: "",
               tags: ["shop"],
               duration: "45 min",
-              detail: "12 andares de papelaria. 2-7-15 Ginza",
-              note: "Paraíso para quem aprecia papelaria japonesa"
+              detail: "Tokyu Plaza Ginza 5F, 5-2-1 Ginza, Chuo-ku. Melhor curadoria de perfumes nicho do Japão: Kilian, Maison Francis Kurkdjian, Penhaligon's, Diptyque, Matiere Premiere, Creed, By Kilian. 11h–21h.",
+              note: "Ao lado do Dover Street Market. Literalmente no mesmo prédio do Nemuro Hanamaru (10F)."
+            },
+            {
+              name: "Itoya Stationery",
+              time: "19:15",
+              emoji: "",
+              tags: ["shop"],
+              duration: "30 min",
+              detail: "12 andares de papelaria. 2-7-15 Ginza.",
+              note: "Paraíso para quem aprecia papelaria japonesa. Fecha 20:00."
             },
             {
               name: "Jantar — Itadori Bekkan sushi (Tsukiji)",
-              time: "19:30",
+              time: "20:00",
               emoji: "",
               tags: ["food"],
               duration: "1h30",
