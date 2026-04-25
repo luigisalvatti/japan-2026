@@ -1238,8 +1238,8 @@ const TRIP = {
               emoji: "",
               tags: ["food", "night"],
               duration: "2h",
-              detail: "inari Sakae Ten, Yabacho, Sakae (perto de Yaba Cho Station). Conceito old x new — inari sushi assinatura com toppings criativos (salmão, ikura, camarão), 6+ sakes + sake cocktails, obanzai sazonal. Arroz orgânico do Chita Peninsula.",
-              note: "RESERVADO! Confirmação: CM8DCVPHMW. 19:30, 2h limite, 2 pessoas. Taxa de assento ¥300. Pagar no local.",
+              detail: "inari Sakae Ten, Yabacho, Sakae (perto de Yaba Cho Station). Conceito old x new — inari sushi assinatura com toppings criativos. Arroz orgânico do Chita Peninsula. Budget ¥4.000–5.000 (~$26–33).\n\n⭐ TOP PEDIDOS:\n• Inari Salmão + Ikura (assinatura — salmão cru + ovas)\n• Inari Vieira com Yuzu Kosho (vieira + pimenta yuzu)\n• Inari Shrimp Chili (camarão picante)\n• Obanzai do dia (pratinhos sazonais Kyoto-style — pedir o set)\n• Sake flight (3 tipos — pedem recomendação do garçom)\n• Sake cocktail (se quiser algo diferente)",
+              note: "RESERVADO! Confirmação: CM8DCVPHMW. 19:30, 2h limite, 2 pessoas. Taxa ¥300/pessoa. Estratégia: pedir 3-4 inaris diferentes pra dividir + obanzai + sake flight. Não enche o saco com prato extenso — o inari é o foco.",
               reserved: "confirmed"
             },
             {
