@@ -336,9 +336,7 @@ const TRIP = {
       { name: "teamLab Borderless", date: "28/04", time: "15:00–15:30", city: "Tokyo", id: "AYHCTMHPFXKP-0001", price: "¥10.000 (2 adultos)", note: "Azabudai Hills, Toranomon. Entrada 15:00–15:30. Ticket URL no email da teamLab." }
     ],
     pending: [
-      { name: "Mizunotori (ex-Gem by Moto)", date: "30/04", time: "22:00", city: "Tokyo", priority: "critica", how: "Tabelog / Instagram @mizunotori_ebisu / tel via concierge", note: "Sake bar em Ebisu, 1-30-9 Ebisu. Obrigatória. Buscar como 'Mizunotori' (foi renomeado)." },
-      { name: "Teppanyaki Sazanka", date: "03/05", time: "20:00", city: "Tokyo", priority: "critica", how: "okura-nikko.com ou +81 3-3505-6071", note: "Hotel Okura 41F. Jantar despedida com vista de Tokyo. Reserva obrigatória." },
-      { name: "Parfum Satori (appointment)", date: "28/04", time: "18:00", city: "Tokyo", priority: "alta", how: "Marcar pelo site parfum-satori.com ou email", note: "Perfumaria japonesa artesanal em Roppongi (2F, 3-6-8). Só por appointment. 10 min de Azabudai Hills." },
+{ name: "Parfum Satori (appointment)", date: "28/04", time: "18:00", city: "Tokyo", priority: "alta", how: "Marcar pelo site parfum-satori.com ou email", note: "Perfumaria japonesa artesanal em Roppongi (2F, 3-6-8). Só por appointment. 10 min de Azabudai Hills." },
       { name: "HARRY Asakusa — otter cafe", date: "02/05", time: "13:15", city: "Tokyo", priority: "alta", how: "rakuten travel experiences ou harinezumi-cafe.com", note: "Lontras + ouriços + corujas. 5F Masuda Bldg, 1-1-17 Asakusa. ¥1.500–2.500/pessoa, 30 min." },
       { name: "Narukiyo", date: "29/04", time: "19:30", city: "Tokyo", priority: "alta", how: "Pedir pro concierge do Hyatt (telefone japonês)", note: "Izakaya em Shibuya, VORT Aoyama B1. Recomendada." },
       { name: "Tatemichiya", date: "30/04", time: "19:30", city: "Tokyo", priority: "alta", how: "Pedir pro concierge do Hyatt", note: "Izakaya punk rock em Daikanyama. Recomendada." },
@@ -1633,7 +1631,7 @@ const TRIP = {
           date: "30/04",
           dayOfWeek: "Qui",
           theme: "Nakameguro + Daikanyama",
-          synopsis: "Dia completo Nakameguro+Daikanyama — café, vinyl, sushi, watch roll, lojas técnicas, pizza, izakaya, sake. Metro de Ginza até Nakameguro (20 min), depois tudo a pé. Rio Meguro, Waltz records+VISVIM, Tsuchiya Kaban (watch roll) + Coverchord (multimarca), Udatsu Sushi omakase (RESERVADO). Daikanyama: T-Site, Descente Allterrain+Nanamica, Seirinkan pizza, Bonjour Records+Maison Kitsuné. Tatemichiya izakaya + Mizunotori sake. Muita caminhada plana.",
+          synopsis: "Dia completo Nakameguro+Daikanyama — café, vinyl, sushi, watch roll, lojas técnicas, pizza, izakaya. Metro de Ginza até Nakameguro (20 min), depois tudo a pé. Rio Meguro, Waltz records+VISVIM, Tsuchiya Kaban (watch roll) + Coverchord (multimarca), Udatsu Sushi omakase (RESERVADO). Daikanyama: T-Site, Descente Allterrain+Nanamica, Seirinkan pizza, Bonjour Records+Maison Kitsuné. Jantar Tatemichiya izakaya. Muita caminhada plana.",
           activities: [
             {
               name: "Onibus Coffee",
@@ -1736,16 +1734,6 @@ const TRIP = {
               note: "Do guia — TOP. RESERVAR! Alternativa: Schmatz cervejaria (Nakameguro, ¥3.000–5.000).",
               reserved: "pending"
             },
-            {
-              name: "Mizunotori (ex-Gem by Moto) — sake bar (Ebisu)",
-              time: "22:00",
-              emoji: "",
-              tags: ["night", "food"],
-              duration: "1h30",
-              detail: "1-30-9 Ebisu, Shibuya-ku. ¥8.000–15.000 (~$76 USD). Foi renomeado em 2025 de 'Gem by Moto' — mesmo lugar, mesma proposta. Sake premium, educativo, íntimo.",
-              note: "Do guia — TOP. RESERVAR! Reserva obrigatória. Buscar no Google como 'Mizunotori Ebisu'.",
-              reserved: "pending"
-            }
           ]
         },
         {
@@ -1921,7 +1909,7 @@ const TRIP = {
           date: "03/05",
           dayOfWeek: "Dom",
           theme: "Shibuya + Despedida",
-          synopsis: "Último dia completo — geek + lojas + comida + jantar especial. Shibuya Crossing, vinyl (Face/Lighthouse Records). Kith + GR8 (Miyashita Park). Pokémon Center + Nintendo + card shops Yu-Gi-Oh (Parco 6F — boosters mystery!). Almoço Katsudon Zuicho. Disk Union Shinjuku. Butagumi tonkatsu. Artesanato Aoyama. Jantar despedida Sazanka (Okura 41F, vista Tokyo). Record bar pra fechar. Ir arrumado pro jantar.",
+          synopsis: "Último dia completo — geek + lojas + comida. Shibuya Crossing, vinyl (Face/Lighthouse Records). Kith + GR8 (Miyashita Park). Pokémon Center + Nintendo + card shops Yu-Gi-Oh (Parco 6F — boosters mystery!). Almoço Katsudon Zuicho. Disk Union Shinjuku. Butagumi tonkatsu. Artesanato Aoyama. Jantar de despedida (a definir — sugestões no slot). Record bar pra fechar.",
           activities: [
             {
               name: "Camelback — espresso + omelete",
@@ -2023,14 +2011,13 @@ const TRIP = {
               note: "Doces para o imperador — levar de presente"
             },
             {
-              name: "Jantar — Teppanyaki Sazanka (Okura 41F)",
+              name: "Jantar — despedida (a definir)",
               time: "20:00",
               emoji: "",
               tags: ["food"],
-              duration: "2h30",
-              detail: "Okura Tokyo 41F, 2-10-4 Toranomon. ¥25.000–40.000 (~$214 USD). Teppanyaki de alto nível com vista incrível da cidade. Ingredientes premium, experiência completa.",
-              note: "Do guia — TOP. RESERVAR! Jantar de despedida com vista de Tokyo. Reserva obrigatória.",
-              reserved: "pending"
+              duration: "2h",
+              detail: "Slot flex pra jantar de despedida. Sugestões do guia: Hiyama sukiyaki Michelin (Nihonbashi, ¥10.000–18.000), Sushi Shin (Nishi-Azabu, ¥20.000–30.000), Kotaro (Shibuya, ¥8.000–15.000 — meses de espera).",
+              note: "Sazanka removido. Escolher alternativa antes da viagem ou pedir indicação no Hyatt."
             },
             {
               name: "Record Bar Analog ou SG Club",
