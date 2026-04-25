@@ -1130,7 +1130,7 @@ const TRIP = {
           date: "26/04",
           dayOfWeek: "Dom",
           theme: "Castle + Noritake + Artesanato (compensando ontem)",
-          synopsis: "Dia mais corrido com tema CARRO. Acordar 7:30, café tranquilo. Castelo Nagoya 9h. Taxi pro Toyota Automobile Museum em Nagakute (150 carros clássicos do mundo). Volta pro almoço Yabaton em Osu. Tarde dedicada ao Komehyo Main Store (maior loja de usado de luxo do Japão, 7 andares!) + Osu Kannon + Endoji. Tebasaki em Sakae. Fushimi sake. Última noite — amanhã 8h Shinkansen pra Tokyo.",
+          synopsis: "Dia tema CARRO + Komehyo. Acordar 7:30, café tranquilo. Castelo Nagoya 9h. Taxi pro Toyota Automobile Museum em Nagakute (150 carros clássicos do mundo). Porsche Center Nagoya (Classic Partner — 911 air-cooled restaurados). Volta pro almoço Yabaton em Osu. Tarde no Komehyo Main Store (maior usado luxo Japão, 7 andares!) + Osu Kannon + Endoji. Tebasaki Sakae. Fushimi sake. Última noite — amanhã 8h Shinkansen pra Tokyo.",
           activities: [
             {
               name: "Acordar + café tranquilo",
@@ -1169,17 +1169,35 @@ const TRIP = {
               note: "O museu de carros mais completo do Japão. Para fã de auto é imperdível."
             },
             {
-              name: "Taxi de volta → Yabaton Osu",
+              name: "Taxi → Porsche Center Nagoya (Chikusa)",
               time: "13:00",
               emoji: "",
               tags: ["transport"],
-              duration: "30 min",
-              detail: "Taxi do museu até Osu (~¥4.000–5.000).",
+              duration: "15 min",
+              detail: "Do Toyota Auto Museum até Porsche Center em Chikusa-ku (~¥2.500). 15 min taxi.",
+              note: ""
+            },
+            {
+              name: "Porsche Center Nagoya (Classic Partner)",
+              time: "13:15",
+              emoji: "",
+              tags: ["culture", "shop"],
+              duration: "45 min",
+              detail: "Chikusa 3-38-15, Chikusa-ku, Nagoya. Certificado Porsche Classic Partner — uma das maiores salas de exposição de dealer Porsche do Japão (Feb/2025). Oficina de restauração de 911 air-cooled e clássicos. Carrera Lounge espaçoso.",
+              note: "Showroom aberto a visitantes. Pra ver 911 antigos restaurados + novos. Vale ligar antes (+81 52-734-7911) pra confirmar se tem clássicos em exposição no dia."
+            },
+            {
+              name: "Taxi → Yabaton Osu",
+              time: "14:00",
+              emoji: "",
+              tags: ["transport"],
+              duration: "15 min",
+              detail: "De Chikusa até Osu (~¥2.500).",
               note: ""
             },
             {
               name: "Almoço — Yabaton miso katsu (Osu)",
-              time: "13:30",
+              time: "14:15",
               emoji: "",
               tags: ["food"],
               duration: "1h",
@@ -1188,7 +1206,7 @@ const TRIP = {
             },
             {
               name: "Komehyo Main Store (maior usado luxo Japão)",
-              time: "14:30",
+              time: "15:30",
               emoji: "",
               tags: ["shop"],
               duration: "1h30",
@@ -1197,10 +1215,10 @@ const TRIP = {
             },
             {
               name: "Osu Kannon + Endoji Shotengai",
-              time: "16:00",
+              time: "17:00",
               emoji: "",
               tags: ["culture", "shop", "photo"],
-              duration: "1h30",
+              duration: "1h",
               detail: "Templo + shotengai. Aproveitar Osu de dia. Endoji Shotengai a 10 min de metro Tsurumai Line.",
               note: "Shotengai autêntico sem turismo — o Japão real."
             },
