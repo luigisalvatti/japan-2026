@@ -1086,7 +1086,7 @@ const TRIP = {
               emoji: "",
               tags: ["culture", "photo"],
               duration: "1h15",
-              detail: "Um dos santuários mais sagrados do Japão (2.000+ anos). Metro Meijo Line ~15 min de Nagoya Station.",
+              detail: "1-1-1 Jingu, Atsuta-ku, Nagoya 456-8585. Santuário sagrado do Japão (2.000+ anos). Metro Meijo Line ~15 min de Nagoya Station, descer Jingu-Nishi.",
               note: "Guarda a espada Kusanagi — um dos 3 tesouros imperiais. Floresta densa, ótimo no fim de tarde."
             },
             {
@@ -1095,7 +1095,7 @@ const TRIP = {
               emoji: "",
               tags: ["food"],
               duration: "1h15",
-              detail: "Atsuta Horaiken — fica ao lado do santuário Atsuta. Unagi grelhado estilo Nagoya. Aberto até ~20h30.",
+              detail: "Atsuta Horaiken Honten, 503 Goudo-cho, Atsuta-ku, Nagoya 456-0043. Ao lado do santuário Atsuta. Unagi grelhado estilo Nagoya. ¥3.000–5.000 (~$20–33). Aberto até 20h30.",
               note: "Comer em 3 etapas: 1) puro 2) com cebolinha/wasabi/nori 3) com dashi (ochazuke). Prato icônico de Nagoya."
             },
             {
@@ -1104,7 +1104,7 @@ const TRIP = {
               emoji: "",
               tags: ["culture", "shop", "photo"],
               duration: "1h",
-              detail: "Metro Tsurumai Line de Atsuta. Templo budista + shotengai vibrante. Vintage, street food, eletrônicos.",
+              detail: "Osu Kannon: 2-21-47 Osu, Naka-ku, Nagoya 460-0011. Metro Tsurumai Line de Atsuta. Templo budista + shotengai. Vintage, street food, eletrônicos.",
               note: "Lojas até 20h, mas a rua fica viva à noite. Mistura Akihabara com Shimokitazawa."
             },
             {
@@ -1113,7 +1113,7 @@ const TRIP = {
               emoji: "",
               tags: ["shop"],
               duration: "15 min",
-              detail: "Loja de vinyl no shotengai de Osu. Fecha 20h — chegar antes.",
+              detail: "3-31-15 Osu, Naka-ku, Nagoya. Vinyl no shotengai. Fecha 20h — chegar antes.",
               note: "Se não der tempo, pular sem dó."
             },
             {
@@ -1122,8 +1122,8 @@ const TRIP = {
               emoji: "",
               tags: ["night"],
               duration: "Flex",
-              detail: "Distrito de entretenimento de Nagoya. Metro Higashiyama Line de Osu (1 estação). Bares e sake.",
-              note: "Pra fechar o dia. Yabaton miso katsu fica pra amanhã (já no roteiro do dia 26 às 13h)."
+              detail: "Sakae, Naka-ku, Nagoya. Metro Higashiyama Line de Osu (1 estação até Sakae). Distrito de entretenimento.",
+              note: "Pra fechar o dia. Yabaton miso katsu fica pra amanhã."
             }
           ]
         },
@@ -1139,8 +1139,8 @@ const TRIP = {
               emoji: "",
               tags: ["nature"],
               duration: "1h15",
-              detail: "Meijo Park (鶴舞公園) — parque do Castelo de Nagoya, 24h aberto, perfeito pra runners. ~5km loop ao redor do Ofukeike Pond + castelo de fundo. Da Marriott: metro Higashiyama Line → Sakae (2 stops) → trocar Meijo Line → Nagoyajo Station (2 stops) + 3 min a pé. Ou taxi 10 min ¥1.500.",
-              note: "Tem running station com vestiário/banho na zona norte do parque. Pulse: ~5–8km easy, vista do castelo no nascer do sol."
+              detail: "Meijo Park, Meijo 1-2, Kita-ku, Nagoya 462-0846. Parque do Castelo de Nagoya, 24h aberto. ~5km loop ao redor do Ofukeike Pond + castelo de fundo. Da Marriott: metro Higashiyama Line → Sakae (2 stops) → trocar Meijo Line → Nagoyajo Station (2 stops) + 3 min a pé. Ou taxi 10 min ¥1.500.",
+              note: "Tem running station com vestiário/banho na zona norte. ~5–8km easy, vista do castelo no nascer do sol."
             },
             {
               name: "Volta + café tranquilo",
@@ -1157,7 +1157,7 @@ const TRIP = {
               emoji: "",
               tags: ["culture", "photo"],
               duration: "1h45",
-              detail: "Castelo abre 9:00. Palácio Honmaru reconstruído com técnicas tradicionais. Metro Meijo Line ~10 min da estação.",
+              detail: "1-1 Honmaru, Naka-ku, Nagoya 460-0031. Abre 9:00. Palácio Honmaru reconstruído com técnicas tradicionais. Metro Meijo Line ~10 min da estação, descer Nagoyajo.",
               note: "Chegar logo na abertura — vazio pra fotos. Pinturas fusuma impressionantes."
             },
             {
@@ -1175,7 +1175,7 @@ const TRIP = {
               emoji: "",
               tags: ["culture", "photo"],
               duration: "1h45",
-              detail: "Toyota Automobile Museum, Nagakute. ¥1.200/adulto (~$8). 150 carros clássicos do mundo todo (1880s–presente), todos restaurados a showroom. Cultural Gallery: 4.000+ posters/peças. 9:30–17:00, fecha Segunda.",
+              detail: "41-100 Yokomichi, Nagakute, Aichi 480-1118. ¥1.200/adulto (~$8). 150 carros clássicos do mundo todo (1880s–presente), todos restaurados a showroom. Cultural Gallery: 4.000+ posters/peças. 9:30–17:00, fecha Segunda.",
               note: "O museu de carros mais completo do Japão. Para fã de auto é imperdível."
             },
             {
@@ -1193,8 +1193,8 @@ const TRIP = {
               emoji: "",
               tags: ["culture", "shop"],
               duration: "45 min",
-              detail: "Chikusa 3-38-15, Chikusa-ku, Nagoya. Certificado Porsche Classic Partner — uma das maiores salas de exposição de dealer Porsche do Japão (Feb/2025). Oficina de restauração de 911 air-cooled e clássicos. Carrera Lounge espaçoso.",
-              note: "Showroom aberto a visitantes. Pra ver 911 antigos restaurados + novos. Vale ligar antes (+81 52-734-7911) pra confirmar se tem clássicos em exposição no dia."
+              detail: "3-38-15 Chikusa, Chikusa-ku, Nagoya 464-0858. Tel +81 52-734-7911. Certificado Porsche Classic Partner — uma das maiores salas de exposição de dealer Porsche do Japão (Feb/2025). Oficina de restauração de 911 air-cooled e clássicos. Carrera Lounge espaçoso.",
+              note: "Showroom aberto a visitantes. Pra ver 911 antigos restaurados + novos. Vale ligar antes pra confirmar clássicos em exposição."
             },
             {
               name: "Taxi → Yabaton Osu",
@@ -1211,8 +1211,8 @@ const TRIP = {
               emoji: "",
               tags: ["food"],
               duration: "1h",
-              detail: "Yabaton Honten, 3-6-18 Osu, Naka-ku. Tonkatsu com miso vermelho de Nagoya. ¥1.500–2.500 (~$10–16).",
-              note: "O miso vermelho daqui é mais intenso e doce. Casa fundada 1947 — o original."
+              detail: "Yabaton Honten, 3-6-18 Osu, Naka-ku, Nagoya 460-0011. Tonkatsu com miso vermelho de Nagoya. ¥1.500–2.500 (~$10–16). Casa fundada 1947.",
+              note: "O miso vermelho daqui é mais intenso e doce — o original."
             },
             {
               name: "Komehyo Main Store (maior usado luxo Japão)",
@@ -1220,8 +1220,8 @@ const TRIP = {
               emoji: "",
               tags: ["shop"],
               duration: "1h30",
-              detail: "Komehyo Honten, 3-25-31 Osu, Naka-ku, Nagoya 460-0011. 7 andares: 1F joias/metais preciosos, 2F relógios, 3F bolsas/acessórios de marca, 4F feminino+pele, 5F masculino+sapatos+câmeras+guitarras, 6F masculino fashion, 7F compra. 11h–19h30.",
-              note: "A LOJA — sede da rede, headquarters em Nagoya. Maior reuse department store do Japão. Muito mais variedade que filial de Tokyo."
+              detail: "3-25-31 Osu, Naka-ku, Nagoya 460-0011. Komehyo Honten — 7 andares: 1F joias/metais preciosos, 2F relógios, 3F bolsas/acessórios de marca, 4F feminino+pele, 5F masculino+sapatos+câmeras+guitarras, 6F masculino fashion, 7F compra. 11h–19h30.",
+              note: "A LOJA — sede da rede, headquarters em Nagoya. Maior reuse department store do Japão."
             },
             {
               name: "Osu Kannon + Endoji Shotengai",
@@ -1229,7 +1229,7 @@ const TRIP = {
               emoji: "",
               tags: ["culture", "shop", "photo"],
               duration: "1h",
-              detail: "Templo + shotengai. Aproveitar Osu de dia. Endoji Shotengai a 10 min de metro Tsurumai Line.",
+              detail: "Osu Kannon: 2-21-47 Osu, Naka-ku, Nagoya 460-0011. Endoji Shotengai: Endoji-cho, Nishi-ku, Nagoya. 10 min metro Tsurumai Line.",
               note: "Shotengai autêntico sem turismo — o Japão real."
             },
             {
@@ -1238,17 +1238,17 @@ const TRIP = {
               emoji: "",
               tags: ["food", "night"],
               duration: "2h",
-              detail: "inari Sakae Ten, Yabacho, Sakae (perto de Yaba Cho Station). Conceito old x new — inari sushi assinatura com toppings criativos. Arroz orgânico do Chita Peninsula. Budget ¥4.000–5.000 (~$26–33).\n\n⭐ TOP PEDIDOS:\n• Inari Salmão + Ikura (assinatura — salmão cru + ovas)\n• Inari Vieira com Yuzu Kosho (vieira + pimenta yuzu)\n• Inari Shrimp Chili (camarão picante)\n• Obanzai do dia (pratinhos sazonais Kyoto-style — pedir o set)\n• Sake flight (3 tipos — pedem recomendação do garçom)\n• Sake cocktail (se quiser algo diferente)",
+              detail: "Terajima Building 2F, 3-13-23 Sakae, Naka-ku, Nagoya. Yaba Cho Station (3 min a pé). Conceito old x new — inari sushi assinatura com toppings criativos. Arroz orgânico do Chita Peninsula. Budget ¥4.000–5.000 (~$26–33).\n\n⭐ TOP PEDIDOS:\n• Inari Salmão + Ikura (assinatura — salmão cru + ovas)\n• Inari Vieira com Yuzu Kosho (vieira + pimenta yuzu)\n• Inari Shrimp Chili (camarão picante)\n• Obanzai do dia (pratinhos sazonais Kyoto-style — pedir o set)\n• Sake flight (3 tipos — pedem recomendação do garçom)\n• Sake cocktail (se quiser algo diferente)",
               note: "RESERVADO! Confirmação: CM8DCVPHMW. 19:30, 2h limite, 2 pessoas. Taxa ¥300/pessoa. Estratégia: pedir 3-4 inaris diferentes pra dividir + obanzai + sake flight. Não enche o saco com prato extenso — o inari é o foco.",
               reserved: "confirmed"
             },
             {
               name: "Fushimi — sake bars",
-              time: "21:00",
+              time: "21:30",
               emoji: "",
               tags: ["night"],
               duration: "Flex",
-              detail: "Distrito de Fushimi, bares de sake e whisky. A pé de Sakae.",
+              detail: "Fushimi, Naka-ku, Nagoya. Distrito de bares de sake e whisky. 10 min a pé de Yabacho/inari.",
               note: "Última noite antes de Tokyo. Voltar cedo — amanhã 8h Shinkansen pra Hachigou fila."
             }
           ]
