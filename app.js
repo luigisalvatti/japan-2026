@@ -2406,7 +2406,8 @@ function renderRestaurantGuide(filter = 'all') {
 
     filteredRestaurants.forEach(r => {
       const mapsQuery = encodeURIComponent(`${r.name} ${r.address} Tokyo Japan`);
-      const mapsLink = `https://maps.apple.com/?q=${mapsQuery}`;
+      const appleLink = `https://maps.apple.com/?q=${mapsQuery}`;
+      const googleLink = `https://www.google.com/maps/search/?api=1&query=${mapsQuery}`;
       const usd = yenToUsd(r.avg);
 
       html += `<div class="guide-restaurant ${r.must ? 'guide-must' : ''}">`;
@@ -2426,8 +2427,8 @@ function renderRestaurantGuide(filter = 'all') {
       html += `<div class="guide-address">${r.address}</div>`;
       // Tip
       html += `<p class="guide-restaurant-tip">${r.tip}</p>`;
-      // Maps link
-      html += `<a href="${mapsLink}" target="_blank" class="guide-maps-link">mapa</a>`;
+      // Maps links
+      html += `<div class="guide-maps-row"><a href="${appleLink}" target="_blank" class="guide-maps-link">apple maps</a> · <a href="${googleLink}" target="_blank" class="guide-maps-link">google maps</a></div>`;
       html += `</div>`;
     });
 
@@ -2536,7 +2537,8 @@ function renderTokyoGuide(filter = 'all') {
 
       places.forEach(p => {
         const mapsQuery = encodeURIComponent(`${p.name} ${p.address} Tokyo Japan`);
-        const mapsLink = `https://maps.apple.com/?q=${mapsQuery}`;
+        const appleLink = `https://maps.apple.com/?q=${mapsQuery}`;
+        const googleLink = `https://www.google.com/maps/search/?api=1&query=${mapsQuery}`;
 
         html += `<div class="guide-restaurant ${p.highlight ? 'guide-must' : ''}">`;
         html += `<div class="guide-restaurant-header">`;
@@ -2545,7 +2547,7 @@ function renderTokyoGuide(filter = 'all') {
         html += `<div class="guide-type-row"><span class="guide-restaurant-type">${p.category}</span> <span class="guide-restaurant-type">${p.type}</span></div>`;
         html += `<div class="guide-address">${p.address}</div>`;
         html += `<p class="guide-restaurant-tip">${p.desc}</p>`;
-        html += `<a href="${mapsLink}" target="_blank" class="guide-maps-link">mapa</a>`;
+        html += `<div class="guide-maps-row"><a href="${appleLink}" target="_blank" class="guide-maps-link">apple maps</a> · <a href="${googleLink}" target="_blank" class="guide-maps-link">google maps</a></div>`;
         html += `</div>`;
       });
 
@@ -2573,7 +2575,8 @@ function renderTokyoGuide(filter = 'all') {
 
     places.forEach(p => {
       const mapsQuery = encodeURIComponent(`${p.name} ${p.address} Tokyo Japan`);
-      const mapsLink = `https://maps.apple.com/?q=${mapsQuery}`;
+      const appleLink = `https://maps.apple.com/?q=${mapsQuery}`;
+      const googleLink = `https://www.google.com/maps/search/?api=1&query=${mapsQuery}`;
 
       html += `<div class="guide-restaurant ${p.highlight ? 'guide-must' : ''}">`;
       html += `<div class="guide-restaurant-header">`;
@@ -2583,7 +2586,7 @@ function renderTokyoGuide(filter = 'all') {
       html += `<div class="guide-type-row"><span class="guide-restaurant-type">${p.type}</span></div>`;
       html += `<div class="guide-address">${p.address}</div>`;
       html += `<p class="guide-restaurant-tip">${p.desc}</p>`;
-      html += `<a href="${mapsLink}" target="_blank" class="guide-maps-link">mapa</a>`;
+      html += `<div class="guide-maps-row"><a href="${appleLink}" target="_blank" class="guide-maps-link">apple maps</a> · <a href="${googleLink}" target="_blank" class="guide-maps-link">google maps</a></div>`;
       html += `</div>`;
     });
 
@@ -2768,11 +2771,13 @@ function renderActivities(day) {
 
     const isDone = doneActivities[`${currentDay}-${index}`];
     let address = extractAddress(activity.detail);
-    let googleMapsLink = '';
+    let mapLinks = '';
 
     if (address) {
       const query = encodeURIComponent(`${address} ${TRIP.cities.find(c => c.id === currentCity).kanji} Japan`);
-      googleMapsLink = `https://maps.apple.com/?q=${query}`;
+      const apple = `https://maps.apple.com/?q=${query}`;
+      const google = `https://www.google.com/maps/search/?api=1&query=${query}`;
+      mapLinks = ` <a href="${apple}" target="_blank">apple maps</a> · <a href="${google}" target="_blank">google maps</a>`;
     }
 
     html += `
@@ -2783,7 +2788,7 @@ function renderActivities(day) {
           <p class="activity-name">${activity.name}</p>
           ${activity.tags.map(tag => `<span class="tag">${tagLabel(tag)}</span>`).join('')}
           <p class="activity-duration">${activity.duration}</p>
-          <p class="activity-detail">${activity.detail}${googleMapsLink ? ` <a href="${googleMapsLink}" target="_blank">mapa</a>` : ''}</p>
+          <p class="activity-detail">${activity.detail}${mapLinks}</p>
           ${activity.note ? `<p class="activity-note">${activity.note}</p>` : ''}
           ${activity.reserved ? `<p class="reserved-status">${activity.reserved.toUpperCase()}</p>` : ''}
         </div>
