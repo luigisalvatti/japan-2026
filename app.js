@@ -339,6 +339,7 @@ const TRIP = {
       { name: "Mizunotori (ex-Gem by Moto)", date: "30/04", time: "22:00", city: "Tokyo", priority: "critica", how: "Tabelog / Instagram @mizunotori_ebisu / tel via concierge", note: "Sake bar em Ebisu, 1-30-9 Ebisu. Obrigatória. Buscar como 'Mizunotori' (foi renomeado)." },
       { name: "Teppanyaki Sazanka", date: "03/05", time: "20:00", city: "Tokyo", priority: "critica", how: "okura-nikko.com ou +81 3-3505-6071", note: "Hotel Okura 41F. Jantar despedida com vista de Tokyo. Reserva obrigatória." },
       { name: "Parfum Satori (appointment)", date: "28/04", time: "18:00", city: "Tokyo", priority: "alta", how: "Marcar pelo site parfum-satori.com ou email", note: "Perfumaria japonesa artesanal em Roppongi (2F, 3-6-8). Só por appointment. 10 min de Azabudai Hills." },
+      { name: "HARRY Asakusa — otter cafe", date: "02/05", time: "13:15", city: "Tokyo", priority: "alta", how: "rakuten travel experiences ou harinezumi-cafe.com", note: "Lontras + ouriços + corujas. 5F Masuda Bldg, 1-1-17 Asakusa. ¥1.500–2.500/pessoa, 30 min." },
       { name: "Narukiyo", date: "29/04", time: "19:30", city: "Tokyo", priority: "alta", how: "Pedir pro concierge do Hyatt (telefone japonês)", note: "Izakaya em Shibuya, VORT Aoyama B1. Recomendada." },
       { name: "Tatemichiya", date: "30/04", time: "19:30", city: "Tokyo", priority: "alta", how: "Pedir pro concierge do Hyatt", note: "Izakaya punk rock em Daikanyama. Recomendada." },
       { name: "Ginza Kappou Ukai", date: "28/04", time: "19:00", city: "Tokyo", priority: "alta", how: "Pedir pro concierge do Hyatt", note: "Kaiseki, Jewel Box Ginza B1. 5 min do hotel. Recomendada." },
@@ -908,7 +909,7 @@ const TRIP = {
               emoji: "🍣",
               tags: ["food"],
               duration: "2h",
-              detail: "Katamachi, Kanazawa. ¥15.000–25.000 (~$130 USD). Omakase com frutos do Mar do Japão.",
+              detail: "Katamachi, Kanazawa. ¥15.000–25.000 (~$132 USD). Omakase com frutos do Mar do Japão.",
               note: "Reserva recomendada. Pedir indicação no Soki."
             },
             {
@@ -1307,7 +1308,7 @@ const TRIP = {
               emoji: "",
               tags: ["food"],
               duration: "1h30",
-              detail: "3-14-2 Ginza, Chuo-ku. A pé 8 min do Hyatt. Abre 11:30. Chegar 10:30–11:00 pra pegar primeira seating. ¥1.200–2.000 (~$13 USD). Shoyu ramen com frango e trufa — 1 estrela Michelin.",
+              detail: "3-14-2 Ginza, Chuo-ku. A pé 8 min do Hyatt. Abre 11:30. Chegar 10:30–11:00 pra pegar primeira seating. ¥1.200–2.000 (~$11 USD). Shoyu ramen com frango e trufa — 1 estrela Michelin.",
               note: "FILA: ir cedo (10:30). Não aceita reserva no mesmo dia. Só ~10 lugares no balcão — rotação rápida depois que abre."
             },
             {
@@ -1347,13 +1348,13 @@ const TRIP = {
               note: "Circuito arquitetônico de grife — cada prédio é uma obra"
             },
             {
-              name: "Goldwin Marunouchi + LEGO Store Tokyo Station",
-              time: "17:00",
+              name: "Snow Peak + Goldwin + LEGO (Marunouchi)",
+              time: "16:30",
               emoji: "",
               tags: ["shop"],
-              duration: "45 min",
-              detail: "Goldwin Brick Square 1F, 2-6-1 Marunouchi: camisetas ¥8.000–15.000, shorts ¥10.000–18.000, jaquetas Goldwin 0 ¥30.000–80.000. LEGO Tokyo Station Ichiban Gai B1, 1-9-1 Marunouchi: sets ¥3.000–50.000+, Architecture Tokyo exclusivo ¥10.000.",
-              note: "Ambos em Marunouchi, 5 min a pé entre eles. 10 min de Ginza. Tax refund 10% acima de ¥5.500."
+              duration: "1h15",
+              detail: "Snow Peak LAND STATION TOKYO (KITTE 4F, 2-7-2 Marunouchi): soft cooler 38 ¥18.000 (~$118), Hopper-style ¥12.000–25.000, gear premium. Goldwin Brick Square 1F, 2-6-1 Marunouchi: camisetas ¥8.000–15.000, Goldwin 0 ¥30.000–80.000. LEGO Tokyo Station Ichiban Gai B1, 1-9-1 Marunouchi: sets ¥3.000–50.000+, Architecture Tokyo ¥10.000 (~$66).",
+              note: "Trinca em Marunouchi — todos a 5 min a pé entre si. 10 min de Ginza. Snow Peak tem soft cooler que cabe na mala. Tax refund 10% acima de ¥5.500."
             },
             {
               name: "Dover Street Market Ginza",
@@ -1388,7 +1389,7 @@ const TRIP = {
               emoji: "",
               tags: ["food"],
               duration: "1h30",
-              detail: "1F, 4-10-16 Tsukiji, Chuo-ku. ¥2.000–4.000 (~$25 USD). Escondido atrás de lojas. Sushi simples, sem frescura, peixe de altíssima qualidade. Atum gordo e uni obrigatórios.",
+              detail: "1F, 4-10-16 Tsukiji, Chuo-ku. ¥2.000–4.000 (~$20 USD). Escondido atrás de lojas. Sushi simples, sem frescura, peixe de altíssima qualidade. Atum gordo e uni obrigatórios.",
               note: "Do guia. Sem reserva. Casual e direto ao ponto."
             },
             {
@@ -1433,7 +1434,7 @@ const TRIP = {
               emoji: "",
               tags: ["food"],
               duration: "1h30",
-              detail: "Sakaguchi Building 9F, 5-5-13 Ginza. ¥15.000–25.000 (~$130 USD). 2 estrelas Michelin. Tempura extremamente leve — cenoura e batata-doce são lendários.",
+              detail: "Sakaguchi Building 9F, 5-5-13 Ginza. ¥15.000–25.000 (~$132 USD). 2 estrelas Michelin. Tempura extremamente leve — cenoura e batata-doce são lendários.",
               note: "Reserva muito difícil — tentar pelo hotel. Do guia."
             },
             {
@@ -1470,7 +1471,7 @@ const TRIP = {
               emoji: "",
               tags: ["food"],
               duration: "2h",
-              detail: "Jewel Box Ginza B1, Ginza. ¥10.000–18.000 (~$91 USD). Kaiseki moderno elegante. Reserva recomendada.",
+              detail: "Jewel Box Ginza B1, Ginza. ¥10.000–18.000 (~$92 USD). Kaiseki moderno elegante. Reserva recomendada.",
               note: "Do guia — kaiseki sofisticado a 5 min do hotel"
             }
           ]
@@ -1541,8 +1542,17 @@ const TRIP = {
               emoji: "",
               tags: ["food"],
               duration: "1h30",
-              detail: "6-13-7 Jingumae, Shibuya-ku, Tokyo. ¥1.500–2.500 (~$17 USD). Udon viral — carbonara com ovo e queijo + menchirashi (udon com carne). Escondido num beco da Cat Street. 11:30–22:00.",
+              detail: "6-13-7 Jingumae, Shibuya-ku, Tokyo. ¥1.500–2.500 (~$13 USD). Udon viral — carbonara com ovo e queijo + menchirashi (udon com carne). Escondido num beco da Cat Street. 11:30–22:00.",
               note: "Sem reserva, pode ter fila. A 10 min a pé do Meiji Jingu/Omotesando."
+            },
+            {
+              name: "Mug Pop (xícaras de café/espresso)",
+              time: "14:45",
+              emoji: "",
+              tags: ["shop"],
+              duration: "30 min",
+              detail: "Cat Street, Harajuku. 400+ canecas e xícaras de artesãos japoneses (Arita, Mino, Kutani). Xícaras de espresso ¥2.500–8.000 (~$16–53), peças autorais ¥10.000+. Café no local — tomar na xícara que escolher.",
+              note: "Pra louça de espresso de cerâmica japonesa autoral. Mesma rua do Menchirashi e Mountain Hardwear."
             },
             {
               name: "Mountain Hardwear + Goldwin Harajuku",
@@ -1604,7 +1614,7 @@ const TRIP = {
               emoji: "",
               tags: ["food", "night"],
               duration: "2h",
-              detail: "VORT Aoyama B1, 2-7-14 Shibuya. ¥5.000–8.000 (~$50 USD). Izakaya animado, caótico e divertido. Menu japonês do dia. Melhor sentar no balcão e pedir omakase.",
+              detail: "VORT Aoyama B1, 2-7-14 Shibuya. ¥5.000–8.000 (~$43 USD). Izakaya animado, caótico e divertido. Menu japonês do dia. Melhor sentar no balcão e pedir omakase.",
               note: "Do guia — TOP. RESERVAR! Alternativa: Kotaro (Sakuragaokacho, ¥8.000–15.000) — sofisticado, meses de espera.",
               reserved: "pending"
             },
@@ -1653,6 +1663,15 @@ const TRIP = {
               note: ""
             },
             {
+              name: "SML — louça artesanal (Nakameguro)",
+              time: "10:45",
+              emoji: "",
+              tags: ["shop"],
+              duration: "30 min",
+              detail: "Nakameguro, perto do rio. Curadoria de louça japonesa artesanal — pratos, tigelas, xícaras de espresso ¥3.000–9.000 (~$20–60). Workshops de cerâmica no espaço.",
+              note: "Outra opção pra xícara de espresso — feito por artesãos locais, peças únicas."
+            },
+            {
               name: "Tsuchiya Kaban + Coverchord (Nakameguro)",
               time: "11:15",
               emoji: "",
@@ -1667,7 +1686,7 @@ const TRIP = {
               emoji: "",
               tags: ["food"],
               duration: "2h",
-              detail: "2-48-10 Kamimeguro. ¥13.200/pessoa (~$90 USD). Sushi Michelin com clima mais relaxado. Excelente omakase. Tem opção vegetariana.",
+              detail: "2-48-10 Kamimeguro. ¥13.200/pessoa (~$87 USD). Sushi Michelin com clima mais relaxado. Excelente omakase. Tem opção vegetariana.",
               note: "Do guia — TOP. RESERVADO! ID: I-ZL9TCC7N. A experiência sushi da viagem.",
               reserved: "confirmed"
             },
@@ -1686,7 +1705,7 @@ const TRIP = {
               emoji: "",
               tags: ["food"],
               duration: "45 min",
-              detail: "2-6-4 Kamimeguro. ¥1.800–3.000 (~$18 USD). Pizza napolitana cult. Só margarita e marinara. Ambiente Beatles/industrial.",
+              detail: "2-6-4 Kamimeguro. ¥1.800–3.000 (~$16 USD). Pizza napolitana cult. Só margarita e marinara. Ambiente Beatles/industrial.",
               note: "Do guia — TOP. Sem reserva. Alternativa: Land curry (Meguro, ¥1.500–2.500) — curry autoral imperdível."
             },
             {
@@ -1713,7 +1732,7 @@ const TRIP = {
               emoji: "",
               tags: ["food"],
               duration: "2h",
-              detail: "30-8 Sarugakucho, Shibuya-ku. ¥3.000–5.000 (~$30 USD). Izakaya punk rock clássico. Pequeno, barato e muito autêntico.",
+              detail: "30-8 Sarugakucho, Shibuya-ku. ¥3.000–5.000 (~$26 USD). Izakaya punk rock clássico. Pequeno, barato e muito autêntico.",
               note: "Do guia — TOP. RESERVAR! Alternativa: Schmatz cervejaria (Nakameguro, ¥3.000–5.000).",
               reserved: "pending"
             },
@@ -1723,7 +1742,7 @@ const TRIP = {
               emoji: "",
               tags: ["night", "food"],
               duration: "1h30",
-              detail: "1-30-9 Ebisu, Shibuya-ku. ¥8.000–15.000 (~$80 USD). Foi renomeado em 2025 de 'Gem by Moto' — mesmo lugar, mesma proposta. Sake premium, educativo, íntimo.",
+              detail: "1-30-9 Ebisu, Shibuya-ku. ¥8.000–15.000 (~$76 USD). Foi renomeado em 2025 de 'Gem by Moto' — mesmo lugar, mesma proposta. Sake premium, educativo, íntimo.",
               note: "Do guia — TOP. RESERVAR! Reserva obrigatória. Buscar no Google como 'Mizunotori Ebisu'.",
               reserved: "pending"
             }
@@ -1852,8 +1871,17 @@ const TRIP = {
               note: "Atmosfera incrível — casa de madeira original. Sem reserva, cash only."
             },
             {
+              name: "HARRY Asakusa — otter cafe (lontras!)",
+              time: "13:15",
+              emoji: "",
+              tags: ["culture"],
+              duration: "45 min",
+              detail: "5F Masuda Building, 1-1-17 Asakusa, Taito-ku. 5 min do Kaminarimon. Lontras + ouriços + corujas + outros bichos. ¥1.500–2.500 (~$13 USD)/pessoa por 30 min, drink incluso.",
+              note: "RESERVAR online (rakuten travel ou site oficial harinezumi-cafe.com). Lontras são o destaque — interagem direto."
+            },
+            {
               name: "Yanaka — cemitério, becos, gatos",
-              time: "14:00",
+              time: "14:30",
               emoji: "🐈",
               tags: ["culture", "photo"],
               duration: "2h",
@@ -1884,7 +1912,7 @@ const TRIP = {
               emoji: "",
               tags: ["food"],
               duration: "2h",
-              detail: "Hongo, Bunkyo-ku. ¥5.000–8.000 (~$40 USD). Yakiniku top perto de Ueno. Peça arroz com carne e manteiga — combinação absurda.",
+              detail: "Hongo, Bunkyo-ku. ¥5.000–8.000 (~$43 USD). Yakiniku top perto de Ueno. Peça arroz com carne e manteiga — combinação absurda.",
               note: "Do guia. Reserva obrigatória. Alternativa: Hiyama sukiyaki Michelin (Nihonbashi, ¥10.000–18.000)."
             }
           ]
@@ -1973,7 +2001,7 @@ const TRIP = {
               emoji: "",
               tags: ["food"],
               duration: "1h",
-              detail: "2-24-9 Nishi-Azabu. ¥2.500–4.000 (~$25 USD). Casa pequena, tonkatsu de porco de raça específica. Sem reserva, vá cedo.",
+              detail: "2-24-9 Nishi-Azabu. ¥2.500–4.000 (~$21 USD). Casa pequena, tonkatsu de porco de raça específica. Sem reserva, vá cedo.",
               note: "Do guia — TOP. Outro nível de tonkatsu. Taxi 15 min de Shinjuku."
             },
             {
@@ -2000,7 +2028,7 @@ const TRIP = {
               emoji: "",
               tags: ["food"],
               duration: "2h30",
-              detail: "Okura Tokyo 41F, 2-10-4 Toranomon. ¥25.000–40.000 (~$250 USD). Teppanyaki de alto nível com vista incrível da cidade. Ingredientes premium, experiência completa.",
+              detail: "Okura Tokyo 41F, 2-10-4 Toranomon. ¥25.000–40.000 (~$214 USD). Teppanyaki de alto nível com vista incrível da cidade. Ingredientes premium, experiência completa.",
               note: "Do guia — TOP. RESERVAR! Jantar de despedida com vista de Tokyo. Reserva obrigatória.",
               reserved: "pending"
             },
@@ -2027,7 +2055,7 @@ const TRIP = {
               emoji: "",
               tags: ["food"],
               duration: "1h",
-              detail: "1F, 4-10-16 Tsukiji, Chuo-ku. ¥2.000–4.000 (~$25 USD). Escondido atrás de lojas. Sushi simples, peixe de altíssima qualidade. Atum gordo e uni obrigatórios.",
+              detail: "1F, 4-10-16 Tsukiji, Chuo-ku. ¥2.000–4.000 (~$20 USD). Escondido atrás de lojas. Sushi simples, peixe de altíssima qualidade. Atum gordo e uni obrigatórios.",
               note: "Do guia. Sem reserva. Alternativa: Nemuro Hanamaru (Ginza, ¥2.000–4.000) — melhor custo-benefício."
             },
             {
