@@ -1139,71 +1139,89 @@ const TRIP = {
         {
           date: "26/04",
           dayOfWeek: "Dom",
-          theme: "Castle + Noritake + Artesanato",
-          synopsis: "Dia cultural tranquilo — castelo + porcelana + artesanato. Castelo de Nagoya de manhã (reconstruído mas imponente). Noritake Garden à tarde — fábrica histórica de porcelana, surpreendentemente bonita, tem outlet com preços bons pra presente. Metro entre os pontos. Caminhada leve. Último jantar em Nagoya. Organizar malas — amanhã Shinkansen 1h40 pra Tokyo.",
+          theme: "Castle + Noritake + Artesanato (compensando ontem)",
+          synopsis: "ACORDAR CEDO 6:30 pra compensar o atraso de ontem. Café da manhã rápido, Castelo de Nagoya assim que abre (9h). Noritake Garden de manhã (porcelana histórica + outlet). Almoço Yabaton miso katsu em Osu — o que sobrou de ontem. Tarde: Endoji shotengai e Toyota Museum. Jantar tebasaki + cerveja em Sakae. Última noite em Nagoya. Organizar malas — amanhã 8h Shinkansen pra Tokyo.",
           activities: [
+            {
+              name: "Acordar cedo + café",
+              time: "06:30",
+              emoji: "",
+              tags: ["food"],
+              duration: "1h",
+              detail: "Café no hotel ou na estação JR. Aproveitar pra começar bem.",
+              note: "Compensando o tempo perdido ontem."
+            },
             {
               name: "Nagoya Castle + Honmaru Palace",
               time: "09:00",
-              emoji: "🏯",
+              emoji: "",
               tags: ["culture", "photo"],
               duration: "2h",
-              detail: "Castelo + palácio reconstruído com técnicas tradicionais. Fotografia A7CR.",
-              note: "O Honmaru Palace é uma reconstrução fiel — pinturas fusuma impressionantes"
+              detail: "Castelo abre 9:00. Palácio Honmaru reconstruído com técnicas tradicionais. Metro Meijo Line ~10 min da estação.",
+              note: "Chegar logo na abertura — vazio pra fotos. Pinturas fusuma impressionantes."
             },
             {
               name: "Noritake Garden",
-              time: "11:30",
-              emoji: "🎨",
+              time: "11:15",
+              emoji: "",
               tags: ["culture", "shop"],
               duration: "1h30",
-              detail: "Museu de cerâmica + craft center. Taxi 10 min do castelo.",
-              note: "A Noritake é uma das marcas de porcelana mais importantes do Japão"
+              detail: "Museu de cerâmica + craft center + outlet. Taxi 15 min do castelo.",
+              note: "Outlet com preços bons pra presente. Marca japonesa de porcelana mais importante."
             },
             {
-              name: "Almoço — Kishimen",
+              name: "Almoço — Yabaton miso katsu (Osu)",
               time: "13:00",
-              emoji: "🍜",
+              emoji: "",
               tags: ["food"],
               duration: "1h",
-              detail: "Udon achatado estilo Nagoya. Especialidade local.",
-              note: "Textura diferente do udon normal — mais leve e sedoso"
+              detail: "Yabaton Honten, 3-6-18 Osu, Naka-ku. Tonkatsu com miso vermelho de Nagoya. Metro Tsurumai Line 15 min de Noritake.",
+              note: "O miso vermelho daqui é mais intenso e doce. Casa fundada 1947 — o original."
+            },
+            {
+              name: "Osu Kannon (rever) + Komehyo",
+              time: "14:15",
+              emoji: "",
+              tags: ["culture", "shop"],
+              duration: "1h",
+              detail: "Aproveitar Osu de dia (ontem foi à noite). Komehyo é a maior loja de luxo usado do Japão — fica em Osu.",
+              note: "Komehyo: relógios, bolsas, joias usadas em condição absurda. Vale dar uma olhada."
             },
             {
               name: "Endoji Shotengai",
-              time: "14:30",
-              emoji: "🏘️",
+              time: "15:30",
+              emoji: "",
               tags: ["culture", "shop", "photo"],
-              duration: "1h30",
-              detail: "Shotengai old school. Comércio local, cafés, artesanato.",
-              note: "Shotengai autêntico sem turismo — o Japão real"
+              duration: "1h",
+              detail: "Shotengai old school. Comércio local, cafés, artesanato. Metro Tsurumai Line.",
+              note: "Shotengai autêntico sem turismo — o Japão real."
             },
             {
               name: "Toyota Commemorative Museum",
-              time: "16:00",
-              emoji: "🏛️",
+              time: "16:45",
+              emoji: "",
               tags: ["culture"],
               duration: "1h30",
-              detail: "De teares a carros. Design industrial japonês. A pé da estação.",
-              note: "Opcional — mas impressionante se curte design e engenharia"
+              detail: "De teares a carros. Design industrial japonês. Metro de volta a Nagoya Station + 5 min a pé.",
+              note: "Fecha 17:00 (entrada até 16:30). Opcional se cansar — pular se não der tempo."
             },
             {
-              name: "Jantar — Tebasaki + cerveja",
+              name: "Jantar — Tebasaki Sekai no Yamachan",
               time: "19:00",
-              emoji: "🍗",
+              emoji: "",
               tags: ["food", "night"],
               duration: "1h30",
-              detail: "Sekai no Yamachan. Asas de frango crocantes estilo Nagoya.",
-              note: "Pedir com cerveja gelada — combo perfeito"
+              detail: "Sakae. Asas de frango crocantes estilo Nagoya + cerveja gelada.",
+              note: "Combo clássico de Nagoya. Tebasaki + bira."
             },
             {
               name: "Fushimi — sake bars",
               time: "21:00",
-              emoji: "🍶",
+              emoji: "",
               tags: ["night"],
               duration: "Flex",
-              detail: "Distrito de Fushimi, bares de sake e whisky.",
-              note: "Última noite antes de Tokyo — brindar à viagem até aqui"
+              detail: "Distrito de Fushimi, bares de sake e whisky. A pé de Sakae.",
+              note: "Última noite antes de Tokyo. Voltar cedo — amanhã 8h Shinkansen pra Hachigou fila."
             }
           ]
         }
