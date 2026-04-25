@@ -1310,11 +1310,20 @@ const TRIP = {
               note: "CONFIRMADO | 7 noites (27/04–04/05) | 192.500 pts + ¥40.500 | Check-in oficial 15:00 mas pode dar early"
             },
             {
+              name: "Samsonite Ginza — concertar mala",
+              time: "13:15",
+              emoji: "",
+              tags: ["shop"],
+              duration: "30 min",
+              detail: "Samsonite Black Label Ginza (flagship asiático). 3-4-12 Ginza, Bunshodo Ginza Bldg 1F. Tel +81 3-6263-2099. 8 min a pé do Hyatt. 11h–20h. Roda quebrada — Samsonite tem garantia de 10 anos pra defeito de fabricação (não cobre dano por uso). Substituição de roda é peça simples.",
+              note: "Levar a mala. Se for warranty, é grátis; se não for, peça custa ~¥3.000–8.000 + serviço. Pode ser same-day se tiver a peça. Pegar na volta antes do voo dia 04."
+            },
+            {
               name: "Tsukiji mercado externo",
-              time: "13:30",
+              time: "14:00",
               emoji: "",
               tags: ["food", "photo"],
-              duration: "1h",
+              duration: "30 min",
               detail: "A pé 15 min. Mercado vibrante, street food + fotografia.",
               note: "Não é mais o mercado de atum (foi pra Toyosu), mas ainda é incrível. Snacks pós-ramen."
             },
