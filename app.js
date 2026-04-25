@@ -2406,7 +2406,7 @@ function renderRestaurantGuide(filter = 'all') {
 
     filteredRestaurants.forEach(r => {
       const mapsQuery = encodeURIComponent(`${r.name} ${r.address} Tokyo Japan`);
-      const mapsLink = `https://www.google.com/maps/search/?api=1&query=${mapsQuery}`;
+      const mapsLink = `https://maps.apple.com/?q=${mapsQuery}`;
       const usd = yenToUsd(r.avg);
 
       html += `<div class="guide-restaurant ${r.must ? 'guide-must' : ''}">`;
@@ -2536,7 +2536,7 @@ function renderTokyoGuide(filter = 'all') {
 
       places.forEach(p => {
         const mapsQuery = encodeURIComponent(`${p.name} ${p.address} Tokyo Japan`);
-        const mapsLink = `https://www.google.com/maps/search/?api=1&query=${mapsQuery}`;
+        const mapsLink = `https://maps.apple.com/?q=${mapsQuery}`;
 
         html += `<div class="guide-restaurant ${p.highlight ? 'guide-must' : ''}">`;
         html += `<div class="guide-restaurant-header">`;
@@ -2573,7 +2573,7 @@ function renderTokyoGuide(filter = 'all') {
 
     places.forEach(p => {
       const mapsQuery = encodeURIComponent(`${p.name} ${p.address} Tokyo Japan`);
-      const mapsLink = `https://www.google.com/maps/search/?api=1&query=${mapsQuery}`;
+      const mapsLink = `https://maps.apple.com/?q=${mapsQuery}`;
 
       html += `<div class="guide-restaurant ${p.highlight ? 'guide-must' : ''}">`;
       html += `<div class="guide-restaurant-header">`;
@@ -2772,7 +2772,7 @@ function renderActivities(day) {
 
     if (address) {
       const query = encodeURIComponent(`${address} ${TRIP.cities.find(c => c.id === currentCity).kanji} Japan`);
-      googleMapsLink = `https://www.google.com/maps/search/?api=1&query=${query}`;
+      googleMapsLink = `https://maps.apple.com/?q=${query}`;
     }
 
     html += `
