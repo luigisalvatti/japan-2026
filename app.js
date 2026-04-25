@@ -1133,12 +1133,21 @@ const TRIP = {
           synopsis: "Dia tema CARRO + Komehyo. Acordar 7:30, café tranquilo. Castelo Nagoya 9h. Taxi pro Toyota Automobile Museum em Nagakute (150 carros clássicos do mundo). Porsche Center Nagoya (Classic Partner — 911 air-cooled restaurados). Volta pro almoço Yabaton em Osu. Tarde no Komehyo Main Store (maior usado luxo Japão, 7 andares!) + Osu Kannon + Endoji. Tebasaki Sakae. Fushimi sake. Última noite — amanhã 8h Shinkansen pra Tokyo.",
           activities: [
             {
-              name: "Acordar + café tranquilo",
+              name: "Corrida matinal — Meijo Park (opcional)",
+              time: "06:00",
+              emoji: "",
+              tags: ["nature"],
+              duration: "1h15",
+              detail: "Meijo Park (鶴舞公園) — parque do Castelo de Nagoya, 24h aberto, perfeito pra runners. ~5km loop ao redor do Ofukeike Pond + castelo de fundo. Da Marriott: metro Higashiyama Line → Sakae (2 stops) → trocar Meijo Line → Nagoyajo Station (2 stops) + 3 min a pé. Ou taxi 10 min ¥1.500.",
+              note: "Tem running station com vestiário/banho na zona norte do parque. Pulse: ~5–8km easy, vista do castelo no nascer do sol."
+            },
+            {
+              name: "Volta + café tranquilo",
               time: "07:30",
               emoji: "",
               tags: ["food"],
               duration: "1h15",
-              detail: "Café no hotel ou na estação JR.",
+              detail: "Banho no hotel. Café no Marriott ou na estação JR.",
               note: "Sem pressa. Compensando o tempo perdido ontem."
             },
             {
