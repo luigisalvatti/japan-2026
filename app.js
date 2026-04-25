@@ -1068,37 +1068,28 @@ const TRIP = {
           date: "25/04",
           dayOfWeek: "Sab",
           theme: "Chegada + Atsuta + Osu",
-          synopsis: "ATRASO — chegada só 14:30 em Nagoya. Dia comprimido: drop malas no Marriott (colado na estação), Atsuta Shrine no fim da tarde, Hitsumabushi como jantar/almoço tardio (Atsuta Horaiken fica do lado do santuário), depois Osu Kannon pra vintage e street food à noite. Miso katsu opcional se ainda tiver fome. Sakae pra fechar com drink. Dia de metro + caminhada moderada.",
+          synopsis: "ATRASO — chegada no hotel só às 15h. Dia bem comprimido: drop malas rápido no Marriott, Atsuta Shrine no fim da tarde, Hitsumabushi como jantar (Atsuta Horaiken do lado do santuário), depois Osu Kannon pra vintage à noite. Banana Records se der tempo (fecha 20h). Sakae pra fechar com drink. Yabaton miso katsu fica pra amanhã.",
           activities: [
             {
-              name: "Chegada Nagoya (atrasado)",
-              time: "14:30",
-              emoji: "",
-              tags: ["transport"],
-              duration: "",
-              detail: "Shinkansen — Nagoya Station. Hotel conectado direto à estação.",
-              note: "Atraso de 5h30 vs plano original. Roteiro comprimido."
-            },
-            {
-              name: "Drop malas — Marriott Associa",
-              time: "14:45",
+              name: "Chegada hotel — Marriott Associa",
+              time: "15:00",
               emoji: "",
               tags: ["transport"],
               duration: "30 min",
-              detail: "Nagoya Marriott Associa Hotel | Standard Queen | Ref: F0426AW1T1",
-              note: "Check-in formal pode esperar — só deixar malas e sair direto."
+              detail: "Nagoya Marriott Associa Hotel | Standard Queen | Ref: F0426AW1T1 | Conectado à estação JR.",
+              note: "Drop malas rápido e sair direto pro Atsuta — não perder tempo."
             },
             {
               name: "Atsuta Jingu",
-              time: "15:30",
+              time: "15:45",
               emoji: "",
               tags: ["culture", "photo"],
-              duration: "1h30",
+              duration: "1h15",
               detail: "Um dos santuários mais sagrados do Japão (2.000+ anos). Metro Meijo Line ~15 min de Nagoya Station.",
               note: "Guarda a espada Kusanagi — um dos 3 tesouros imperiais. Floresta densa, ótimo no fim de tarde."
             },
             {
-              name: "Almoço-jantar — Hitsumabushi (Atsuta Horaiken)",
+              name: "Jantar — Hitsumabushi (Atsuta Horaiken)",
               time: "17:15",
               emoji: "",
               tags: ["food"],
@@ -1111,18 +1102,18 @@ const TRIP = {
               time: "18:45",
               emoji: "",
               tags: ["culture", "shop", "photo"],
-              duration: "1h30",
+              duration: "1h",
               detail: "Metro Tsurumai Line de Atsuta. Templo budista + shotengai vibrante. Vintage, street food, eletrônicos.",
-              note: "Mistura Akihabara com Shimokitazawa. Lojas até 20h, mas a rua fica viva à noite."
+              note: "Lojas até 20h, mas a rua fica viva à noite. Mistura Akihabara com Shimokitazawa."
             },
             {
               name: "Banana Records Osu",
-              time: "19:30",
+              time: "19:45",
               emoji: "",
               tags: ["shop"],
-              duration: "30 min",
-              detail: "Loja de vinyl gigante no shotengai de Osu. Fecha 20h — chegar antes.",
-              note: "Acervo enorme de vinyl japonês e importado. Se não der tempo, pular."
+              duration: "15 min",
+              detail: "Loja de vinyl no shotengai de Osu. Fecha 20h — chegar antes.",
+              note: "Se não der tempo, pular sem dó."
             },
             {
               name: "Sakae — drinks/sake",
@@ -1131,7 +1122,7 @@ const TRIP = {
               tags: ["night"],
               duration: "Flex",
               detail: "Distrito de entretenimento de Nagoya. Metro Higashiyama Line de Osu (1 estação). Bares e sake.",
-              note: "Pra fechar o dia. Miso katsu (Yabaton em Osu) fica pra amanhã se não comer hoje."
+              note: "Pra fechar o dia. Yabaton miso katsu fica pra amanhã (já no roteiro do dia 26 às 13h)."
             }
           ]
         },
