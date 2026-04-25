@@ -333,7 +333,8 @@ const TRIP = {
   reservations: {
     confirmed: [
       { name: "Udatsu Sushi", date: "30/04", time: "12:00", city: "Tokyo", id: "I-ZL9TCC7N", price: "¥13.200/pessoa", note: "Omakase em Nakameguro" },
-      { name: "teamLab Borderless", date: "28/04", time: "15:00–15:30", city: "Tokyo", id: "AYHCTMHPFXKP-0001", price: "¥10.000 (2 adultos)", note: "Azabudai Hills, Toranomon. Entrada 15:00–15:30. Ticket URL no email da teamLab." }
+      { name: "teamLab Borderless", date: "28/04", time: "15:00–15:30", city: "Tokyo", id: "AYHCTMHPFXKP-0001", price: "¥10.000 (2 adultos)", note: "Azabudai Hills, Toranomon. Entrada 15:00–15:30. Ticket URL no email da teamLab." },
+      { name: "inari Sakae Ten", date: "26/04", time: "19:30", city: "Nagoya", id: "CM8DCVPHMW", price: "Pagar no local + taxa ¥300/pessoa", note: "Yabacho, Sakae. Inari sushi criativo + sakes. 2h limite. Confirmado via Tabelog." }
     ],
     pending: [
 { name: "Parfum Satori (appointment)", date: "28/04", time: "18:00", city: "Tokyo", priority: "alta", how: "Marcar pelo site parfum-satori.com ou email", note: "Perfumaria japonesa artesanal em Roppongi (2F, 3-6-8). Só por appointment. 10 min de Azabudai Hills." },
@@ -1130,7 +1131,7 @@ const TRIP = {
           date: "26/04",
           dayOfWeek: "Dom",
           theme: "Castle + Noritake + Artesanato (compensando ontem)",
-          synopsis: "Dia tema CARRO + Komehyo. Acordar 7:30, café tranquilo. Castelo Nagoya 9h. Taxi pro Toyota Automobile Museum em Nagakute (150 carros clássicos do mundo). Porsche Center Nagoya (Classic Partner — 911 air-cooled restaurados). Volta pro almoço Yabaton em Osu. Tarde no Komehyo Main Store (maior usado luxo Japão, 7 andares!) + Osu Kannon + Endoji. Tebasaki Sakae. Fushimi sake. Última noite — amanhã 8h Shinkansen pra Tokyo.",
+          synopsis: "Dia tema CARRO + Komehyo. Corrida cedo no Meijo Park (opcional). 7:30 acorda, café tranquilo. Castelo Nagoya 9h. Taxi pro Toyota Automobile Museum em Nagakute (150 carros clássicos do mundo). Porsche Center Nagoya (Classic Partner — 911 air-cooled restaurados). Almoço Yabaton em Osu. Tarde no Komehyo Main Store (maior usado luxo Japão, 7 andares!) + Osu Kannon + Endoji. Jantar reservado no inari Sakae Ten 19:30. Fushimi sake pra fechar. Amanhã 8h Shinkansen pra Tokyo.",
           activities: [
             {
               name: "Corrida matinal — Meijo Park (opcional)",
@@ -1232,13 +1233,14 @@ const TRIP = {
               note: "Shotengai autêntico sem turismo — o Japão real."
             },
             {
-              name: "Jantar — Tebasaki Sekai no Yamachan",
-              time: "19:00",
+              name: "Jantar — inari Sakae Ten",
+              time: "19:30",
               emoji: "",
               tags: ["food", "night"],
-              duration: "1h30",
-              detail: "Sakae. Asas de frango crocantes estilo Nagoya + cerveja gelada.",
-              note: "Combo clássico de Nagoya. Tebasaki + bira."
+              duration: "2h",
+              detail: "inari Sakae Ten, Yabacho, Sakae (perto de Yaba Cho Station). Conceito old x new — inari sushi assinatura com toppings criativos (salmão, ikura, camarão), 6+ sakes + sake cocktails, obanzai sazonal. Arroz orgânico do Chita Peninsula.",
+              note: "RESERVADO! Confirmação: CM8DCVPHMW. 19:30, 2h limite, 2 pessoas. Taxa de assento ¥300. Pagar no local.",
+              reserved: "confirmed"
             },
             {
               name: "Fushimi — sake bars",
