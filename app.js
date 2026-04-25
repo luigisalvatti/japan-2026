@@ -1909,7 +1909,7 @@ const TRIP = {
           date: "03/05",
           dayOfWeek: "Dom",
           theme: "Shibuya + Despedida",
-          synopsis: "Último dia completo — geek + lojas + comida. Shibuya Crossing, vinyl (Face/Lighthouse Records). Kith + GR8 (Miyashita Park). Pokémon Center + Nintendo + card shops Yu-Gi-Oh (Parco 6F — boosters mystery!). Almoço Katsudon Zuicho. Disk Union Shinjuku. Butagumi tonkatsu. Artesanato Aoyama. Jantar de despedida (a definir — sugestões no slot). Record bar pra fechar.",
+          synopsis: "Último dia completo — geek + lojas + comida. Shibuya Crossing, vinyl (Face/Lighthouse Records), Oakley Store Shibuya (customizar óculos de corrida — único do Japão com bordado). Kith + GR8 (Miyashita Park). Pokémon Center + Nintendo + Yu-Gi-Oh (Parco 6F — boosters mystery!). Disk Union Shinjuku. Almoço Katsudon Zuicho. Butagumi tonkatsu. Artesanato Aoyama. Jantar de despedida (a definir). Record bar pra fechar.",
           activities: [
             {
               name: "Camelback — espresso + omelete",
@@ -1934,13 +1934,22 @@ const TRIP = {
               time: "10:00",
               emoji: "",
               tags: ["shop"],
-              duration: "1h15",
+              duration: "1h",
               detail: "Vinyl hunt em Shibuya",
               note: ""
             },
             {
+              name: "Oakley Store Shibuya — custom corrida",
+              time: "11:00",
+              emoji: "",
+              tags: ["shop"],
+              duration: "1h",
+              detail: "2-29-22 Dogenzaka, Shibuya-ku (2 min do Crossing). Flagship asiático — única loja do Japão com Customization Bar + Prescription Lab + bordado. Eyewear no 1F (uma das maiores seleções do Japão), apparel no 2F. Couselor full-time pra explicar funções. Sutro/Kato/Encoder ¥25.000–40.000 (~$165–265). Custom com lentes Prizm + bordado +¥5.000–15.000.",
+              note: "Pra óculos de corrida customizado — escolher armação, cor das lentes Prizm, gravar nome. Tax refund 10% acima de ¥5.500."
+            },
+            {
               name: "Kith Tokyo + GR8 (Miyashita Park)",
-              time: "11:15",
+              time: "12:00",
               emoji: "",
               tags: ["shop"],
               duration: "45 min",
@@ -1949,7 +1958,7 @@ const TRIP = {
             },
             {
               name: "Pokémon Center + Nintendo + Card Shops (Parco 6F)",
-              time: "12:00",
+              time: "12:45",
               emoji: "",
               tags: ["shop"],
               duration: "1h30",
@@ -1958,7 +1967,7 @@ const TRIP = {
             },
             {
               name: "Disk Union Shinjuku",
-              time: "13:30",
+              time: "14:15",
               emoji: "",
               tags: ["shop"],
               duration: "1h",
@@ -1967,7 +1976,7 @@ const TRIP = {
             },
             {
               name: "Almoço rápido — Katsudon-ya Zuicho (Shibuya)",
-              time: "14:30",
+              time: "15:15",
               emoji: "",
               tags: ["food"],
               duration: "45 min",
