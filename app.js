@@ -1478,7 +1478,7 @@ const TRIP = {
           date: "29/04",
           dayOfWeek: "Qua",
           theme: "Omotesando + Harajuku",
-          synopsis: "Dia mais cheio de lojas da viagem — Aoyama + Harajuku a pé. Curious Curio (Tank), Auralee (camisetas TOP), Graphpaper, Lemaire, Mountain Hardwear + Goldwin Harajuku (esportiva), Bose Omotesando Hills (trocar espuma fone), Byredo, Moscot, CFCL+VISVIM. Menchirashi udon viral no almoço. Meiji Jingu (santuário). Narukiyo izakaya + Grandfathers record bar à noite. Bastante caminhada, levar sacolas grandes.",
+          synopsis: "Dia mais cheio de lojas da viagem — Aoyama + Harajuku a pé. Curious Curio (Tank), Auralee (camisetas TOP), Graphpaper, Lemaire, Mug Pop (xícaras espresso), Mountain Hardwear + Goldwin Harajuku, MixTHINKS (vintage luxo), Bose Omotesando Hills (trocar espuma fone), Byredo, Moscot, CFCL+VISVIM. Menchirashi udon viral no almoço. Meiji Jingu (santuário). Narukiyo izakaya + Grandfathers record bar à noite. Bastante caminhada, levar sacolas grandes.",
           activities: [
             {
               name: "Koffee Mameya",
@@ -1562,17 +1562,26 @@ const TRIP = {
               note: "Goldwin é a prioridade esportiva. Mountain Hardwear pra outdoor/exclusivos Japão. Ambos 11h–20h."
             },
             {
-              name: "Meiji Jingu",
+              name: "MixTHINKS Harajuku (vintage luxo)",
               time: "16:15",
               emoji: "",
+              tags: ["shop"],
+              duration: "30 min",
+              detail: "Q Plaza Harajuku 1F, 6-28-6 Jingumae, Shibuya-ku. Vintage de luxo japonês — bolsas (Hermès/Chanel/LV), joias, relógios e acessórios em condição premium. Tax-free. 11h–20h.",
+              note: "Mesma quadra do Goldwin Harajuku. Curadoria vintage de alto nível — peças seladas autenticadas."
+            },
+            {
+              name: "Meiji Jingu",
+              time: "16:45",
+              emoji: "",
               tags: ["culture", "nature", "photo"],
-              duration: "45 min",
-              detail: "Santuário no meio da floresta. A pé 10 min do Goldwin Harajuku.",
-              note: "Floresta plantada há 100 anos — silêncio no meio de Tokyo"
+              duration: "30 min",
+              detail: "Santuário no meio da floresta. A pé 10 min.",
+              note: "Floresta plantada há 100 anos — silêncio no meio de Tokyo. Visita rápida."
             },
             {
               name: "Bose Direct Store (Omotesando Hills)",
-              time: "17:15",
+              time: "17:30",
               emoji: "",
               tags: ["shop"],
               duration: "45 min",
