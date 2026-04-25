@@ -1352,8 +1352,8 @@ const TRIP = {
               emoji: "",
               tags: ["shop"],
               duration: "45 min",
-              detail: "Goldwin: Brick Square 1F, 2-6-1 Marunouchi (esportiva técnica japonesa, linha Goldwin 0). LEGO Store Tokyo Station: Tokyo Station Ichiban Gai B1, 1-9-1 Marunouchi (sets exclusivos Japão, série Architecture Tokyo).",
-              note: "Ambos em Marunouchi, 5 min a pé entre eles. 10 min de Ginza. LEGO tem set exclusivo de Tokyo."
+              detail: "Goldwin Brick Square 1F, 2-6-1 Marunouchi: camisetas ¥8.000–15.000, shorts ¥10.000–18.000, jaquetas Goldwin 0 ¥30.000–80.000. LEGO Tokyo Station Ichiban Gai B1, 1-9-1 Marunouchi: sets ¥3.000–50.000+, Architecture Tokyo exclusivo ¥10.000.",
+              note: "Ambos em Marunouchi, 5 min a pé entre eles. 10 min de Ginza. Tax refund 10% acima de ¥5.500."
             },
             {
               name: "Dover Street Market Ginza",
@@ -1514,8 +1514,8 @@ const TRIP = {
               emoji: "",
               tags: ["shop"],
               duration: "30 min",
-              detail: "QC cube Minamiaoyama 63 1F, 6-3-2 Minamiaoyama, Minato-ku. Seamless Crew Neck (¥12.000–18.000) — equivalente japonês da Barthélémy. 11h–20h.",
-              note: "Prioridade TOP. Algodão Suvin, corte limpo."
+              detail: "QC cube Minamiaoyama 63 1F, 6-3-2 Minamiaoyama. Seamless Crew Neck ¥12.000–18.000 (~$80–120), camisas ¥25.000–45.000, knit ¥40.000–80.000. 11h–20h.",
+              note: "Prioridade TOP. Algodão Suvin, corte limpo. Equivalente japonês da Barthélémy."
             },
             {
               name: "Graphpaper + Lemaire Aoyama",
@@ -1523,8 +1523,8 @@ const TRIP = {
               emoji: "",
               tags: ["shop"],
               duration: "45 min",
-              detail: "Graphpaper: camisetas oversized minimalistas (¥12.000–18.000). Lemaire: tshirt dropped shoulder francesa. Ambos em Minamiaoyama, 2 min a pé do Auralee.",
-              note: "Mesma rua do Curious Curio."
+              detail: "Graphpaper (Minamiaoyama): camisetas oversized ¥15.000–22.000, camisas ¥30.000–50.000. Lemaire Aoyama: tshirt dropped shoulder ¥18.000–30.000, knits ¥60.000–120.000.",
+              note: "Mesma rua do Curious Curio. Lemaire é o mais caro do circuito."
             },
             {
               name: "Nezu Museum — jardim koi",
@@ -1550,8 +1550,8 @@ const TRIP = {
               emoji: "",
               tags: ["shop"],
               duration: "1h",
-              detail: "Mountain Hardwear: 6-13-11 Jingumae (mesma quadra do Menchirashi). Goldwin Harajuku: Citta Jingu-mae 1F, 6-10-12 Jingumae — camisetas e shorts técnicos japoneses (¥8.000–13.000), alternativa premium à On. Ambos 11h–20h.",
-              note: "Goldwin é a prioridade esportiva. Mountain Hardwear pra outdoor/exclusivos Japão."
+              detail: "Mountain Hardwear (6-13-11 Jingumae): camisetas ¥6.000–10.000, fleece ¥15.000–28.000, jaquetas ¥30.000–80.000. Goldwin Harajuku (Citta Jingu-mae 1F, 6-10-12 Jingumae): camisetas/shorts técnicos ¥8.000–13.000, jaquetas ¥18.000–45.000.",
+              note: "Goldwin é a prioridade esportiva. Mountain Hardwear pra outdoor/exclusivos Japão. Ambos 11h–20h."
             },
             {
               name: "Meiji Jingu",
@@ -1658,8 +1658,8 @@ const TRIP = {
               emoji: "",
               tags: ["shop"],
               duration: "45 min",
-              detail: "Tsuchiya Kaban: couro japonês premium, watch rolls e cases de altíssima qualidade. Coverchord: multimarca curado (Goldwin 0, Auralee, Nonnative, TNF Purple Label) num lugar só. Ambos a 5 min do Waltz.",
-              note: "Tsuchiya pra watch roll. Coverchord pra catch-all caso queira ver várias marcas juntas."
+              detail: "Tsuchiya Kaban: watch roll ¥30.000–80.000, carteiras ¥20.000–60.000, bolsas ¥80.000–250.000. Coverchord: tshirts ¥10.000–18.000, camisas ¥25.000–50.000, jaquetas Goldwin 0/TNF Purple ¥40.000–120.000.",
+              note: "Tsuchiya pra watch roll (couro japonês premium). Coverchord pra catch-all multimarca."
             },
             {
               name: "UDATSU SUSHI — omakase (Nakameguro)",
@@ -1695,8 +1695,8 @@ const TRIP = {
               emoji: "",
               tags: ["shop"],
               duration: "45 min",
-              detail: "Descente Allterrain: esportiva premium japonesa (¥9.000–13.000), alternativa à Goldwin. Nanamica: técnico + casual com corte impecável. Ambos em Daikanyama.",
-              note: "Esportiva + casual técnico num só circuito."
+              detail: "Descente Allterrain: camisetas/shorts ¥9.000–15.000, jaquetas técnicas ¥25.000–60.000. Nanamica: tshirts ¥10.000–18.000, camisas/shorts ¥18.000–35.000, GORE-TEX ¥45.000–90.000.",
+              note: "Esportiva + casual técnico num só circuito. Alternativa à Goldwin."
             },
             {
               name: "Bonjour Records + Maison Kitsuné",
@@ -1928,8 +1928,8 @@ const TRIP = {
               emoji: "",
               tags: ["shop"],
               duration: "45 min",
-              detail: "MIYASHITA PARK North 1F, 6-20-10 Jingumae, Shibuya-ku. Kith no térreo + GR8 multimarca curado (Satisfy Running, District Vision, statement pieces).",
-              note: "5 min a pé do Shibuya Crossing. Mesmo complexo."
+              detail: "MIYASHITA PARK North 1F, 6-20-10 Jingumae. Kith: tshirts ¥8.000–18.000, hoodies ¥20.000–40.000, sneakers ¥15.000–80.000. GR8: Satisfy Running ¥15.000–35.000, District Vision óculos ¥30.000–50.000, statement pieces ¥20.000–150.000.",
+              note: "5 min do Shibuya Crossing. Kith mais acessível, GR8 statement/curado."
             },
             {
               name: "Pokémon Center + Nintendo + Card Shops (Parco 6F)",
@@ -1937,8 +1937,8 @@ const TRIP = {
               emoji: "",
               tags: ["shop"],
               duration: "1h30",
-              detail: "Shibuya Parco 6F, 15-1 Udagawacho, Shibuya-ku. Pokémon Center (mystery booster packs), Nintendo Tokyo, Capcom Store. Card shops com Yu-Gi-Oh, Pokémon vintage, One Piece. 10h–21h.",
-              note: "TUDO num só andar. Boosters Pokémon escarlate/violeta + cartas raras. Yu-Gi-Oh nos card shops do prédio."
+              detail: "Shibuya Parco 6F, 15-1 Udagawacho. Booster pack Pokémon ¥165–550 (1 pacote), box completa ¥4.500–8.000. Yu-Gi-Oh booster ¥165–500, deck pronto ¥2.000–5.000. Cartas raras: ¥1.000–500.000+. Pelúcias Pokémon ¥1.500–8.000, figures Nintendo ¥3.000–15.000. 10h–21h.",
+              note: "TUDO num só andar — Pokémon Center + Nintendo Tokyo + Capcom + card shops Yu-Gi-Oh/One Piece. Boosters mystery escarlate/violeta tem cartas EX/UR. Tax refund 10% acima de ¥5.500."
             },
             {
               name: "Disk Union Shinjuku",
