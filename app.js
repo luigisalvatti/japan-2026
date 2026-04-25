@@ -1130,70 +1130,79 @@ const TRIP = {
           date: "26/04",
           dayOfWeek: "Dom",
           theme: "Castle + Noritake + Artesanato (compensando ontem)",
-          synopsis: "ACORDAR CEDO 6:30 pra compensar o atraso de ontem. Café da manhã rápido, Castelo de Nagoya assim que abre (9h). Noritake Garden de manhã (porcelana histórica + outlet). Almoço Yabaton miso katsu em Osu — o que sobrou de ontem. Tarde: Endoji shotengai e Toyota Museum. Jantar tebasaki + cerveja em Sakae. Última noite em Nagoya. Organizar malas — amanhã 8h Shinkansen pra Tokyo.",
+          synopsis: "Dia mais corrido com tema CARRO. Acordar 7:30, café tranquilo. Castelo Nagoya 9h. Taxi pro Toyota Automobile Museum em Nagakute (150 carros clássicos do mundo). Volta pro almoço Yabaton em Osu. Tarde dedicada ao Komehyo Main Store (maior loja de usado de luxo do Japão, 7 andares!) + Osu Kannon + Endoji. Tebasaki em Sakae. Fushimi sake. Última noite — amanhã 8h Shinkansen pra Tokyo.",
           activities: [
             {
-              name: "Acordar cedo + café",
-              time: "06:30",
+              name: "Acordar + café tranquilo",
+              time: "07:30",
               emoji: "",
               tags: ["food"],
-              duration: "1h",
-              detail: "Café no hotel ou na estação JR. Aproveitar pra começar bem.",
-              note: "Compensando o tempo perdido ontem."
+              duration: "1h15",
+              detail: "Café no hotel ou na estação JR.",
+              note: "Sem pressa. Compensando o tempo perdido ontem."
             },
             {
               name: "Nagoya Castle + Honmaru Palace",
               time: "09:00",
               emoji: "",
               tags: ["culture", "photo"],
-              duration: "2h",
+              duration: "1h45",
               detail: "Castelo abre 9:00. Palácio Honmaru reconstruído com técnicas tradicionais. Metro Meijo Line ~10 min da estação.",
               note: "Chegar logo na abertura — vazio pra fotos. Pinturas fusuma impressionantes."
             },
             {
-              name: "Noritake Garden",
+              name: "Taxi → Toyota Automobile Museum",
+              time: "10:45",
+              emoji: "",
+              tags: ["transport"],
+              duration: "30 min",
+              detail: "Taxi do Castelo de Nagoya até o museu em Nagakute. ~¥4.000–5.000 (~$26–33). 25–30 min.",
+              note: "Mais rápido que metro+bus. Vale o investimento pra otimizar o dia."
+            },
+            {
+              name: "Toyota Automobile Museum (Nagakute)",
               time: "11:15",
               emoji: "",
-              tags: ["culture", "shop"],
-              duration: "1h30",
-              detail: "Museu de cerâmica + craft center + outlet. Taxi 15 min do castelo.",
-              note: "Outlet com preços bons pra presente. Marca japonesa de porcelana mais importante."
+              tags: ["culture", "photo"],
+              duration: "1h45",
+              detail: "Toyota Automobile Museum, Nagakute. ¥1.200/adulto (~$8). 150 carros clássicos do mundo todo (1880s–presente), todos restaurados a showroom. Cultural Gallery: 4.000+ posters/peças. 9:30–17:00, fecha Segunda.",
+              note: "O museu de carros mais completo do Japão. Para fã de auto é imperdível."
+            },
+            {
+              name: "Taxi de volta → Yabaton Osu",
+              time: "13:00",
+              emoji: "",
+              tags: ["transport"],
+              duration: "30 min",
+              detail: "Taxi do museu até Osu (~¥4.000–5.000).",
+              note: ""
             },
             {
               name: "Almoço — Yabaton miso katsu (Osu)",
-              time: "13:00",
+              time: "13:30",
               emoji: "",
               tags: ["food"],
               duration: "1h",
-              detail: "Yabaton Honten, 3-6-18 Osu, Naka-ku. Tonkatsu com miso vermelho de Nagoya. Metro Tsurumai Line 15 min de Noritake.",
+              detail: "Yabaton Honten, 3-6-18 Osu, Naka-ku. Tonkatsu com miso vermelho de Nagoya. ¥1.500–2.500 (~$10–16).",
               note: "O miso vermelho daqui é mais intenso e doce. Casa fundada 1947 — o original."
             },
             {
-              name: "Osu Kannon (rever) + Komehyo",
-              time: "14:15",
+              name: "Komehyo Main Store (maior usado luxo Japão)",
+              time: "14:30",
               emoji: "",
-              tags: ["culture", "shop"],
-              duration: "1h",
-              detail: "Aproveitar Osu de dia (ontem foi à noite). Komehyo é a maior loja de luxo usado do Japão — fica em Osu.",
-              note: "Komehyo: relógios, bolsas, joias usadas em condição absurda. Vale dar uma olhada."
+              tags: ["shop"],
+              duration: "1h30",
+              detail: "Komehyo Honten, 3-25-31 Osu, Naka-ku, Nagoya 460-0011. 7 andares: 1F joias/metais preciosos, 2F relógios, 3F bolsas/acessórios de marca, 4F feminino+pele, 5F masculino+sapatos+câmeras+guitarras, 6F masculino fashion, 7F compra. 11h–19h30.",
+              note: "A LOJA — sede da rede, headquarters em Nagoya. Maior reuse department store do Japão. Muito mais variedade que filial de Tokyo."
             },
             {
-              name: "Endoji Shotengai",
-              time: "15:30",
+              name: "Osu Kannon + Endoji Shotengai",
+              time: "16:00",
               emoji: "",
               tags: ["culture", "shop", "photo"],
-              duration: "1h",
-              detail: "Shotengai old school. Comércio local, cafés, artesanato. Metro Tsurumai Line.",
-              note: "Shotengai autêntico sem turismo — o Japão real."
-            },
-            {
-              name: "Toyota Commemorative Museum",
-              time: "16:45",
-              emoji: "",
-              tags: ["culture"],
               duration: "1h30",
-              detail: "De teares a carros. Design industrial japonês. Metro de volta a Nagoya Station + 5 min a pé.",
-              note: "Fecha 17:00 (entrada até 16:30). Opcional se cansar — pular se não der tempo."
+              detail: "Templo + shotengai. Aproveitar Osu de dia. Endoji Shotengai a 10 min de metro Tsurumai Line.",
+              note: "Shotengai autêntico sem turismo — o Japão real."
             },
             {
               name: "Jantar — Tebasaki Sekai no Yamachan",
