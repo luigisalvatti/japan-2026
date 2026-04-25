@@ -1281,7 +1281,7 @@ const TRIP = {
           date: "27/04",
           dayOfWeek: "Seg",
           theme: "Ginza + Tsukiji",
-          synopsis: "Dia de corrida inicial — sair cedo de Nagoya (Shinkansen 08:00) pra pegar fila do Ginza Hachigou (ramen 1 Michelin) às 10:30. Drop malas no Hyatt antes, check-in oficial só às 15:00 mas guardam bagagem. Após o ramen: Tsukiji, Jean Rousseau (Tank), Ginza arquitetura (Hermès/Tiffany/Wako), Dover Street Market, Nose Shop (perfumes nicho), Itoya. Jantar sushi em Tsukiji. Tudo walkable de Ginza. Primeiro contato com Tokyo — ritmo direto.",
+          synopsis: "Dia de corrida inicial — sair cedo de Nagoya (Shinkansen 08:00) pra pegar fila do Ginza Hachigou (ramen 1 Michelin) às 10:30. Drop malas no Hyatt antes. Após o ramen: Tsukiji, Jean Rousseau (Tank), Ginza arquitetura, Goldwin Marunouchi + LEGO Tokyo Station, Dover Street Market, Nose Shop (perfumes), Itoya. Jantar sushi em Tsukiji. Tudo walkable de Ginza/Marunouchi. Primeiro contato com Tokyo — ritmo direto.",
           activities: [
             {
               name: "Shinkansen Nagoya → Tokyo",
@@ -1340,11 +1340,20 @@ const TRIP = {
             {
               name: "Ginza — arquitetura a pé",
               time: "15:00",
-              emoji: "🏛️",
+              emoji: "",
               tags: ["culture", "photo"],
-              duration: "2h30",
+              duration: "2h",
               detail: "Hermès (Renzo Piano), Tiffany (Kengo Kuma), Shizuoka Tower (Kenzo Tange), Wako (Seiko)",
               note: "Circuito arquitetônico de grife — cada prédio é uma obra"
+            },
+            {
+              name: "Goldwin Marunouchi + LEGO Store Tokyo Station",
+              time: "17:00",
+              emoji: "",
+              tags: ["shop"],
+              duration: "45 min",
+              detail: "Goldwin: Brick Square 1F, 2-6-1 Marunouchi (esportiva técnica japonesa, linha Goldwin 0). LEGO Store Tokyo Station: Tokyo Station Ichiban Gai B1, 1-9-1 Marunouchi (sets exclusivos Japão, série Architecture Tokyo).",
+              note: "Ambos em Marunouchi, 5 min a pé entre eles. 10 min de Ginza. LEGO tem set exclusivo de Tokyo."
             },
             {
               name: "Dover Street Market Ginza",
@@ -1470,7 +1479,7 @@ const TRIP = {
           date: "29/04",
           dayOfWeek: "Qua",
           theme: "Omotesando + Harajuku",
-          synopsis: "Dia intenso — lojas + arquitetura + templo. Metro de Ginza até Omotesando (15 min), depois tudo a pé o dia inteiro. Muitas lojas: Curious Curio (Tank), Mountain Hardwear (outdoor japonês), Bose Omotesando Hills (trocar espuma + capa do fone), Byredo, Moscot (óculos NY), CFCL, VISVIM. Menchirashi udon viral no almoço. Meiji Jingu (santuário na floresta). Narukiyo izakaya + Grandfathers record bar à noite. Bastante caminhada, levar sacolas. Dia mais cheio de lojas da viagem.",
+          synopsis: "Dia mais cheio de lojas da viagem — Aoyama + Harajuku a pé. Curious Curio (Tank), Auralee (camisetas TOP), Graphpaper, Lemaire, Mountain Hardwear + Goldwin Harajuku (esportiva), Bose Omotesando Hills (trocar espuma fone), Byredo, Moscot, CFCL+VISVIM. Menchirashi udon viral no almoço. Meiji Jingu (santuário). Narukiyo izakaya + Grandfathers record bar à noite. Bastante caminhada, levar sacolas grandes.",
           activities: [
             {
               name: "Koffee Mameya",
@@ -1493,24 +1502,42 @@ const TRIP = {
             {
               name: "Curious Curio + Accurate Form — Cartier Tank",
               time: "11:00",
-              emoji: "⌚",
+              emoji: "",
               tags: ["shop"],
-              duration: "1h",
-              detail: "Minamiaoyama. Pulseiras 19/16mm pro Tank. Accurate Form = couro japonês artesanal (marca própria). Qua–Dom 15h–20h.",
-              note: "Se quiser material especial, contato prévio com o dono — prazo ~2 meses"
+              duration: "45 min",
+              detail: "Minamiaoyama. Pulseiras 19/16mm pro Tank. Accurate Form = couro japonês artesanal. Qua–Dom 15h–20h.",
+              note: "Material especial sob medida: prazo ~2 meses"
+            },
+            {
+              name: "Auralee Tokyo (camisetas)",
+              time: "11:45",
+              emoji: "",
+              tags: ["shop"],
+              duration: "30 min",
+              detail: "QC cube Minamiaoyama 63 1F, 6-3-2 Minamiaoyama, Minato-ku. Seamless Crew Neck (¥12.000–18.000) — equivalente japonês da Barthélémy. 11h–20h.",
+              note: "Prioridade TOP. Algodão Suvin, corte limpo."
+            },
+            {
+              name: "Graphpaper + Lemaire Aoyama",
+              time: "12:15",
+              emoji: "",
+              tags: ["shop"],
+              duration: "45 min",
+              detail: "Graphpaper: camisetas oversized minimalistas (¥12.000–18.000). Lemaire: tshirt dropped shoulder francesa. Ambos em Minamiaoyama, 2 min a pé do Auralee.",
+              note: "Mesma rua do Curious Curio."
             },
             {
               name: "Nezu Museum — jardim koi",
-              time: "12:00",
-              emoji: "🌿",
+              time: "13:00",
+              emoji: "",
               tags: ["culture", "nature", "photo"],
-              duration: "1h",
+              duration: "45 min",
               detail: "Arte + jardim japonês com carpas. Kengo Kuma.",
               note: ""
             },
             {
               name: "Almoço — Menchirashi (carbonara udon, Harajuku)",
-              time: "13:00",
+              time: "13:45",
               emoji: "",
               tags: ["food"],
               duration: "1h30",
@@ -1518,26 +1545,26 @@ const TRIP = {
               note: "Sem reserva, pode ter fila. A 10 min a pé do Meiji Jingu/Omotesando."
             },
             {
-              name: "Mountain Hardwear (Harajuku)",
-              time: "14:30",
+              name: "Mountain Hardwear + Goldwin Harajuku",
+              time: "15:15",
               emoji: "",
               tags: ["shop"],
-              duration: "45 min",
-              detail: "Harajuku Kawana Building 1F, 6-13-11 Jingumae, Shibuya-ku. Único street-level store do Japão (2 andares). Meiji Dori. 11:00–20:00.",
-              note: "Literalmente na mesma quadra do Menchirashi. Coleções exclusivas Japão — jaquetas, fleece, mochilas."
+              duration: "1h",
+              detail: "Mountain Hardwear: 6-13-11 Jingumae (mesma quadra do Menchirashi). Goldwin Harajuku: Citta Jingu-mae 1F, 6-10-12 Jingumae — camisetas e shorts técnicos japoneses (¥8.000–13.000), alternativa premium à On. Ambos 11h–20h.",
+              note: "Goldwin é a prioridade esportiva. Mountain Hardwear pra outdoor/exclusivos Japão."
             },
             {
               name: "Meiji Jingu",
-              time: "15:30",
+              time: "16:15",
               emoji: "",
               tags: ["culture", "nature", "photo"],
-              duration: "1h",
-              detail: "Santuário no meio da floresta. A pé 10 min do Mountain Hardwear.",
+              duration: "45 min",
+              detail: "Santuário no meio da floresta. A pé 10 min do Goldwin Harajuku.",
               note: "Floresta plantada há 100 anos — silêncio no meio de Tokyo"
             },
             {
               name: "Bose Direct Store (Omotesando Hills)",
-              time: "16:45",
+              time: "17:15",
               emoji: "",
               tags: ["shop"],
               duration: "45 min",
@@ -1596,7 +1623,7 @@ const TRIP = {
           date: "30/04",
           dayOfWeek: "Qui",
           theme: "Nakameguro + Daikanyama",
-          synopsis: "Dia completo — café, vinyl, sushi, livraria, pizza, izakaya, sake. Metro de Ginza até Nakameguro (20 min), depois tudo a pé o dia inteiro. Rio Meguro de manhã, Waltz records + VISVIM, Udatsu Sushi omakase ao meio-dia (JÁ RESERVADO). Daikanyama à tarde: T-Site (livraria), Bonjour Records, Seirinkan pizza. Tatemichiya izakaya à noite + Mizunotori sake bar em Ebisu (ex-Gem by Moto). Muita caminhada mas plana. Bairro mais cool de Tokyo — ritmo criativo.",
+          synopsis: "Dia completo Nakameguro+Daikanyama — café, vinyl, sushi, watch roll, lojas técnicas, pizza, izakaya, sake. Metro de Ginza até Nakameguro (20 min), depois tudo a pé. Rio Meguro, Waltz records+VISVIM, Tsuchiya Kaban (watch roll) + Coverchord (multimarca), Udatsu Sushi omakase (RESERVADO). Daikanyama: T-Site, Descente Allterrain+Nanamica, Seirinkan pizza, Bonjour Records+Maison Kitsuné. Tatemichiya izakaya + Mizunotori sake. Muita caminhada plana.",
           activities: [
             {
               name: "Onibus Coffee",
@@ -1621,9 +1648,18 @@ const TRIP = {
               time: "10:30",
               emoji: "",
               tags: ["shop"],
-              duration: "1h",
+              duration: "45 min",
               detail: "Vinyl + VISVIM Nakameguro. Curadoria.",
               note: ""
+            },
+            {
+              name: "Tsuchiya Kaban + Coverchord (Nakameguro)",
+              time: "11:15",
+              emoji: "",
+              tags: ["shop"],
+              duration: "45 min",
+              detail: "Tsuchiya Kaban: couro japonês premium, watch rolls e cases de altíssima qualidade. Coverchord: multimarca curado (Goldwin 0, Auralee, Nonnative, TNF Purple Label) num lugar só. Ambos a 5 min do Waltz.",
+              note: "Tsuchiya pra watch roll. Coverchord pra catch-all caso queira ver várias marcas juntas."
             },
             {
               name: "UDATSU SUSHI — omakase (Nakameguro)",
@@ -1654,21 +1690,21 @@ const TRIP = {
               note: "Do guia — TOP. Sem reserva. Alternativa: Land curry (Meguro, ¥1.500–2.500) — curry autoral imperdível."
             },
             {
-              name: "Bonjour Records",
+              name: "Descente Allterrain + Nanamica (Daikanyama)",
               time: "17:00",
               emoji: "",
               tags: ["shop"],
               duration: "45 min",
-              detail: "24-1 Sarugakucho. Vinyl e música.",
-              note: ""
+              detail: "Descente Allterrain: esportiva premium japonesa (¥9.000–13.000), alternativa à Goldwin. Nanamica: técnico + casual com corte impecável. Ambos em Daikanyama.",
+              note: "Esportiva + casual técnico num só circuito."
             },
             {
-              name: "Maison Kitsuné + Log Road",
-              time: "18:00",
+              name: "Bonjour Records + Maison Kitsuné",
+              time: "17:45",
               emoji: "",
               tags: ["shop"],
               duration: "45 min",
-              detail: "Moda + complexo ao ar livre em Daikanyama",
+              detail: "Bonjour Records: vinyl e música, 24-1 Sarugakucho. Maison Kitsuné + Log Road na sequência.",
               note: ""
             },
             {
@@ -1857,7 +1893,7 @@ const TRIP = {
           date: "03/05",
           dayOfWeek: "Dom",
           theme: "Shibuya + Despedida",
-          synopsis: "Último dia completo — lojas de vinyl + comida + jantar especial. Shibuya de manhã: Shibuya Crossing, Face Records, Lighthouse Records. Metro pra Shinjuku: Disk Union (maior loja de vinyl do mundo, vários andares). Almoço rápido katsudon em Shibuya. Used Camera Box. Butagumi tonkatsu à tarde. Artesanato em Aoyama. Jantar despedida no Teppanyaki Sazanka (Okura 41F, vista de Tokyo). Record bar pra fechar. Metro + caminhada, dia cheio mas divertido. Ir mais arrumado pro jantar.",
+          synopsis: "Último dia completo — geek + lojas + comida + jantar especial. Shibuya Crossing, vinyl (Face/Lighthouse Records). Kith + GR8 (Miyashita Park). Pokémon Center + Nintendo + card shops Yu-Gi-Oh (Parco 6F — boosters mystery!). Almoço Katsudon Zuicho. Disk Union Shinjuku. Butagumi tonkatsu. Artesanato Aoyama. Jantar despedida Sazanka (Okura 41F, vista Tokyo). Record bar pra fechar. Ir arrumado pro jantar.",
           activities: [
             {
               name: "Camelback — espresso + omelete",
@@ -1880,24 +1916,42 @@ const TRIP = {
             {
               name: "Face Records + Lighthouse Records",
               time: "10:00",
-              emoji: "🎵",
+              emoji: "",
               tags: ["shop"],
-              duration: "2h",
+              duration: "1h15",
               detail: "Vinyl hunt em Shibuya",
               note: ""
             },
             {
-              name: "Disk Union Shinjuku",
+              name: "Kith Tokyo + GR8 (Miyashita Park)",
+              time: "11:15",
+              emoji: "",
+              tags: ["shop"],
+              duration: "45 min",
+              detail: "MIYASHITA PARK North 1F, 6-20-10 Jingumae, Shibuya-ku. Kith no térreo + GR8 multimarca curado (Satisfy Running, District Vision, statement pieces).",
+              note: "5 min a pé do Shibuya Crossing. Mesmo complexo."
+            },
+            {
+              name: "Pokémon Center + Nintendo + Card Shops (Parco 6F)",
               time: "12:00",
-              emoji: "🎵",
+              emoji: "",
               tags: ["shop"],
               duration: "1h30",
+              detail: "Shibuya Parco 6F, 15-1 Udagawacho, Shibuya-ku. Pokémon Center (mystery booster packs), Nintendo Tokyo, Capcom Store. Card shops com Yu-Gi-Oh, Pokémon vintage, One Piece. 10h–21h.",
+              note: "TUDO num só andar. Boosters Pokémon escarlate/violeta + cartas raras. Yu-Gi-Oh nos card shops do prédio."
+            },
+            {
+              name: "Disk Union Shinjuku",
+              time: "13:30",
+              emoji: "",
+              tags: ["shop"],
+              duration: "1h",
               detail: "Metro 10 min. O maior vinyl store do mundo.",
-              note: "Andares inteiros organizados por gênero"
+              note: "Andares inteiros organizados por gênero. Apertar pra ir direto ao gênero favorito."
             },
             {
               name: "Almoço rápido — Katsudon-ya Zuicho (Shibuya)",
-              time: "13:30",
+              time: "14:30",
               emoji: "",
               tags: ["food"],
               duration: "45 min",
