@@ -1069,79 +1069,70 @@ const TRIP = {
           date: "25/04",
           dayOfWeek: "Sab",
           theme: "Chegada + Atsuta + Osu",
-          synopsis: "Meio dia — chegada + santuário + bairro vintage. Shinkansen 2h30 de Kanazawa. Hotel colado na estação. Hitsumabushi (unagi grelhado) no almoço — prato mais famoso de Nagoya. Atsuta Shrine (metro), depois Osu Kannon pra street food e lojas vintage (metro). Miso katsu à noite. Dia de metro + caminhada moderada. Cidade mais urbana e industrial que as anteriores.",
+          synopsis: "ATRASO — chegada só 14:30 em Nagoya. Dia comprimido: drop malas no Marriott (colado na estação), Atsuta Shrine no fim da tarde, Hitsumabushi como jantar/almoço tardio (Atsuta Horaiken fica do lado do santuário), depois Osu Kannon pra vintage e street food à noite. Miso katsu opcional se ainda tiver fome. Sakae pra fechar com drink. Dia de metro + caminhada moderada.",
           activities: [
             {
-              name: "Transfer Kanazawa → Nagoya",
-              time: "09:00",
-              emoji: "🚅",
-              tags: ["transport"],
-              duration: "~2h30",
-              detail: "Shinkansen | JR Pass",
-              note: ""
-            },
-            {
-              name: "Check-in Marriott Associa",
-              time: "12:00",
+              name: "Chegada Nagoya (atrasado)",
+              time: "14:30",
               emoji: "",
               tags: ["transport"],
               duration: "",
-              detail: "Nagoya Marriott Associa Hotel | Standard Queen | Ref: F0426AW1T1 | Conectado à estação JR",
-              note: "CONFIRMADO | $490.44 | 2 noites"
+              detail: "Shinkansen — Nagoya Station. Hotel conectado direto à estação.",
+              note: "Atraso de 5h30 vs plano original. Roteiro comprimido."
             },
             {
-              name: "Almoço — Hitsumabushi",
-              time: "12:30",
-              emoji: "🐟",
-              tags: ["food"],
-              duration: "1h",
-              detail: "Unagi grelhado estilo Nagoya. Atsuta Horaiken ou Bincho perto da estação.",
-              note: "O prato mais famoso de Nagoya — comer em 3 etapas: puro, com condimentos, com dashi"
+              name: "Drop malas — Marriott Associa",
+              time: "14:45",
+              emoji: "",
+              tags: ["transport"],
+              duration: "30 min",
+              detail: "Nagoya Marriott Associa Hotel | Standard Queen | Ref: F0426AW1T1",
+              note: "Check-in formal pode esperar — só deixar malas e sair direto."
             },
             {
               name: "Atsuta Jingu",
-              time: "14:00",
-              emoji: "⛩️",
+              time: "15:30",
+              emoji: "",
               tags: ["culture", "photo"],
               duration: "1h30",
-              detail: "Um dos santuários mais sagrados do Japão. 2.000+ anos. Metro Jingu-Nishi.",
-              note: "Guarda a espada Kusanagi — um dos 3 tesouros imperiais. Floresta densa."
+              detail: "Um dos santuários mais sagrados do Japão (2.000+ anos). Metro Meijo Line ~15 min de Nagoya Station.",
+              note: "Guarda a espada Kusanagi — um dos 3 tesouros imperiais. Floresta densa, ótimo no fim de tarde."
+            },
+            {
+              name: "Almoço-jantar — Hitsumabushi (Atsuta Horaiken)",
+              time: "17:15",
+              emoji: "",
+              tags: ["food"],
+              duration: "1h15",
+              detail: "Atsuta Horaiken — fica ao lado do santuário Atsuta. Unagi grelhado estilo Nagoya. Aberto até ~20h30.",
+              note: "Comer em 3 etapas: 1) puro 2) com cebolinha/wasabi/nori 3) com dashi (ochazuke). Prato icônico de Nagoya."
             },
             {
               name: "Osu Kannon + Osu Shopping Street",
-              time: "16:00",
-              emoji: "🏘️",
+              time: "18:45",
+              emoji: "",
               tags: ["culture", "shop", "photo"],
-              duration: "2h",
-              detail: "Templo budista + shotengai vibrante. Vintage, street food, eletrônicos.",
-              note: "Mistura Akihabara com Shimokitazawa — energia única"
+              duration: "1h30",
+              detail: "Metro Tsurumai Line de Atsuta. Templo budista + shotengai vibrante. Vintage, street food, eletrônicos.",
+              note: "Mistura Akihabara com Shimokitazawa. Lojas até 20h, mas a rua fica viva à noite."
             },
             {
               name: "Banana Records Osu",
-              time: "17:30",
-              emoji: "🎵",
+              time: "19:30",
+              emoji: "",
               tags: ["shop"],
-              duration: "45 min",
-              detail: "Loja de vinyl gigante no shotengai de Osu",
-              note: "Acervo enorme de vinyl japonês e importado"
+              duration: "30 min",
+              detail: "Loja de vinyl gigante no shotengai de Osu. Fecha 20h — chegar antes.",
+              note: "Acervo enorme de vinyl japonês e importado. Se não der tempo, pular."
             },
             {
-              name: "Jantar — Miso katsu (Yabaton)",
-              time: "19:00",
-              emoji: "🐷",
-              tags: ["food"],
-              duration: "1h30",
-              detail: "3-6-18 Osu, Naka-ku. Tonkatsu com miso de Nagoya.",
-              note: "O miso vermelho de Nagoya é mais intenso e doce — diferente de qualquer outro"
-            },
-            {
-              name: "Sakae — drinks",
-              time: "21:00",
-              emoji: "🍶",
+              name: "Sakae — drinks/sake",
+              time: "20:30",
+              emoji: "",
               tags: ["night"],
               duration: "Flex",
-              detail: "Distrito de entretenimento de Nagoya. Bares e sake.",
-              note: "Mais tranquilo que Shibuya — bom pra fechar o dia"
+              detail: "Distrito de entretenimento de Nagoya. Metro Higashiyama Line de Osu (1 estação). Bares e sake.",
+              note: "Pra fechar o dia. Miso katsu (Yabaton em Osu) fica pra amanhã se não comer hoje."
             }
           ]
         },
