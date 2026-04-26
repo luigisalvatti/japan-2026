@@ -1345,29 +1345,29 @@ const TRIP = {
           date: "27/04",
           dayOfWeek: "Seg",
           theme: "Ginza + Tsukiji",
-          synopsis: "Saída tranquila de Nagoya 10h. Shinkansen 1h40 → Tokyo. Drop malas Hyatt + tentar early check-in. Almoço street food em Tsukiji. Samsonite pra concertar mala. Tarde Ginza/Marunouchi a pé: Jean Rousseau (Tank), arquitetura de grife, Snow Peak + Goldwin + LEGO, Dover Street Market, Nose Shop, Itoya. Jantar Itadori Bekkan sushi. Tudo walkable. NOTA: Hachigou ramen movido pro dia 28 (saída tarde inviabiliza fila).",
+          synopsis: "Saída tranquila de Nagoya 10h. Shinkansen 10:30 → Tokyo (chega 12:10). Drop malas Hyatt + tentar early check-in. Almoço street food em Tsukiji 13:00 (chegar antes do fecha). Samsonite pra concertar mala 14:15. Tarde Ginza/Marunouchi a pé: Jean Rousseau (Tank), arquitetura, Snow Peak + Goldwin + LEGO, Dover Street Market, Nose Shop, Itoya. Jantar Itadori Bekkan sushi. Tudo walkable. NOTA: Hachigou ramen movido pro dia 28.",
           activities: [
             {
               name: "Sair Marriott Nagoya",
               time: "10:00",
               emoji: "",
               tags: ["transport"],
-              duration: "15 min",
-              detail: "Check-out + walk até Nagoya Station (5 min, hotel é colado).",
+              duration: "30 min",
+              detail: "Check-out + walk até Nagoya Station (5 min, hotel é colado). Comprar bento na estação se quiser comer no trem.",
               note: ""
             },
             {
               name: "Shinkansen Nagoya → Tokyo",
-              time: "10:15",
+              time: "10:30",
               emoji: "",
               tags: ["transport"],
               duration: "~1h40",
-              detail: "Nozomi 10:15 (verificar no app JR antes). Chegada ~11:55 Tokyo Station. JR Pass. Reservar assento na plataforma se possível.",
+              detail: "Nozomi ~10:30 (verificar horário exato no app JR/Smart-EX). Chegada ~12:10 Tokyo Station. JR Pass. Reservar assento na plataforma na chegada.",
               note: "Tokyo Station → Hyatt Ginza: taxi 8 min ¥1.200 ou metro Marunouchi → Ginza (5 min)."
             },
             {
               name: "Drop malas + early check-in Hyatt",
-              time: "12:15",
+              time: "12:30",
               emoji: "",
               tags: ["transport"],
               duration: "30 min",
@@ -1376,16 +1376,16 @@ const TRIP = {
             },
             {
               name: "Almoço — Tsukiji street food",
-              time: "12:45",
+              time: "13:00",
               emoji: "",
               tags: ["food", "photo"],
               duration: "1h",
-              detail: "Tsukiji Outer Market, 4-chome Tsukiji, Chuo-ku. A pé 10 min do Hyatt. Mercado externo aberto ~5:00–14:00 (pegar antes que feche). Tamagoyaki, uni-don, sashimi spear, mochi, sushi balcão. ¥1.500–3.000 (~$10–20). Pagamento misto: cash + cartão.",
-              note: "Não é mais o mercado de atum (foi pra Toyosu), mas o externo continua vibrante. Lojas mais famosas: Yamacho (tamagoyaki), Sushizanmai, Tsukiji Itadori."
+              detail: "Tsukiji Outer Market, 4-chome Tsukiji, Chuo-ku. A pé 10 min do Hyatt. Mercado externo aberto ~5:00–14:00 (pegar ANTES que feche, alguns boxes encerram cedo). Tamagoyaki, uni-don, sashimi spear, mochi, sushi balcão. ¥1.500–3.000 (~$10–20). Pagamento misto: cash + cartão.",
+              note: "Não é mais o mercado de atum (foi pra Toyosu), mas o externo continua vibrante. Famosos: Yamacho (tamagoyaki), Sushizanmai, Tsukiji Itadori. Ir direto na chegada — não atrasar pra não perder."
             },
             {
               name: "Samsonite Ginza — concertar mala",
-              time: "14:00",
+              time: "14:15",
               emoji: "",
               tags: ["shop"],
               duration: "45 min",
