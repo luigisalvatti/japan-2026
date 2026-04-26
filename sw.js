@@ -1,4 +1,4 @@
-const CACHE = 'japan2026-v38';
+const CACHE = 'japan2026-v39';
 const ASSETS = ['/', '/index.html', '/style.css', '/app.js'];
 
 self.addEventListener('install', e => {

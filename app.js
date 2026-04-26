@@ -1345,61 +1345,52 @@ const TRIP = {
           date: "27/04",
           dayOfWeek: "Seg",
           theme: "Ginza + Tsukiji",
-          synopsis: "Dia de corrida inicial — sair cedo de Nagoya (Shinkansen 08:00) pra pegar fila do Ginza Hachigou (ramen 1 Michelin) às 10:30. Drop malas no Hyatt antes. Após o ramen: Tsukiji, Jean Rousseau (Tank), Ginza arquitetura, Goldwin Marunouchi + LEGO Tokyo Station, Dover Street Market, Nose Shop (perfumes), Itoya. Jantar sushi em Tsukiji. Tudo walkable de Ginza/Marunouchi. Primeiro contato com Tokyo — ritmo direto.",
+          synopsis: "Saída tranquila de Nagoya 10h. Shinkansen 1h40 → Tokyo. Drop malas Hyatt + tentar early check-in. Almoço street food em Tsukiji. Samsonite pra concertar mala. Tarde Ginza/Marunouchi a pé: Jean Rousseau (Tank), arquitetura de grife, Snow Peak + Goldwin + LEGO, Dover Street Market, Nose Shop, Itoya. Jantar Itadori Bekkan sushi. Tudo walkable. NOTA: Hachigou ramen movido pro dia 28 (saída tarde inviabiliza fila).",
           activities: [
             {
-              name: "Shinkansen Nagoya → Tokyo",
-              time: "08:00",
-              emoji: "",
-              tags: ["transport"],
-              duration: "~1h40",
-              detail: "Sair cedo de Nagoya pra dar tempo da fila do Hachigou | JR Pass",
-              note: "Chegada ~09:40 em Tokyo Station"
-            },
-            {
-              name: "Drop malas no Hyatt",
+              name: "Sair Marriott Nagoya",
               time: "10:00",
               emoji: "",
               tags: ["transport"],
-              duration: "30 min",
-              detail: "6-6-7 Ginza, Chuo-ku. Taxi/metro de Tokyo Station. Check-in oficial só às 15:00, mas deixam guardar malas.",
-              note: "Não perder tempo — direto na fila do Hachigou"
+              duration: "15 min",
+              detail: "Check-out + walk até Nagoya Station (5 min, hotel é colado).",
+              note: ""
             },
             {
-              name: "FILA Ginza Hachigou (chegar 10:30)",
-              time: "10:30",
-              emoji: "",
-              tags: ["food"],
-              duration: "1h30",
-              detail: "3-14-2 Ginza, Chuo-ku. A pé 8 min do Hyatt. Abre 11:30. Chegar 10:30–11:00 pra pegar primeira seating. ¥1.200–2.000 (~$11 USD). Shoyu ramen com frango e trufa — 1 estrela Michelin.",
-              note: "FILA: ir cedo (10:30). Não aceita reserva no mesmo dia. Só ~10 lugares no balcão — rotação rápida depois que abre."
-            },
-            {
-              name: "Check-in Hyatt Centric Ginza",
-              time: "13:00",
+              name: "Shinkansen Nagoya → Tokyo",
+              time: "10:15",
               emoji: "",
               tags: ["transport"],
-              duration: "",
-              detail: "6-6-7 Ginza, Chuo-ku 104-0061 | Standard Room King | Confirmação #62759457",
-              note: "CONFIRMADO | 7 noites (27/04–04/05) | 192.500 pts + ¥40.500 | Check-in oficial 15:00 mas pode dar early"
+              duration: "~1h40",
+              detail: "Nozomi 10:15 (verificar no app JR antes). Chegada ~11:55 Tokyo Station. JR Pass. Reservar assento na plataforma se possível.",
+              note: "Tokyo Station → Hyatt Ginza: taxi 8 min ¥1.200 ou metro Marunouchi → Ginza (5 min)."
+            },
+            {
+              name: "Drop malas + early check-in Hyatt",
+              time: "12:15",
+              emoji: "",
+              tags: ["transport"],
+              duration: "30 min",
+              detail: "6-6-7 Ginza, Chuo-ku 104-0061 | Standard Room King | Confirmação #62759457. Check-in oficial 15:00, mas pedir early check-in (Hyatt costuma liberar entre 13-14h se tiver quarto pronto). No mínimo guardam malas.",
+              note: "CONFIRMADO | 7 noites (27/04–04/05). Pedir early check-in na recepção."
+            },
+            {
+              name: "Almoço — Tsukiji street food",
+              time: "12:45",
+              emoji: "",
+              tags: ["food", "photo"],
+              duration: "1h",
+              detail: "Tsukiji Outer Market, 4-chome Tsukiji, Chuo-ku. A pé 10 min do Hyatt. Mercado externo aberto ~5:00–14:00 (pegar antes que feche). Tamagoyaki, uni-don, sashimi spear, mochi, sushi balcão. ¥1.500–3.000 (~$10–20). Pagamento misto: cash + cartão.",
+              note: "Não é mais o mercado de atum (foi pra Toyosu), mas o externo continua vibrante. Lojas mais famosas: Yamacho (tamagoyaki), Sushizanmai, Tsukiji Itadori."
             },
             {
               name: "Samsonite Ginza — concertar mala",
-              time: "13:15",
-              emoji: "",
-              tags: ["shop"],
-              duration: "30 min",
-              detail: "Samsonite Black Label Ginza (flagship asiático). 3-4-12 Ginza, Bunshodo Ginza Bldg 1F. Tel +81 3-6263-2099. 8 min a pé do Hyatt. 11h–20h. Roda quebrada — Samsonite tem garantia de 10 anos pra defeito de fabricação (não cobre dano por uso). Substituição de roda é peça simples.",
-              note: "Levar a mala. Se for warranty, é grátis; se não for, peça custa ~¥3.000–8.000 + serviço. Pode ser same-day se tiver a peça. Pegar na volta antes do voo dia 04."
-            },
-            {
-              name: "Tsukiji mercado externo",
               time: "14:00",
               emoji: "",
-              tags: ["food", "photo"],
-              duration: "30 min",
-              detail: "A pé 15 min. Mercado vibrante, street food + fotografia.",
-              note: "Não é mais o mercado de atum (foi pra Toyosu), mas ainda é incrível. Snacks pós-ramen."
+              tags: ["shop"],
+              duration: "45 min",
+              detail: "Samsonite Black Label Ginza (flagship asiático). 3-4-12 Ginza, Bunshodo Ginza Bldg 1F. Tel +81 3-6263-2099. 8 min a pé de Tsukiji. 11h–20h. Roda quebrada — Samsonite tem garantia de 10 anos pra defeito de fabricação (não cobre dano por uso). Substituição de roda é peça simples.",
+              note: "Levar a mala (pegar no Hyatt no caminho). Se for warranty é grátis; se não, peça ~¥3.000–8.000 + serviço. Pode ser same-day. Pegar na volta antes do voo dia 04."
             },
             {
               name: "Atelier Jean Rousseau — pulseira Cartier Tank",
@@ -1480,34 +1471,34 @@ const TRIP = {
           dayOfWeek: "Ter",
           theme: "Flex — Ginza cont.",
           free: true,
-          synopsis: "Dia médio — Ginza + teamLab + Roppongi. Manhã toda a pé em Ginza: sushi esteira Nemuro Hanamaru, Kabuki-za, Tokyo International Forum, almoço Tempura Kondo (2 Michelin). Tarde: metro 15 min pra Azabudai Hills — teamLab Borderless (2h30) + arquitetura Heatherwick. Parfum Satori em Roppongi ao entardecer (appointment). Volta de metro pra Ginza pro jantar kaiseki Ginza Kappou Ukai. Caminhada média, pouco metro. CONFIRMADO: teamLab. RESERVAR: Parfum Satori.",
+          synopsis: "Dia médio — Ginza + teamLab + Roppongi. Manhã FILA Ginza Hachigou (chegar 10:00 pra ramen Michelin que abre 11:30). Pós-ramen: Kabuki-za + Tokyo International Forum a pé. Café leve. Tarde: metro 15 min pra Azabudai Hills — teamLab Borderless (CONFIRMADO 15:00) + arquitetura Heatherwick. Parfum Satori em Roppongi (appointment). Volta pra Ginza pro jantar Kappou Ukai. Caminhada média, pouco metro.",
           activities: [
             {
-              name: "Nemuro Hanamaru — sushi esteira",
+              name: "FILA Ginza Hachigou (chegar 10:00)",
               time: "10:00",
               emoji: "",
               tags: ["food"],
-              duration: "1h",
-              detail: "Tokyo Plaza Ginza 10F, 5-2-1 Ginza. ¥2.000–4.000 (~$20 USD). Melhor custo-benefício de sushi em Tokyo. Fila mas roda rápido.",
-              note: "Do guia — sushi de qualidade altíssima por preço acessível"
+              duration: "1h30",
+              detail: "Chukasoba Ginza Hachigou, 3-14-2 Ginza, Chuo-ku. 5 min a pé do Hyatt. ABERTO: 11:30–14:30 ou até esgotar. ¥1.200–2.000 (~$11). Shoyu ramen com frango e trufa — 1 estrela Michelin.",
+              note: "Chegar 10:00 pra primeira seating 11:30. Só ~10 lugares no balcão, fila grande mas roda rápido. Cash only. Substitui Nemuro Hanamaru no plano original."
             },
             {
               name: "Kabuki-za + Tokyo International Forum",
-              time: "11:30",
+              time: "12:30",
               emoji: "",
               tags: ["culture", "photo"],
               duration: "1h30",
-              detail: "Arquitetura icônica de Tokyo. Rafael Viñoly (Forum) — foto obrigatória do interior.",
-              note: ""
+              detail: "Kabuki-za: 4-12-15 Ginza. Tokyo International Forum: 3-5-1 Marunouchi (Rafael Viñoly). Foto obrigatória do interior.",
+              note: "Pós-ramen. Walking de Ginza."
             },
             {
-              name: "Tempura Kondo",
-              time: "12:30",
+              name: "Café/snack rápido",
+              time: "14:00",
               emoji: "",
               tags: ["food"],
-              duration: "1h30",
-              detail: "Sakaguchi Building 9F, 5-5-13 Ginza. ¥15.000–25.000 (~$132 USD). 2 estrelas Michelin. Tempura extremamente leve — cenoura e batata-doce são lendários.",
-              note: "Reserva muito difícil — tentar pelo hotel. Do guia."
+              duration: "30 min",
+              detail: "Café tranquilo antes do teamLab. Sugestão: Higashiya Ginza (chá + wagashi), Café Paulista (clássico Ginza desde 1911), ou snack qualquer.",
+              note: "Tempo livre antes do slot teamLab 15:00."
             },
             {
               name: "teamLab Borderless (Azabudai Hills)",
