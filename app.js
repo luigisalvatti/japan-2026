@@ -1573,15 +1573,6 @@ const TRIP = {
               note: "Dica: levar guarda-chuva se chover (não tem cobertura). Trazer cash ¥2.000."
             },
             {
-              name: "Curious Curio + Accurate Form — Cartier Tank",
-              time: "16:00",
-              emoji: "",
-              tags: ["shop"],
-              duration: "45 min",
-              detail: "Minamiaoyama. ABRE 15h–20h (Qua–Dom). Pulseiras 19/16mm pro Tank. Accurate Form = couro japonês artesanal.",
-              note: "Material especial sob medida: prazo ~2 meses."
-            },
-            {
               name: "Almoço — Ginza Hachigou ramen Michelin ⭐",
               time: "11:30",
               emoji: "",
@@ -1637,7 +1628,7 @@ const TRIP = {
             },
             {
               name: "Mountain Hardwear + Goldwin Harajuku",
-              time: "16:45",
+              time: "15:45",
               emoji: "",
               tags: ["shop"],
               duration: "1h",
@@ -1645,26 +1636,26 @@ const TRIP = {
               note: "Goldwin é a prioridade esportiva. Mountain Hardwear pra outdoor/exclusivos Japão. Ambos 11h–20h."
             },
             {
-              name: "MixTHINKS Harajuku (vintage luxo)",
-              time: "16:15",
+              name: "Curious Curio + Accurate Form — Cartier Tank",
+              time: "16:45",
               emoji: "",
               tags: ["shop"],
-              duration: "30 min",
-              detail: "Q Plaza Harajuku 1F, 6-28-6 Jingumae, Shibuya-ku. Vintage de luxo japonês — bolsas (Hermès/Chanel/LV), joias, relógios e acessórios em condição premium. Tax-free. 11h–20h.",
-              note: "Mesma quadra do Goldwin Harajuku. Curadoria vintage de alto nível — peças seladas autenticadas."
+              duration: "45 min",
+              detail: "Minamiaoyama. ABRE 15h–20h (Qua–Dom). Pulseiras 19/16mm pro Tank. Accurate Form = couro japonês artesanal.",
+              note: "Material especial sob medida: prazo ~2 meses."
             },
             {
               name: "MixTHINKS Harajuku (vintage luxo)",
-              time: "17:00",
+              time: "17:30",
               emoji: "",
               tags: ["shop"],
               duration: "30 min",
-              detail: "Q Plaza Harajuku 1F, 6-28-6 Jingumae. Vintage de luxo japonês — bolsas (Hermès/Chanel/LV), joias, relógios e acessórios em condição premium. Tax-free. 11h–20h.",
-              note: "Q Plaza fica na Omotesando intersection."
+              detail: "Q Plaza Harajuku 1F, 6-28-6 Jingumae, Shibuya-ku. Vintage de luxo japonês — bolsas (Hermès/Chanel/LV), joias, relógios. Tax-free. 11h–20h.",
+              note: "Q Plaza fica na Omotesando intersection. Curadoria vintage de alto nível."
             },
             {
               name: "Meiji Jingu (sunset)",
-              time: "17:30",
+              time: "18:00",
               emoji: "",
               tags: ["culture", "nature", "photo"],
               duration: "30 min",
@@ -1673,7 +1664,7 @@ const TRIP = {
             },
             {
               name: "Bose Direct Store (Omotesando Hills)",
-              time: "18:00",
+              time: "18:30",
               emoji: "",
               tags: ["shop"],
               duration: "30 min",
@@ -1682,7 +1673,7 @@ const TRIP = {
             },
             {
               name: "Byredo + Moscot (Aoyama)",
-              time: "18:30",
+              time: "19:00",
               emoji: "",
               tags: ["shop"],
               duration: "1h",
