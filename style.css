@@ -390,6 +390,15 @@ body {
   margin-bottom: 2px;
 }
 
+.activity-place {
+  font-size: 0.72rem;
+  color: var(--accent);
+  margin-bottom: 4px;
+  text-transform: lowercase;
+  letter-spacing: 0.02em;
+  opacity: 0.85;
+}
+
 .activity-duration {
   font-size: 0.7rem;
   color: var(--text3);

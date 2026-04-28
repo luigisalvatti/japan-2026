@@ -1543,25 +1543,34 @@ const TRIP = {
           date: "29/04",
           dayOfWeek: "Qua",
           theme: "Omotesando + Harajuku",
-          synopsis: "Manhã GINZA (Hachigou ramen Michelin almoço — só Qua-Sáb), tarde AOYAMA/HARAJUKU. Curious Curio abre 15h (não tem como ir antes). Tarde: Auralee, Graphpaper, Lemaire, Mug Pop, Mountain Hardwear+Goldwin, MixTHINKS, Bose, Byredo, Moscot, CFCL+VISVIM. Meiji Jingu sunset. Narukiyo izakaya jantar + Grandfathers record bar. Bastante caminhada.",
+          synopsis: "MANHÃ GINZA: fila Hachigou 10:00 (só 30 pessoas/dia, Michelin), come 11:30. TARDE AOYAMA/HARAJUKU: Auralee, Graphpaper, Lemaire, Curious Curio (abre 15h), Nezu Museum, Mug Pop, Mountain Hardwear+Goldwin, MixTHINKS, Bose, Byredo, Moscot. Meiji Jingu sunset. Narukiyo izakaya jantar + Grandfathers record bar. Bastante caminhada.",
           activities: [
             {
-              name: "Koffee Mameya (Aoyama)",
-              time: "09:00",
+              name: "Café no Hyatt / Ginza",
+              time: "08:30",
               emoji: "",
               tags: ["food"],
               duration: "45 min",
-              detail: "4-15-3 Jingumae, Shibuya-ku. Abre 10:00 (chegar 9:50). Specialty coffee — grãos selecionados, preparo impecável. Metro 15 min de Ginza.",
-              note: "Quick coffee antes de voltar pra Ginza pro Hachigou."
+              detail: "Café leve no hotel ou Camelback Ginza. Não comer muito — vai querer espaço pro ramen.",
+              note: "Hachigou só atende 30 pessoas/dia."
             },
             {
-              name: "Walk → arquitetura Omotesando",
+              name: "Walk → fila Hachigou",
+              time: "09:30",
+              emoji: "",
+              tags: ["transport"],
+              duration: "30 min",
+              detail: "Walk do Hyatt Ginza (6-6-7 Ginza) até Chukasoba Ginza Hachigou (3-14-2 Ginza). 8 min a pé. Chegar 10:00 pra estar entre os 30 primeiros da fila.",
+              note: "ATENÇÃO: só atende 30 pessoas/dia, então fila começa cedo. Levar paciência (1h30 esperando)."
+            },
+            {
+              name: "Fila Hachigou (espera)",
               time: "10:00",
               emoji: "",
-              tags: ["culture", "photo"],
-              duration: "30 min",
-              detail: "Quick walk Omotesando: Prada Aoyama, Omotesando Hills, Gyre, Sunnyhills (Kengo Kuma). Volta detalhada à tarde.",
-              note: "Apenas vista geral. Tarde volta pra explorar."
+              tags: ["transport"],
+              duration: "1h30",
+              detail: "Esperar na fila. 3-14-2 Ginza, Chuo-ku. Levar água, livro, baixa expectativa de andar antes de 11:30.",
+              note: "Dica: levar guarda-chuva se chover (não tem cobertura). Trazer cash ¥2.000."
             },
             {
               name: "Curious Curio + Accurate Form — Cartier Tank",
@@ -1570,19 +1579,28 @@ const TRIP = {
               tags: ["shop"],
               duration: "45 min",
               detail: "Minamiaoyama. ABRE 15h–20h (Qua–Dom). Pulseiras 19/16mm pro Tank. Accurate Form = couro japonês artesanal.",
-              note: "Material especial sob medida: prazo ~2 meses. Reagendado pra abrir-time."
+              note: "Material especial sob medida: prazo ~2 meses."
             },
             {
               name: "Almoço — Ginza Hachigou ramen Michelin ⭐",
-              time: "11:00",
+              time: "11:30",
               emoji: "",
               tags: ["food"],
-              duration: "1h30",
-              detail: "Chukasoba Ginza Hachigou, 3-14-2 Ginza, Chuo-ku. ABRE 11:30 (Qua–Sáb apenas). Hoje QUARTA — abre. Chegar 11:00 pra fila. 1 estrela Michelin — shoyu ramen com frango e trufa. ¥1.200–2.000 (~$11). Cash only.",
-              note: "Metro Aoyama → Ginza ~12 min. Fila 11:00 → come 11:30. Depois metro de volta pra Aoyama 13:00."
+              duration: "1h",
+              detail: "Chukasoba Ginza Hachigou, 3-14-2 Ginza, Chuo-ku. ABRE 11:30 (Qua–Sáb). 1 estrela Michelin — shoyu ramen com frango e trufa. ¥1.200–2.000 (~$11). Cash only. Só 30 pessoas/dia.",
+              note: "Saiu da fila — entra, pede, come, sai. Não rolam refils, é one-shot."
             },
             {
-              name: "Auralee Tokyo (camisetas) — volta pra Aoyama",
+              name: "Metro Ginza → Aoyama",
+              time: "12:45",
+              emoji: "",
+              tags: ["transport"],
+              duration: "20 min",
+              detail: "Ginza Station → Ginza Line → Omotesando (4 stops). ¥210. ~10 min metro + walk.",
+              note: ""
+            },
+            {
+              name: "Auralee Tokyo (camisetas)",
               time: "13:15",
               emoji: "",
               tags: ["shop"],
@@ -2807,12 +2825,17 @@ function renderActivities(day) {
       mapLinks = ` <a href="${apple}" target="_blank">apple maps</a> · <a href="${google}" target="_blank">google maps</a>`;
     }
 
+    const bairro = extractBairro(activity.detail);
+    const tipo = extractTipo(activity);
+    const placeMeta = [bairro, tipo].filter(Boolean).join(' · ');
+
     html += `
       <div class="activity-item ${isDone ? 'done' : ''}">
         <input type="checkbox" onchange="toggleDone(${currentDay}, ${index})" ${isDone ? 'checked' : ''} />
         <div class="activity-content">
           <p class="activity-time">${activity.time}</p>
           <p class="activity-name">${activity.name}</p>
+          ${placeMeta ? `<p class="activity-place">${placeMeta}</p>` : ''}
           ${activity.tags.map(tag => `<span class="tag">${tagLabel(tag)}</span>`).join('')}
           <p class="activity-duration">${activity.duration}</p>
           <p class="activity-detail">${activity.detail}${mapLinks}</p>
@@ -2834,6 +2857,114 @@ function extractAddress(detail) {
   const addressPattern = /([0-9]+[-–]\d+[-–]?\d*\s+[ァ-ヴー\w\s]+)/;
   const match = detail.match(addressPattern);
   return match ? match[1] : null;
+}
+
+// Extrai bairro dos detalhes
+function extractBairro(detail) {
+  const bairros = [
+    // Tokyo
+    'Marunouchi', 'Ginza', 'Tsukiji', 'Toranomon', 'Akasaka',
+    'Minami-Aoyama', 'Minamiaoyama', 'Kita-Aoyama', 'Kitaaoyama', 'Aoyama',
+    'Jingumae', 'Harajuku', 'Omotesando',
+    'Nishi-Azabu', 'Azabujuban', 'Roppongi', 'Azabudai',
+    'Ebisu', 'Daikanyama', 'Nakameguro', 'Kamimeguro', 'Meguro',
+    'Shibuya', 'Sarugakucho', 'Udagawacho', 'Dogenzaka', 'Kamiyamacho',
+    'Shinjuku', 'Nishi-Shinjuku', 'Kabukicho',
+    'Asakusa', 'Yanaka', 'Ueno', 'Higashiueno', 'Kappabashi', 'Matsugaya',
+    'Nihonbashi', 'Hongo', 'Bunkyo', 'Sotokanda', 'Kanda',
+    'Yotsuya', 'Shimokitazawa', 'Kichijoji', 'Setagaya',
+    // Outras cidades
+    'Sakae', 'Yabacho', 'Osu', 'Chikusa', 'Atsuta', 'Nakamura', 'Meieki', 'Honmaru', 'Meijo', 'Nagakute', 'Fushimi', 'Endoji',
+    'Togakushi', 'Zenkoji', 'Matsumoto',
+    'Sanmachi', 'Kamisannomachi', 'Kamisan-no-machi', 'Shirakawa', 'Ogimachi',
+    'Kanazawa', 'Katamachi', 'Higashi Chaya', 'Higashichaya', 'Nishi Chaya', 'Imaizumi'
+  ];
+  for (const b of bairros) {
+    if (detail.includes(b)) return b;
+  }
+  return null;
+}
+
+// Extrai tipo do lugar
+function extractTipo(activity) {
+  const name = activity.name.toLowerCase();
+  const detail = (activity.detail || '').toLowerCase();
+  const text = name + ' ' + detail;
+
+  // Comida
+  if (/ramen|noodle/.test(text)) return 'ramen';
+  if (/sushi|omakase|sashimi/.test(text)) return 'sushi';
+  if (/izakaya/.test(text)) return 'izakaya';
+  if (/tonkatsu|katsu/.test(text)) return 'tonkatsu';
+  if (/yakiniku/.test(text)) return 'yakiniku';
+  if (/yakitori/.test(text)) return 'yakitori';
+  if (/tempura/.test(text)) return 'tempura';
+  if (/teppanyaki/.test(text)) return 'teppanyaki';
+  if (/sukiyaki/.test(text)) return 'sukiyaki';
+  if (/kaiseki/.test(text)) return 'kaiseki';
+  if (/sake bar|sake bars|sake-bar/.test(text)) return 'sake bar';
+  if (/soba/.test(text)) return 'soba';
+  if (/udon/.test(text)) return 'udon';
+  if (/curry/.test(text)) return 'curry';
+  if (/pizza/.test(text)) return 'pizza';
+  if (/okonomiyaki/.test(text)) return 'okonomiyaki';
+  if (/hitsumabushi|unagi/.test(text)) return 'unagi';
+  if (/tebasaki|asas de frango/.test(text)) return 'tebasaki';
+  if (/wagashi|toraya/.test(text)) return 'wagashi';
+  if (/coffee|café|espresso|koffee|camelback|onibus/.test(text)) return 'café';
+  if (/jantar|almoço|lunch|brunch/.test(text)) return 'restaurante';
+  if (/inari/.test(text) && /sushi|sakae/.test(text)) return 'inari sushi';
+
+  // Cultura/templos
+  if (/jingu|santuário|santuario|shrine/.test(text)) return 'santuário';
+  if (/-ji|temple|templo|kannon|senso/.test(text)) return 'templo';
+  if (/castle|castelo/.test(text)) return 'castelo';
+  if (/museum|museu/.test(text)) return 'museu';
+  if (/teamlab|borderless/.test(text)) return 'museu digital';
+  if (/architecture|arquitetura|kengo kuma|hills/.test(text) && /walk|a pé|tour/.test(text)) return 'arquitetura';
+  if (/jardim|garden|park|parque/.test(text)) return 'parque';
+
+  // Compras
+  if (/records|vinyl/.test(text)) return 'loja vinyl';
+  if (/komehyo|vintage|mixthinks/.test(text)) return 'vintage luxo';
+  if (/oakley|moscot|sunglasses|óculos/.test(text)) return 'óculos';
+  if (/perfume|byredo|parfum|nose shop|essential parfum|fragrance/.test(text)) return 'perfumaria';
+  if (/bose|fone|earpads|ear pad/.test(text)) return 'eletrônicos';
+  if (/lego/.test(text)) return 'brinquedos';
+  if (/pokémon|pokemon|nintendo|yu-gi-oh|card shop/.test(text)) return 'cards/games';
+  if (/jean rousseau|curious curio|cartier|tank|strap/.test(text)) return 'pulseiras relógio';
+  if (/snow peak|mountain hardwear|goldwin|descente|nanamica|alpen/.test(text)) return 'outdoor/esporte';
+  if (/auralee|graphpaper|lemaire|cfcl|visvim|kith|gr8|coverchord/.test(text)) return 'roupa';
+  if (/dover street|gyre|kitsuné|kitsune/.test(text)) return 'multimarca moda';
+  if (/itoya|stationery|papelaria/.test(text)) return 'papelaria';
+  if (/mug pop|sml|louça|porcelana|noritake/.test(text)) return 'cerâmica';
+  if (/uniqlo/.test(text)) return 'roupa básica';
+  if (/shiseido|skincare|matsumoto kiyoshi|drug/.test(text)) return 'cosméticos';
+  if (/tsuchiya|kaban|leather|couro/.test(text)) return 'couro';
+  if (/disk union|used camera/.test(text)) return 'loja vintage';
+  if (/banana records/.test(text)) return 'loja vinyl';
+  if (/yabaton/.test(text)) return 'tonkatsu';
+  if (/komehyo/.test(text)) return 'usado luxo';
+  if (/porsche/.test(text)) return 'showroom';
+  if (/samsonite|suitcase|mala/.test(text)) return 'reparo mala';
+  if (/shop|loja|store|flagship|center/.test(text)) return 'loja';
+
+  // Vida noturna
+  if (/bar|whisky|drinks|grandfathers|imperial|sake bars|sake-bar/.test(text)) return 'bar';
+  if (/golden gai/.test(text)) return 'bares';
+
+  // Outros
+  if (/check-in|check-out|hotel|hyatt|marriott|soki|metropolitan|wood/.test(text)) return 'hotel';
+  if (/shinkansen|trem|metro|taxi|bus|keikyu|keio|jr|line|→/.test(text)) return 'transporte';
+  if (/voo|flight|haneda|narita|chegada|partida/.test(text)) return 'aeroporto';
+  if (/cafe|café/.test(text) && /otter|harry|lontra|ouriço/.test(text)) return 'animal café';
+  if (/otter|harry|lontra/.test(text)) return 'animal café';
+  if (/corrida|run|jogging/.test(text)) return 'corrida';
+  if (/crossing|fotografia/.test(text)) return 'foto spot';
+  if (/shotengai/.test(text)) return 'shotengai';
+  if (/market|mercado/.test(text)) return 'mercado';
+
+  return null;
 }
 
 // ============================================
