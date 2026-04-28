@@ -1543,83 +1543,83 @@ const TRIP = {
           date: "29/04",
           dayOfWeek: "Qua",
           theme: "Omotesando + Harajuku",
-          synopsis: "Dia mais cheio de lojas da viagem — Aoyama + Harajuku a pé. Curious Curio (Tank), Auralee (camisetas TOP), Graphpaper, Lemaire, Mug Pop (xícaras espresso), Mountain Hardwear + Goldwin Harajuku, MixTHINKS (vintage luxo), Bose Omotesando Hills (trocar espuma fone), Byredo, Moscot, CFCL+VISVIM. Menchirashi udon viral no almoço. Meiji Jingu (santuário). Narukiyo izakaya + Grandfathers record bar à noite. Bastante caminhada, levar sacolas grandes.",
+          synopsis: "Manhã GINZA (Hachigou ramen Michelin almoço — só Qua-Sáb), tarde AOYAMA/HARAJUKU. Curious Curio abre 15h (não tem como ir antes). Tarde: Auralee, Graphpaper, Lemaire, Mug Pop, Mountain Hardwear+Goldwin, MixTHINKS, Bose, Byredo, Moscot, CFCL+VISVIM. Meiji Jingu sunset. Narukiyo izakaya jantar + Grandfathers record bar. Bastante caminhada.",
           activities: [
             {
-              name: "Koffee Mameya",
-              time: "08:30",
-              emoji: "☕",
+              name: "Koffee Mameya (Aoyama)",
+              time: "09:00",
+              emoji: "",
               tags: ["food"],
               duration: "45 min",
-              detail: "4-15-3 Jingumae. Specialty coffee. | Metro 15 min",
-              note: "Grãos selecionados, preparo impecável"
+              detail: "4-15-3 Jingumae, Shibuya-ku. Abre 10:00 (chegar 9:50). Specialty coffee — grãos selecionados, preparo impecável. Metro 15 min de Ginza.",
+              note: "Quick coffee antes de voltar pra Ginza pro Hachigou."
             },
             {
-              name: "Arquitetura Omotesando a pé",
-              time: "09:30",
-              emoji: "🏛️",
+              name: "Walk → arquitetura Omotesando",
+              time: "10:00",
+              emoji: "",
               tags: ["culture", "photo"],
-              duration: "2h",
-              detail: "Prada Aoyama, Omotesando Hills, Gyre, Sunnyhills (Kengo Kuma)",
-              note: "A avenida é um museu de arquitetura a céu aberto"
+              duration: "30 min",
+              detail: "Quick walk Omotesando: Prada Aoyama, Omotesando Hills, Gyre, Sunnyhills (Kengo Kuma). Volta detalhada à tarde.",
+              note: "Apenas vista geral. Tarde volta pra explorar."
             },
             {
               name: "Curious Curio + Accurate Form — Cartier Tank",
-              time: "11:00",
+              time: "16:00",
               emoji: "",
               tags: ["shop"],
               duration: "45 min",
-              detail: "Minamiaoyama. Pulseiras 19/16mm pro Tank. Accurate Form = couro japonês artesanal. Qua–Dom 15h–20h.",
-              note: "Material especial sob medida: prazo ~2 meses"
+              detail: "Minamiaoyama. ABRE 15h–20h (Qua–Dom). Pulseiras 19/16mm pro Tank. Accurate Form = couro japonês artesanal.",
+              note: "Material especial sob medida: prazo ~2 meses. Reagendado pra abrir-time."
             },
             {
-              name: "Auralee Tokyo (camisetas)",
-              time: "11:45",
+              name: "Almoço — Ginza Hachigou ramen Michelin ⭐",
+              time: "11:00",
+              emoji: "",
+              tags: ["food"],
+              duration: "1h30",
+              detail: "Chukasoba Ginza Hachigou, 3-14-2 Ginza, Chuo-ku. ABRE 11:30 (Qua–Sáb apenas). Hoje QUARTA — abre. Chegar 11:00 pra fila. 1 estrela Michelin — shoyu ramen com frango e trufa. ¥1.200–2.000 (~$11). Cash only.",
+              note: "Metro Aoyama → Ginza ~12 min. Fila 11:00 → come 11:30. Depois metro de volta pra Aoyama 13:00."
+            },
+            {
+              name: "Auralee Tokyo (camisetas) — volta pra Aoyama",
+              time: "13:15",
               emoji: "",
               tags: ["shop"],
-              duration: "30 min",
+              duration: "45 min",
               detail: "QC cube Minamiaoyama 63 1F, 6-3-2 Minamiaoyama. Seamless Crew Neck ¥12.000–18.000 (~$80–120), camisas ¥25.000–45.000, knit ¥40.000–80.000. 11h–20h.",
               note: "Prioridade TOP. Algodão Suvin, corte limpo. Equivalente japonês da Barthélémy."
             },
             {
               name: "Graphpaper + Lemaire Aoyama",
-              time: "12:15",
+              time: "14:00",
               emoji: "",
               tags: ["shop"],
               duration: "45 min",
               detail: "Graphpaper (Minamiaoyama): camisetas oversized ¥15.000–22.000, camisas ¥30.000–50.000. Lemaire Aoyama: tshirt dropped shoulder ¥18.000–30.000, knits ¥60.000–120.000.",
-              note: "Mesma rua do Curious Curio. Lemaire é o mais caro do circuito."
+              note: "Mesma rua do Auralee/Curious Curio."
             },
             {
               name: "Nezu Museum — jardim koi",
-              time: "13:00",
+              time: "14:45",
               emoji: "",
               tags: ["culture", "nature", "photo"],
-              duration: "45 min",
-              detail: "Arte + jardim japonês com carpas. Kengo Kuma.",
-              note: ""
-            },
-            {
-              name: "Almoço — Menchirashi (carbonara udon, Harajuku)",
-              time: "13:45",
-              emoji: "",
-              tags: ["food"],
-              duration: "1h30",
-              detail: "6-13-7 Jingumae, Shibuya-ku, Tokyo. ¥1.500–2.500 (~$13 USD). Udon viral — carbonara com ovo e queijo + menchirashi (udon com carne). Escondido num beco da Cat Street. 11:30–22:00.",
-              note: "Sem reserva, pode ter fila. A 10 min a pé do Meiji Jingu/Omotesando."
+              duration: "30 min",
+              detail: "6-5-1 Minamiaoyama. Arte + jardim japonês com carpas. Kengo Kuma. ABERTO 10:00–17:00 (entrada até 16:30), fecha Seg.",
+              note: "Mesma região do Auralee."
             },
             {
               name: "Mug Pop (xícaras de café/espresso)",
-              time: "14:45",
+              time: "15:30",
               emoji: "",
               tags: ["shop"],
               duration: "30 min",
               detail: "Cat Street, Harajuku. 400+ canecas e xícaras de artesãos japoneses (Arita, Mino, Kutani). Xícaras de espresso ¥2.500–8.000 (~$16–53), peças autorais ¥10.000+. Café no local — tomar na xícara que escolher.",
-              note: "Pra louça de espresso de cerâmica japonesa autoral. Mesma rua do Menchirashi e Mountain Hardwear."
+              note: "Pra louça de espresso de cerâmica japonesa autoral."
             },
             {
               name: "Mountain Hardwear + Goldwin Harajuku",
-              time: "15:15",
+              time: "16:45",
               emoji: "",
               tags: ["shop"],
               duration: "1h",
@@ -1636,49 +1636,40 @@ const TRIP = {
               note: "Mesma quadra do Goldwin Harajuku. Curadoria vintage de alto nível — peças seladas autenticadas."
             },
             {
-              name: "Meiji Jingu",
-              time: "16:45",
+              name: "MixTHINKS Harajuku (vintage luxo)",
+              time: "17:00",
+              emoji: "",
+              tags: ["shop"],
+              duration: "30 min",
+              detail: "Q Plaza Harajuku 1F, 6-28-6 Jingumae. Vintage de luxo japonês — bolsas (Hermès/Chanel/LV), joias, relógios e acessórios em condição premium. Tax-free. 11h–20h.",
+              note: "Q Plaza fica na Omotesando intersection."
+            },
+            {
+              name: "Meiji Jingu (sunset)",
+              time: "17:30",
               emoji: "",
               tags: ["culture", "nature", "photo"],
               duration: "30 min",
-              detail: "Santuário no meio da floresta. A pé 10 min.",
-              note: "Floresta plantada há 100 anos — silêncio no meio de Tokyo. Visita rápida."
+              detail: "Santuário no meio da floresta. ABERTO até pôr do sol (~18:30 em maio). 10 min a pé.",
+              note: "Floresta plantada há 100 anos. Sunset no santuário é mágico."
             },
             {
               name: "Bose Direct Store (Omotesando Hills)",
-              time: "17:30",
-              emoji: "",
-              tags: ["shop"],
-              duration: "45 min",
-              detail: "Omotesando Hills, 4-12-10 Jingumae, Shibuya-ku. Loja oficial Bose — trocar espuma (earpads) do seu fone + comprar capa nova. Atendimento técnico no local. 11:00–21:00.",
-              note: "Confirmar se o modelo do fone tem peças em estoque. Se for QC35/45/Ultra, geralmente tem. Caso contrário, encomendar."
-            },
-            {
-              name: "Byredo — perfume",
-              time: "17:45",
+              time: "18:00",
               emoji: "",
               tags: ["shop"],
               duration: "30 min",
-              detail: "3-5-29 Kitaaoyama, Minato-ku (Aoyama). Flagship linda, toda a linha disponível.",
-              note: "Exclusivos Japão disponíveis. 5 min a pé de Omotesando Hills."
+              detail: "Omotesando Hills, 4-12-10 Jingumae, Shibuya-ku. Loja oficial Bose — trocar espuma (earpads) + comprar capa. ABERTO 11:00–21:00.",
+              note: "Confirmar peça pro modelo (QC35/45/Ultra geralmente em estoque)."
             },
             {
-              name: "Moscot (Aoyama flagship)",
-              time: "18:15",
+              name: "Byredo + Moscot (Aoyama)",
+              time: "18:30",
               emoji: "",
               tags: ["shop"],
-              duration: "30 min",
-              detail: "102 Dai-2 Kuyo Bldg., 5-10-2 Minami-Aoyama, Minato-ku. Flagship asiático da NY. 12h–20h, fechado Terças. Tel +81 3-6434-1070.",
-              note: "5 min a pé do Byredo. Linha completa Lemtosh, Zev, Miltzen."
-            },
-            {
-              name: "CFCL + F.I.L Tokyo (VISVIM)",
-              time: "18:45",
-              emoji: "",
-              tags: ["shop"],
-              duration: "45 min",
-              detail: "CFCL no Gyre 3F + VISVIM flagship (se der tempo antes do jantar).",
-              note: "Se apertar, priorizar CFCL (mais único)."
+              duration: "1h",
+              detail: "Byredo: 3-5-29 Kitaaoyama (flagship, 11h–20h). Moscot: 5-10-2 Minami-Aoyama (12h–20h). 5 min a pé entre eles.",
+              note: "Apertar pra fechar antes das 20h."
             },
             {
               name: "Jantar — Narukiyo izakaya (Shibuya)",
@@ -1939,24 +1930,33 @@ const TRIP = {
               tags: ["culture"],
               duration: "45 min",
               detail: "5F Masuda Building, 1-1-17 Asakusa, Taito-ku. 5 min do Kaminarimon. Lontras + ouriços + corujas + outros bichos. ¥1.500–2.500 (~$13 USD)/pessoa por 30 min, drink incluso.",
-              note: "RESERVAR online (rakuten travel ou site oficial harinezumi-cafe.com). Lontras são o destaque — interagem direto."
+              note: "RESERVAR online (rakuten travel ou site oficial harinezumi-cafe.com). Lontras são o destaque — interagem direto. LEVAR A MALA SAMSONITE — depois vai pra MY SUITCASE Ueno."
+            },
+            {
+              name: "MY SUITCASE Ueno — concertar mala ⭐",
+              time: "14:15",
+              emoji: "",
+              tags: ["transport"],
+              duration: "30 min",
+              detail: "MY SUITCASE Ueno-ekimae, 3-16-8 Higashiueno, Taito-ku. Tel +81 3-4332-7551. ABERTO: 10:00–19:00 (FECHA Quartas — Sábado OK). Repara casters/handles em até 10 min same-day. Roda Samsonite ¥3.000–8.000 (~$20–53) + serviço.",
+              note: "Samsonite oficial demora 1 mês — esse aqui faz na hora! 5 min a pé do HARRY Asakusa. Pode esperar/passear enquanto repara. Cash + cartão."
             },
             {
               name: "Yanaka — cemitério, becos, gatos",
-              time: "14:30",
-              emoji: "🐈",
+              time: "15:00",
+              emoji: "",
               tags: ["culture", "photo"],
-              duration: "2h",
-              detail: "Cemitério antigo, SCAI Bathhouse (galeria), becos do velho Tokyo",
-              note: "O bairro que sobreviveu aos bombardeios — Tokyo do pré-guerra"
+              duration: "1h30",
+              detail: "Cemitério antigo, SCAI Bathhouse (galeria), becos do velho Tokyo. Yanaka Ginza Shotengai pra street food.",
+              note: "O bairro que sobreviveu aos bombardeios — Tokyo do pré-guerra. Já com a mala consertada na mão."
             },
             {
               name: "Ueno Park",
               time: "16:30",
-              emoji: "🌿",
+              emoji: "",
               tags: ["nature", "photo"],
               duration: "45 min",
-              detail: "Parque + museus se quiser",
+              detail: "Parque + museus se quiser. 0 a pé do MY SUITCASE.",
               note: ""
             },
             {
@@ -1997,7 +1997,7 @@ const TRIP = {
             {
               name: "Shibuya Crossing — fotografia",
               time: "09:30",
-              emoji: "📷",
+              emoji: "",
               tags: ["photo"],
               duration: "30 min",
               detail: "O cruzamento mais famoso do mundo. A7CR.",
@@ -2009,7 +2009,7 @@ const TRIP = {
               emoji: "",
               tags: ["shop"],
               duration: "1h",
-              detail: "Vinyl hunt em Shibuya",
+              detail: "Vinyl hunt em Shibuya. Face: 2-12-15 Shibuya. Lighthouse: 3-21-2 Shibuya.",
               note: ""
             },
             {
@@ -2117,7 +2117,7 @@ const TRIP = {
           date: "04/05",
           dayOfWeek: "Seg",
           theme: "Partida",
-          synopsis: "Dia curto — manhã livre + aeroporto. Sushi no Itadori Bekkan em Tsukiji (8h, 10 min a pé do hotel). Últimas compras Tsukiji/Ginza. Check-out Hyatt 12:00. Keikyu Line direto pro Haneda (30 min, ¥630). Voo 17:45. Sem caminhada pesada, sem metro complicado. Organizar malas na noite anterior. Facas na mala despachada, não no carryon. Lembrar dos recibos de tax-free.",
+          synopsis: "Dia curto — manhã livre + aeroporto. Sushi no Itadori Bekkan em Tsukiji (8h, 10 min a pé do hotel). Últimas compras Tsukiji/Ginza. Check-out Hyatt 12:00. Keikyu Line direto pro Haneda (30 min, ¥630). Voo 17:45. Sem caminhada pesada, sem metro complicado.",
           activities: [
             {
               name: "Manhã — Itadori Bekkan sushi (Tsukiji)",
@@ -2126,7 +2126,7 @@ const TRIP = {
               tags: ["food"],
               duration: "1h",
               detail: "1F, 4-10-16 Tsukiji, Chuo-ku. ¥2.000–4.000 (~$20 USD). Escondido atrás de lojas. Sushi simples, peixe de altíssima qualidade. Atum gordo e uni obrigatórios.",
-              note: "Do guia. Sem reserva. Alternativa: Nemuro Hanamaru (Ginza, ¥2.000–4.000) — melhor custo-benefício."
+              note: "Do guia. Sem reserva. Alternativa: Nemuro Hanamaru (Ginza, ¥2.000–4.000)."
             },
             {
               name: "Últimas compras — Tsukiji/Ginza",
@@ -2140,16 +2140,16 @@ const TRIP = {
             {
               name: "Check-out Hyatt",
               time: "12:00",
-              emoji: "🏨",
+              emoji: "",
               tags: ["transport"],
               duration: "",
-              detail: "Check-out e organizar malas",
+              detail: "Check-out e pegar malas. Bagagem reparada da MY SUITCASE deve estar OK.",
               note: ""
             },
             {
               name: "Keikyu Line → Haneda",
               time: "14:30",
-              emoji: "🚃",
+              emoji: "",
               tags: ["transport"],
               duration: "30 min",
               detail: "¥630 | Metro direto para o aeroporto",
