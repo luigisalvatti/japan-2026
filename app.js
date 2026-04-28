@@ -2801,7 +2801,19 @@ function renderActivities(day) {
     <div class="activities-list">
   `;
 
-  day.activities.forEach((activity, index) => {
+  // Sort defensivo por horário (caso array esteja fora de ordem)
+  const sortedActivities = [...day.activities].map((a, i) => ({ ...a, _origIdx: i })).sort((a, b) => {
+    const parseTime = (t) => {
+      if (!t || t === 'Flex' || t === '') return 9999;
+      const m = t.match(/^(\d{1,2}):?(\d{0,2})/);
+      if (!m) return 9999;
+      return parseInt(m[1]) * 60 + parseInt(m[2] || 0);
+    };
+    return parseTime(a.time) - parseTime(b.time);
+  });
+
+  sortedActivities.forEach((activity) => {
+    const index = activity._origIdx;
     const shouldShow = currentMood === 'all' || activity.tags.includes(currentMood);
     if (!shouldShow) return;
 
