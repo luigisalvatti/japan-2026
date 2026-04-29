@@ -1708,49 +1708,22 @@ const TRIP = {
           synopsis: "Dia completo Nakameguro+Daikanyama — café, vinyl, sushi, watch roll, lojas técnicas, pizza, izakaya. Metro de Ginza até Nakameguro (20 min), depois tudo a pé. Rio Meguro, Waltz records+VISVIM, Tsuchiya Kaban (watch roll) + Coverchord (multimarca), Udatsu Sushi omakase (RESERVADO). Daikanyama: T-Site, Descente Allterrain+Nanamica, Seirinkan pizza, Bonjour Records+Maison Kitsuné. Jantar Tatemichiya izakaya. Muita caminhada plana.",
           activities: [
             {
-              name: "Onibus Coffee",
-              time: "08:30",
+              name: "Onibus Coffee — espresso/preto",
+              time: "11:00",
               emoji: "",
               tags: ["food"],
-              duration: "45 min",
-              detail: "2-14-1 Kamimeguro. Specialty coffee. | Metro 20 min",
-              note: ""
+              duration: "20 min",
+              detail: "2-14-1 Kamimeguro. Só café (espresso ou preto) — leve, sushi às 12h. Metro Ginza→Nakameguro 20 min, sai do Hyatt 10:30.",
+              note: "Acordar mais tarde, manhã relax."
             },
             {
-              name: "Rio Meguro — fotografia",
-              time: "09:30",
+              name: "Rio Meguro — caminhada+fotos",
+              time: "11:30",
               emoji: "📷",
               tags: ["photo", "nature"],
-              duration: "1h",
-              detail: "Margem do rio, fotografia de rua. A7CR.",
-              note: ""
-            },
-            {
-              name: "Waltz record store + VISVIM",
-              time: "10:30",
-              emoji: "",
-              tags: ["shop"],
-              duration: "45 min",
-              detail: "Vinyl + VISVIM Nakameguro. Curadoria.",
-              note: ""
-            },
-            {
-              name: "SML — louça artesanal (Nakameguro)",
-              time: "10:45",
-              emoji: "",
-              tags: ["shop"],
               duration: "30 min",
-              detail: "Nakameguro, perto do rio. Curadoria de louça japonesa artesanal — pratos, tigelas, xícaras de espresso ¥3.000–9.000 (~$20–60). Workshops de cerâmica no espaço.",
-              note: "Outra opção pra xícara de espresso — feito por artesãos locais, peças únicas."
-            },
-            {
-              name: "Tsuchiya Kaban + Coverchord (Nakameguro)",
-              time: "11:15",
-              emoji: "",
-              tags: ["shop"],
-              duration: "45 min",
-              detail: "Tsuchiya Kaban: watch roll ¥30.000–80.000, carteiras ¥20.000–60.000, bolsas ¥80.000–250.000. Coverchord: tshirts ¥10.000–18.000, camisas ¥25.000–50.000, jaquetas Goldwin 0/TNF Purple ¥40.000–120.000.",
-              note: "Tsuchiya pra watch roll (couro japonês premium). Coverchord pra catch-all multimarca."
+              detail: "Margem do rio até Udatsu, fotografia de rua. A7CR.",
+              note: ""
             },
             {
               name: "UDATSU SUSHI — omakase (Nakameguro)",
@@ -1763,26 +1736,44 @@ const TRIP = {
               reserved: "confirmed"
             },
             {
-              name: "Daikanyama T-Site (Tsutaya)",
-              time: "14:30",
-              emoji: "📚",
-              tags: ["culture", "shop", "photo"],
-              duration: "2h",
-              detail: "A pé 15 min. Livraria + café. Arquitetura.",
-              note: "Projeto Klein Dytham — a livraria mais bonita do mundo"
+              name: "Waltz records + VISVIM (Nakameguro)",
+              time: "14:15",
+              emoji: "",
+              tags: ["shop"],
+              duration: "45 min",
+              detail: "Vinyl curado + VISVIM Nakameguro. 5 min a pé do Udatsu.",
+              note: ""
             },
             {
-              name: "Seirinkan — pizza cult (Nakameguro)",
-              time: "16:00",
+              name: "SML — louça artesanal (Nakameguro)",
+              time: "15:00",
               emoji: "",
-              tags: ["food"],
+              tags: ["shop"],
+              duration: "30 min",
+              detail: "Curadoria louça japonesa artesanal — xícaras espresso ¥3.000–9.000 (~$20–60). Peças únicas.",
+              note: "Opção pra xícara espresso."
+            },
+            {
+              name: "Tsuchiya Kaban + Coverchord (Nakameguro)",
+              time: "15:30",
+              emoji: "",
+              tags: ["shop"],
               duration: "45 min",
-              detail: "2-6-4 Kamimeguro. ¥1.800–3.000 (~$16 USD). Pizza napolitana cult. Só margarita e marinara. Ambiente Beatles/industrial.",
-              note: "Do guia — TOP. Sem reserva. Alternativa: Land curry (Meguro, ¥1.500–2.500) — curry autoral imperdível."
+              detail: "Tsuchiya Kaban: watch roll ¥30.000–80.000, carteiras ¥20.000–60.000. Coverchord: tshirts ¥10.000–18.000, camisas ¥25.000–50.000, jaquetas Goldwin 0/TNF Purple ¥40.000–120.000.",
+              note: "Tsuchiya pra watch roll. Coverchord catch-all multimarca."
+            },
+            {
+              name: "Daikanyama T-Site (Tsutaya)",
+              time: "16:30",
+              emoji: "📚",
+              tags: ["culture", "shop", "photo"],
+              duration: "1h",
+              detail: "A pé 15 min de Nakameguro. Livraria + café. Arquitetura Klein Dytham.",
+              note: "A livraria mais bonita do mundo. Seirinkan pizza fica como alternativa pro almoço de outro dia (já tem sushi 12h + izakaya 19:30 hoje)."
             },
             {
               name: "Descente Allterrain + Nanamica (Daikanyama)",
-              time: "17:00",
+              time: "17:30",
               emoji: "",
               tags: ["shop"],
               duration: "45 min",
@@ -1791,7 +1782,7 @@ const TRIP = {
             },
             {
               name: "Bonjour Records + Maison Kitsuné",
-              time: "17:45",
+              time: "18:15",
               emoji: "",
               tags: ["shop"],
               duration: "45 min",
